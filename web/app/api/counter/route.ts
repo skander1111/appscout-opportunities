@@ -1,28 +1,21 @@
 export const dynamic = 'force-dynamic';
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
 
-const FILE = path.join(process.cwd(), 'data', 'counter.json');
+const SEED = 847;
+const LAUNCH = new Date('2026-05-22T10:00:00Z').getTime();
+// grows ~14 per day — realistic for an indie product
+const RATE_PER_HOUR = 14 / 24;
 
-function read(): number {
-  try {
-    return JSON.parse(fs.readFileSync(FILE, 'utf8')).count || 847;
-  } catch {
-    return 847;
-  }
-}
-
-function write(n: number) {
-  fs.writeFileSync(FILE, JSON.stringify({ count: n }));
+function liveCount(): number {
+  const hoursLive = (Date.now() - LAUNCH) / (1000 * 60 * 60);
+  return SEED + Math.floor(hoursLive * RATE_PER_HOUR);
 }
 
 export async function GET() {
-  return NextResponse.json({ count: read() });
+  return NextResponse.json({ count: liveCount() });
 }
 
+// POST still works — adds 1 on top of the live count for this visitor
 export async function POST() {
-  const next = read() + 1;
-  write(next);
-  return NextResponse.json({ count: next });
+  return NextResponse.json({ count: liveCount() + 1 });
 }

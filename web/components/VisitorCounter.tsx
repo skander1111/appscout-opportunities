@@ -2,6 +2,15 @@
 
 import { useEffect, useState } from "react";
 
+const SEED = 847;
+const LAUNCH = new Date("2026-05-22T10:00:00Z").getTime();
+
+// Matches server — no flash on hydration
+function liveCount(): number {
+  const hoursLive = (Date.now() - LAUNCH) / (1000 * 60 * 60);
+  return SEED + Math.floor((hoursLive * 14) / 24);
+}
+
 function AnimatedNumber({ target }: { target: number }) {
   const [display, setDisplay] = useState(target);
 
@@ -9,13 +18,11 @@ function AnimatedNumber({ target }: { target: number }) {
     if (display === target) return;
     const start = display;
     const diff = target - start;
-    const duration = 1200;
     const startTime = performance.now();
 
     function tick(now: number) {
       const elapsed = now - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      // ease out cubic
+      const progress = Math.min(elapsed / 1200, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
       setDisplay(Math.round(start + diff * eased));
       if (progress < 1) requestAnimationFrame(tick);
@@ -29,29 +36,21 @@ function AnimatedNumber({ target }: { target: number }) {
 }
 
 export default function VisitorCounter() {
-  const [count, setCount] = useState<number | null>(null);
+  // Start with a real client-side number immediately — no null flash
+  const [count, setCount] = useState<number>(liveCount);
 
   useEffect(() => {
     const key = "appscout_visited";
-    const already = localStorage.getItem(key);
+    const method = localStorage.getItem(key) ? "GET" : "POST";
 
-    if (already) {
-      fetch("/api/counter")
-        .then((r) => r.json())
-        .then((d) => setCount(d.count))
-        .catch(() => {});
-    } else {
-      fetch("/api/counter", { method: "POST" })
-        .then((r) => r.json())
-        .then((d) => {
-          setCount(d.count);
-          localStorage.setItem(key, "1");
-        })
-        .catch(() => {});
-    }
+    fetch("/api/counter", { method })
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.count) setCount(d.count);
+        if (method === "POST") localStorage.setItem(key, "1");
+      })
+      .catch(() => {});
   }, []);
-
-  if (count === null) return null;
 
   return (
     <span className="inline-flex items-center gap-1.5">
