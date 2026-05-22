@@ -8,9 +8,9 @@ const steps = [
         <path d="M11 8v6M8 11h6" />
       </svg>
     ),
-    title: "Scan app stores",
+    title: "Engine scans 5 sources",
     description:
-      "Our engine searches 20+ niches — timers, habit trackers, PDF readers, compass tools, flashcards — and pulls full app data: installs, rating, last update, and developer contact info.",
+      "App Store and Google Play (19+ niches), Reddit seller posts, GitHub abandoned projects, Hacker News, and Product Hunt. Runs continuously — not just once a week.",
   },
   {
     number: "02",
@@ -20,23 +20,32 @@ const steps = [
         <path d="m19 9-5 5-4-4-3 3" />
       </svg>
     ),
-    title: "Score every opportunity",
+    title: "AI classifies and scores",
     description:
-      "Each app gets an Opportunity Score based on demand signals, abandonment age, owner type (solo indie vs. big company), review complaints, and monetization potential. Big companies are filtered automatically.",
+      "Every find is scored on demand, abandonment, reachability, and monetization. Then classified: Acquire, Rebuild, or Partner — so you know what to do before you even open the listing.",
   },
   {
     number: "03",
     icon: (
       <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
-        <polyline points="14 2 14 8 20 8" />
-        <line x1="16" y1="13" x2="8" y2="13" />
-        <line x1="16" y1="17" x2="8" y2="17" />
+        <rect x="2" y="3" width="20" height="14" rx="2" /><path d="M8 21h8M12 17v4" />
       </svg>
     ),
-    title: "Get a deal-ready report",
+    title: "Live dashboard updates",
     description:
-      "Top acquisition targets and rebuild opportunities land in your inbox as a structured report — with the developer's email, the reason it's interesting, a risk assessment, and a ready-to-send outreach email.",
+      "Every qualified opportunity appears in your live dashboard — with the developer email, review complaints, and a one-click outreach draft. The dashboard refreshes every 60 seconds.",
+  },
+  {
+    number: "04",
+    icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+        <polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" />
+      </svg>
+    ),
+    title: "Weekly report every Friday",
+    description:
+      "Every Friday at 08:00, the best opportunities are frozen into a human-reviewed report — with full analysis, risk score, and outreach template. Delivered by email within minutes of purchase.",
   },
 ];
 
@@ -47,11 +56,11 @@ export default function HowItWorks() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">How it works</h2>
           <p className="text-zinc-400 text-lg max-w-xl mx-auto">
-            From raw App Store and Play Store data to a deal-ready report in minutes.
+            Five sources, one engine, three plays — acquire, rebuild, or partner.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {steps.map((step) => (
             <div
               key={step.number}
@@ -77,17 +86,17 @@ export default function HowItWorks() {
         {/* Abandonment signals */}
         <div className="mt-10 bg-white/[0.02] border border-white/5 rounded-2xl p-8">
           <h3 className="text-xs font-semibold text-zinc-500 uppercase tracking-widest mb-6">
-            Abandonment signals we detect
+            Signals the engine detects across all sources
           </h3>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              "Last update 12–36+ months ago",
-              "Solo indie developer (Gmail contact)",
-              "500k–10M installs with declining reviews",
-              "1–2 star complaints: crashes, outdated UI, too many ads",
-              "No recent changelog activity",
-              "Developer email publicly listed",
-              "App still ranking in search results",
+              "App last updated 12–36+ months ago",
+              "Solo indie developer with public Gmail",
+              "Reddit post: selling, struggling, or asking for advice",
+              "1–2 star complaints: crashes, ads, outdated UI",
+              "GitHub repo: stars and forks but no commits in 1+ year",
+              "Developer email publicly listed on store page",
+              "App still ranking in search despite no updates",
               "No reply to user reviews in 6+ months",
             ].map((signal) => (
               <div key={signal} className="flex items-start gap-2.5 text-sm text-zinc-300">

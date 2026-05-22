@@ -1,3 +1,6 @@
+import TickerTape from "./TickerTape";
+import VisitorCounter from "./VisitorCounter";
+
 function ReportMockup() {
   const leads = [
     { name: "Tabata Timer: Interval Timer",   score: 90, installs: "5M+",  days: 420, owner: "Solo indie",  email: "evg███████@gmail.com" },
@@ -115,33 +118,52 @@ export default function Hero() {
       />
 
       <div className="max-w-4xl mx-auto text-center">
-        {/* Badge */}
-        <div className="animate-fade-up inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium px-3 py-1.5 rounded-full mb-6">
-          <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
-          266 apps scanned this week — 45 potential targets found
+        {/* Badges row */}
+        <div className="animate-fade-up flex flex-col sm:flex-row items-center justify-center gap-3 mb-6">
+          <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium px-3 py-1.5 rounded-full">
+            <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
+            247 apps scanned this week — 54 qualified targets
+          </div>
+          <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 text-zinc-400 text-xs font-medium px-3 py-1.5 rounded-full">
+            <VisitorCounter />
+          </div>
         </div>
 
         {/* Headline */}
         <h1
           className="animate-fade-up-delay-1 text-4xl sm:text-6xl lg:text-7xl font-bold leading-[1.08] tracking-tight mb-5"
         >
-          Find abandoned mobile apps{" "}
+          Find hidden digital opportunities{" "}
           <span
             className="text-emerald-400"
             style={{ textShadow: "0 0 50px rgba(52,211,153,0.4)" }}
           >
-            before they hit Flippa
+            before anyone else
           </span>
         </h1>
 
         {/* Subheadline */}
-        <p className="animate-fade-up-delay-2 text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-8">
-          AppScout scans the App Store and Google Play every week to find apps with{" "}
-          <span className="text-white font-medium">500k+ installs</span>,{" "}
-          <span className="text-white font-medium">likely abandoned</span> for 1–3 years, and a{" "}
-          <span className="text-white font-medium">reachable indie developer</span>.
-          We score them, explain why they're interesting, and draft the outreach for you.
+        <p className="animate-fade-up-delay-2 text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-5">
+          AppScout scans abandoned mobile apps, public seller posts, unfinished GitHub projects,
+          and startup signals — then tells you exactly whether to{" "}
+          <span className="text-emerald-400 font-medium">acquire</span>,{" "}
+          <span className="text-blue-400 font-medium">rebuild</span>, or{" "}
+          <span className="text-purple-400 font-medium">partner</span>.
+          Every opportunity comes with the developer&apos;s contact and a ready-to-send outreach draft.
         </p>
+
+        {/* Acquire · Rebuild · Partner pills */}
+        <div className="animate-fade-up-delay-2 flex flex-wrap items-center justify-center gap-2 mb-8">
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/25 px-3 py-1.5 rounded-full">
+            🎯 Acquire — buy a proven app before it lists
+          </span>
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-400 bg-blue-500/10 border border-blue-500/25 px-3 py-1.5 rounded-full">
+            🔨 Rebuild — validated demand, broken execution
+          </span>
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-purple-400 bg-purple-500/10 border border-purple-500/25 px-3 py-1.5 rounded-full">
+            🤝 Partner — team up before they burn out
+          </span>
+        </div>
 
         {/* CTAs */}
         <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row gap-3 justify-center items-center mb-4">
@@ -152,10 +174,10 @@ export default function Hero() {
             Get this week's report — €19
           </a>
           <a
-            href="#how-it-works"
-            className="w-full sm:w-auto border border-white/10 hover:border-white/25 text-zinc-300 hover:text-white px-8 py-3.5 rounded-xl text-base transition-all"
+            href="/dashboard"
+            className="w-full sm:w-auto border border-emerald-500/30 hover:border-emerald-500/60 text-emerald-400 hover:text-emerald-300 px-8 py-3.5 rounded-xl text-base transition-all"
           >
-            See how it works →
+            Live Dashboard →
           </a>
         </div>
 
@@ -167,6 +189,9 @@ export default function Hero() {
         {/* Report mockup */}
         <ReportMockup />
       </div>
+
+      {/* Live ticker — full bleed below hero content */}
+      <TickerTape />
     </section>
   );
 }

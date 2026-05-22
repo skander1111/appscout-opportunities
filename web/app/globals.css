@@ -85,3 +85,17 @@ body {
   border-color: rgba(52, 211, 153, 0.25);
   box-shadow: 0 0 30px rgba(16, 185, 129, 0.06);
 }
+
+@keyframes ticker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-ticker {
+  animation: ticker 60s linear infinite;
+  will-change: transform;
+}
+
+.animate-ticker:hover {
+  animation-play-state: paused;
+}

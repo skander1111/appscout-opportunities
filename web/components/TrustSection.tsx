@@ -46,9 +46,9 @@ export default function TrustSection() {
     <section className="py-20 px-6 border-t border-white/5">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-3">Built for serious buyers</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-3">Built for serious operators</h2>
           <p className="text-zinc-400 max-w-lg mx-auto text-base">
-            Not a data dump. A curated, actionable list of apps worth your time.
+            Not a data dump. Every opportunity is classified, scored, and ready to act on.
           </p>
         </div>
 

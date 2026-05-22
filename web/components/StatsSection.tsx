@@ -68,10 +68,10 @@ export default function StatsSection() {
     <section className="py-12 px-6 border-t border-white/5">
       <div className="max-w-4xl mx-auto">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <StatItem value={266} suffix=""  label="apps scanned this week" />
-          <StatItem value={45}  suffix=""  label="potential targets found" />
-          <StatItem value={20}  suffix="+" label="niches analyzed" />
-          <StatItem value={8}   suffix=""  label="outreach drafts generated" />
+          <StatItem value={247} suffix=""   label="apps scanned this week" />
+          <StatItem value={54}  suffix=""   label="qualified opportunities live" />
+          <StatItem value={100} suffix="%"  label="developer contact found" />
+          <StatItem value={19}  suffix="+"  label="niches tracked" />
         </div>
       </div>
     </section>

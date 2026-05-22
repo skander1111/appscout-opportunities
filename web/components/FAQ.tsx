@@ -3,28 +3,28 @@ import { useState } from "react";
 
 const faqs = [
   {
-    q: "How do you find these apps?",
-    a: "We scan the App Store and Google Play using public APIs — app details, installs, ratings, last update date, and developer contact. Our engine scores each app using an abandonment model: days since update, install count, owner type (solo indie vs. big company), and review sentiment.",
+    q: "What exactly does AppScout find?",
+    a: "Five types of opportunity: (1) abandoned mobile apps with 500k+ installs and a reachable indie developer, (2) public Reddit seller posts from people trying to sell their apps, (3) abandoned GitHub projects with real user traction, (4) startup and tech signals from Hacker News and Product Hunt, and (5) market trends worth watching. Each is classified as Acquire, Rebuild, or Partner.",
+  },
+  {
+    q: "What do Acquire, Rebuild, and Partner mean?",
+    a: "Acquire means the app has been abandoned — buy it before it lists on Flippa. Rebuild means the demand is real but the execution is broken — build a better version and capture the existing audience. Partner means the developer is still active but overwhelmed — reach out before they give up or list elsewhere.",
   },
   {
     q: "Are the developer emails real?",
-    a: "Yes — they come directly from App Store and Play Store developer profiles. We don't guess or generate emails. If an app lists no public contact, we flag it as 'low reachability' in the report.",
+    a: "Yes — 100% of qualified opportunities have a verified developer email pulled directly from the App Store or Play Store listing. We never guess or generate contacts. If an app has no public contact, it doesn't appear in the results.",
   },
   {
     q: "Can I contact the developers myself?",
-    a: "Yes, and we recommend it. The report includes a ready-to-use outreach email draft per app. You send it from your own account. We never contact developers on your behalf without your explicit approval.",
+    a: "Yes. Every opportunity card includes a one-click outreach email draft — personalized to the specific app. You copy it, paste it into Gmail, and send. We never contact developers on your behalf.",
   },
   {
-    q: "What if an app I'm interested in is already sold?",
-    a: "The report reflects data from the current week. We can't guarantee the developer hasn't sold elsewhere, which is why we recommend moving fast on the top opportunities. We flag portfolio-owned apps where possible.",
-  },
-  {
-    q: "Is there a free version?",
-    a: "The sample opportunity above shows what the report looks like. Contact details, full complaint analysis, and outreach drafts are locked behind the paid report.",
+    q: "What's the difference between the live dashboard and the weekly report?",
+    a: "The live dashboard shows all 54 qualified opportunities updating in real time — you can filter by niche, sort by score, and copy outreach emails instantly. The weekly report is a frozen, human-reviewed snapshot published every Friday at 08:00 — curated to the top 10–15 picks with full analysis. The dashboard is for exploring. The report is for acting.",
   },
   {
     q: "What niches do you scan?",
-    a: "Currently: PDF tools, unit converters, habit trackers, expense trackers, timer apps, compass utilities, dictionary apps, quiz games, ringtone apps, wallpaper apps, calorie counters, meditation apps, prayer time apps, and more. We add new niches based on subscriber requests.",
+    a: "Currently: PDF tools, unit converters, habit trackers, timer apps, calculator apps, weather apps, wallpaper apps, meditation apps, ringtone apps, barcode scanners, flashcard apps, calorie counters, dictionary apps, prayer time apps, and more. New niches are added weekly based on subscriber requests.",
   },
 ];
 
