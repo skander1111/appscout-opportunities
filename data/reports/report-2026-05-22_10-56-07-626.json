@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-22T10:56:09.862Z",
+  "stats": {
+    "totalApps": 0,
+    "disqualified": 0,
+    "actionable": 0,
+    "acquisitionTargets": 0,
+    "rebuildTargets": 0,
+    "totalNiches": 20
+  },
+  "topOpportunities": [],
+  "acquisitionTargets": [],
+  "rebuildTargets": [],
+  "nicheRanking": [],
+  "falsePositives": [],
+  "externalSignals": {}
+}

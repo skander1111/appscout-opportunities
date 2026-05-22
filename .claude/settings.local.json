@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(node test.js)",
+      "Bash(node details-test.js)",
+      "Bash(node score.js)",
+      "Bash(node niche-explorer.js)",
+      "Bash(node -e ' *)",
+      "Bash(node research-engine.js)",
+      "Bash(node generate-report.js)",
+      "Bash(node outreach.js)",
+      "mcp__claude_ai_Gmail__create_draft",
+      "Bash(npx create-next-app@latest web --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(node outreach-engine.js)",
+      "Bash(node reply-tracker.js list)",
+      "Bash(node_modules/.bin/next build *)",
+      "Bash(node_modules/.bin/next dev *)",
+      "Bash(npx vercel *)",
+      "Bash(vercel --version)",
+      "Bash(curl *)",
+      "Bash(node *)",
+      "Bash(npm uninstall *)",
+      "Bash(npm list *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
