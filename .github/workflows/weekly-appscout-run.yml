@@ -92,7 +92,7 @@ jobs:
 
       - name: Deploy to Vercel (production)
         working-directory: web
-        run: npx vercel@32 --prod --yes --token ${{ secrets.VERCEL_TOKEN }}
+        run: env -u GITHUB_ACTIONS npx vercel@32 --prod --yes --token ${{ secrets.VERCEL_TOKEN }}
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
