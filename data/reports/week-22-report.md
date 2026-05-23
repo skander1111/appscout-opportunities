@@ -185,35 +185,35 @@ Skander Aloui
 
 ---
 
-### #5 — Stopwatch & Timer
-**Score: 70 · Risk: Medium · Action: Contact — verify owner type first**
+### #5 — EZ Habit: simple habit tracker
+**Score: 75 · Risk: Low · Action: Contact — verify owner type first**
 
 | | |
 |---|---|
-| Niche | Timer |
-| Installs | 10,000,000+ |
-| Rating | ★ 4.30 |
-| Last update | **401 days ago** |
-| Owner type | Portfolio/acquirer |
-| Developer | DOSA Apps |
-| Contact | support.stopwatch@dosaapps.com |
-| Play Store | com.zabamobile.sportstimerfree |
+| Niche | Habit Tracker |
+| Installs | 50,000+ |
+| Rating | ★ 4.46 |
+| Last update | **1054 days ago** |
+| Owner type | Solo indie |
+| Developer | AWey Dev |
+| Contact | aweydev@gmail.com |
+| Play Store | com.aweydev.ezhabit |
 
 **Why it's interesting**
-- 401 days without an update — strong abandonment signal
-- 10,000,000+ installs in the Timer niche
-- ★ 4.30 rating — users are satisfied, retention is intact
+- 1054 days without an update — strong abandonment signal
+- 50,000+ installs in the Habit Tracker niche
+- ★ 4.46 rating — users are satisfied, retention is intact
 - Main complaints from reviews: none flagged
 
 **Outreach email**
 ```
-Subject: Question about Stopwatch & Timer
+Subject: Question about EZ Habit: simple habit tracker
 
 Hi,
 
-I came across your Stopwatch & Timer on Google Play and wanted to reach out directly.
+I came across your EZ Habit: simple habit tracker on Google Play and wanted to reach out directly.
 
-I noticed it has 10,000,000+ installs and looks like updates have slowed
+I noticed it has 50,000+ installs and looks like updates have slowed
 down — I wasn't sure if you're still actively working on it.
 
 I'm exploring whether you might be open to a conversation about the app's
@@ -326,6 +326,7 @@ Skander Aloui
 | TheFor: Habit Tracker | 500,000+ | ★ 4.21 | 154 | Habit Tracker | January 2027 |
 | HabitNow Daily Routine Planner | 5,000,000+ | ★ 4.70 | 175 | Habit Tracker | December 2026 |
 | Prayer Times and Qibla | 1,000,000+ | ★ 4.75 | 129 | Prayer Times | January 2027 |
+| Garage Ringtones Pro | 100,000+ | ★ 4.37 | 121 | Ringtone | February 2027 |
 | Dictionary Pro | 50,000+ | ★ 4.83 | 166 | Dictionary | December 2026 |
 
 ---
@@ -350,12 +351,12 @@ Top niches by opportunity density:
 |-------|-----------|-----------|---------------------|
 | Wallpaper | 20 | 54 | 2 |
 | Calculator | 7 | 53 | 0 |
-| Ringtone | 9 | 52 | 0 |
 | Meditation | 10 | 52 | 1 |
 | Weather | 21 | 52 | 0 |
+| Timer | 21 | 49 | 2 |
 | Quiz | 9 | 49 | 0 |
 | PDF Tools | 16 | 49 | 0 |
-| Timer | 21 | 47 | 2 |
+| Ringtone | 9 | 48 | 0 |
 
 ---
 
