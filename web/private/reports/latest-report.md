@@ -17,49 +17,7 @@ Generated: 23 May 2026 · Engine v2.2 · 20 niches scanned · 259 apps scored ·
 
 ---
 
-### #1 — Resplash - Wallpapers
-**Score: 100 · Risk: Low · Action: Contact developer now**
-
-| | |
-|---|---|
-| Niche | Wallpaper |
-| Installs | 1,000,000+ |
-| Rating | ★ 3.09 |
-| Last update | **373 days ago** |
-| Owner type | Solo indie |
-| Developer | Brandon Lam |
-| Contact | whoisbrandonlam@gmail.com |
-| Play Store | com.b_lam.resplash |
-
-**Why it's interesting**
-- 373 days without an update — strong abandonment signal
-- 1,000,000+ installs in the Wallpaper niche
-- ★ 3.09 rating — users are satisfied, retention is intact
-- Main complaints from reviews: none flagged
-
-**Outreach email**
-```
-Subject: Question about Resplash - Wallpapers
-
-Hi Brandon,
-
-I came across your Resplash - Wallpapers on Google Play and wanted to reach out directly.
-
-I noticed it has 1,000,000+ installs and looks like updates have slowed
-down — I wasn't sure if you're still actively working on it.
-
-I'm exploring whether you might be open to a conversation about the app's
-future — whether that's acquisition, a partnership, or something else entirely.
-
-No pressure at all.
-
-Best,
-Skander Aloui
-```
-
----
-
-### #2 — Barcode Scanner - Price Finder
+### #1 — Barcode Scanner - Price Finder
 **Score: 90 · Risk: Low · Action: Contact developer now**
 
 | | |
@@ -101,7 +59,7 @@ Skander Aloui
 
 ---
 
-### #3 — Tabata Timer: Interval Timer
+### #2 — Tabata Timer: Interval Timer
 **Score: 90 · Risk: Low · Action: Contact developer now**
 
 | | |
@@ -143,7 +101,7 @@ Skander Aloui
 
 ---
 
-### #4 — Simple Habit: Meditation
+### #3 — Simple Habit: Meditation
 **Score: 85 · Risk: Low · Action: Contact developer now**
 
 | | |
@@ -172,6 +130,48 @@ Hi Ingenio,
 I came across your Simple Habit: Meditation on Google Play and wanted to reach out directly.
 
 I noticed it has 1,000,000+ installs and looks like updates have slowed
+down — I wasn't sure if you're still actively working on it.
+
+I'm exploring whether you might be open to a conversation about the app's
+future — whether that's acquisition, a partnership, or something else entirely.
+
+No pressure at all.
+
+Best,
+Skander Aloui
+```
+
+---
+
+### #4 — EZ Habit: simple habit tracker
+**Score: 75 · Risk: Low · Action: Contact — verify owner type first**
+
+| | |
+|---|---|
+| Niche | Habit Tracker |
+| Installs | 50,000+ |
+| Rating | ★ 4.46 |
+| Last update | **1054 days ago** |
+| Owner type | Solo indie |
+| Developer | AWey Dev |
+| Contact | aweydev@gmail.com |
+| Play Store | com.aweydev.ezhabit |
+
+**Why it's interesting**
+- 1054 days without an update — strong abandonment signal
+- 50,000+ installs in the Habit Tracker niche
+- ★ 4.46 rating — users are satisfied, retention is intact
+- Main complaints from reviews: none flagged
+
+**Outreach email**
+```
+Subject: Question about EZ Habit: simple habit tracker
+
+Hi,
+
+I came across your EZ Habit: simple habit tracker on Google Play and wanted to reach out directly.
+
+I noticed it has 50,000+ installs and looks like updates have slowed
 down — I wasn't sure if you're still actively working on it.
 
 I'm exploring whether you might be open to a conversation about the app's
@@ -327,7 +327,7 @@ Skander Aloui
 | TheFor: Habit Tracker | 500,000+ | ★ 4.21 | 154 | Habit Tracker | January 2027 |
 | HabitNow Daily Routine Planner | 5,000,000+ | ★ 4.70 | 175 | Habit Tracker | December 2026 |
 | Prayer Times and Qibla | 1,000,000+ | ★ 4.75 | 129 | Prayer Times | January 2027 |
-| Dictionary Pro | 50,000+ | ★ 4.83 | 166 | Dictionary | December 2026 |
+| Garage Ringtones Pro | 100,000+ | ★ 4.37 | 121 | Ringtone | February 2027 |
 
 ---
 
@@ -349,14 +349,14 @@ Top niches by opportunity density:
 
 | Niche | Valid apps | Avg score | Acquisition targets |
 |-------|-----------|-----------|---------------------|
-| Wallpaper | 20 | 54 | 2 |
 | Calculator | 7 | 53 | 0 |
 | Weather | 22 | 53 | 0 |
-| Ringtone | 9 | 52 | 0 |
 | Meditation | 10 | 52 | 1 |
+| Wallpaper | 20 | 52 | 1 |
 | Timer | 21 | 49 | 2 |
 | Quiz | 9 | 49 | 0 |
 | PDF Tools | 16 | 49 | 0 |
+| Ringtone | 9 | 48 | 0 |
 
 ---
 
