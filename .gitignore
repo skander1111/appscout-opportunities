@@ -1,7 +1,7 @@
 node_modules/
 web/node_modules/
 web/.next/
-web/.vercel/
+web/.vercel/*.json.bak
 .env
 .env.local
 .env*.local
