@@ -327,7 +327,7 @@ Skander Aloui
 | TheFor: Habit Tracker | 500,000+ | ★ 4.21 | 154 | Habit Tracker | January 2027 |
 | HabitNow Daily Routine Planner | 5,000,000+ | ★ 4.70 | 175 | Habit Tracker | December 2026 |
 | Prayer Times and Qibla | 1,000,000+ | ★ 4.75 | 129 | Prayer Times | January 2027 |
-| Garage Ringtones Pro | 100,000+ | ★ 4.37 | 121 | Ringtone | February 2027 |
+| Dictionary Pro | 50,000+ | ★ 4.83 | 166 | Dictionary | December 2026 |
 
 ---
 
@@ -352,11 +352,11 @@ Top niches by opportunity density:
 | Wallpaper | 20 | 54 | 2 |
 | Calculator | 7 | 53 | 0 |
 | Weather | 22 | 53 | 0 |
+| Ringtone | 9 | 52 | 0 |
 | Meditation | 10 | 52 | 1 |
 | Timer | 21 | 49 | 2 |
 | Quiz | 9 | 49 | 0 |
 | PDF Tools | 16 | 49 | 0 |
-| Ringtone | 9 | 48 | 0 |
 
 ---
 
