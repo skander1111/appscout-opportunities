@@ -1,10 +1,9 @@
 import BuyButton from "./BuyButton";
 
-// Replace these with your actual Gumroad product URLs after creating them
 const GUMROAD_LINKS = {
   report: "https://skander46.gumroad.com/l/flfjnx",
-  monthly: "https://skander46.gumroad.com/l/flfjnx", // update when monthly product is ready
-  agency: "https://skander46.gumroad.com/l/flfjnx",  // update when agency product is ready
+  monthly: "https://skander46.gumroad.com/l/flfjnx",
+  agency: "https://skander46.gumroad.com/l/flfjnx",
 };
 
 const plans = [
@@ -70,6 +69,7 @@ export default function Pricing() {
     <section id="pricing" className="py-24 px-6 border-t border-white/5">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
+          <p className="text-neon text-xs font-semibold uppercase tracking-widest mb-3">Pricing</p>
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Simple pricing</h2>
           <p className="text-zinc-400 text-lg max-w-xl mx-auto">
             Pay once for a single report. Upgrade to monthly when you&apos;re ready.
@@ -81,23 +81,28 @@ export default function Pricing() {
             <div
               key={plan.id}
               className={`relative rounded-2xl p-6 flex flex-col transition-all ${
-                plan.highlight
-                  ? "bg-[#0f1f17] border-2 border-emerald-500/50"
-                  : "bg-white/[0.03] border border-white/8 card-hover"
+                plan.highlight ? "" : "bg-white/[0.03] border border-white/8 card-hover"
               }`}
               style={
                 plan.highlight
                   ? {
-                      boxShadow:
-                        "0 0 50px rgba(16,185,129,0.12), 0 0 120px rgba(16,185,129,0.05), inset 0 1px 0 rgba(52,211,153,0.1)",
+                      background: "linear-gradient(160deg, rgba(0,255,136,0.07) 0%, rgba(0,255,136,0.02) 100%)",
+                      border: "1px solid rgba(0,255,136,0.3)",
+                      boxShadow: "0 0 60px rgba(0,255,136,0.1), inset 0 1px 0 rgba(0,255,136,0.12)",
                     }
                   : undefined
               }
             >
               {plan.highlight && (
                 <>
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-px bg-gradient-to-r from-transparent via-emerald-400/60 to-transparent" />
-                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-emerald-500 text-black text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">
+                  <div
+                    className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-px"
+                    style={{ background: "linear-gradient(90deg, transparent, rgba(0,255,136,0.6), transparent)" }}
+                  />
+                  <div
+                    className="absolute -top-3.5 left-1/2 -translate-x-1/2 text-black text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap"
+                    style={{ background: "linear-gradient(135deg, #00ff88, #00cc6a)" }}
+                  >
                     Most popular
                   </div>
                 </>
@@ -107,9 +112,8 @@ export default function Pricing() {
                 <div className="text-xs text-zinc-500 uppercase tracking-widest mb-2">{plan.name}</div>
                 <div className="flex items-end gap-2 mb-3">
                   <span
-                    className={`text-5xl font-bold tracking-tight ${
-                      plan.highlight ? "text-emerald-400" : "text-white"
-                    }`}
+                    className={`text-5xl font-bold tracking-tight ${plan.highlight ? "text-neon" : "text-white"}`}
+                    style={plan.highlight ? { textShadow: "0 0 30px rgba(0,255,136,0.4)" } : undefined}
                   >
                     {plan.price}
                   </span>
@@ -121,7 +125,7 @@ export default function Pricing() {
               <ul className="space-y-2.5 mb-8 flex-1">
                 {plan.features.map((f) => (
                   <li key={f} className="flex items-start gap-2 text-sm text-zinc-300">
-                    <span className="text-emerald-400 mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-neon mt-0.5 flex-shrink-0">✓</span>
                     {f}
                   </li>
                 ))}
@@ -130,10 +134,14 @@ export default function Pricing() {
               <BuyButton
                 href={GUMROAD_LINKS[plan.id]}
                 label={plan.cta}
-                className={
+                className={plan.highlight ? "text-black font-bold" : "border border-white/10 hover:border-white/25 text-white hover:bg-white/[0.04]"}
+                style={
                   plan.highlight
-                    ? "bg-emerald-500 hover:bg-emerald-400 text-black shadow-[0_0_20px_rgba(16,185,129,0.3)] hover:shadow-[0_0_30px_rgba(16,185,129,0.45)]"
-                    : "border border-white/10 hover:border-white/25 text-white hover:bg-white/[0.04]"
+                    ? {
+                        background: "linear-gradient(135deg, #00ff88 0%, #00cc6a 100%)",
+                        boxShadow: "0 0 25px rgba(0,255,136,0.4)",
+                      }
+                    : undefined
                 }
               />
 
@@ -145,11 +153,11 @@ export default function Pricing() {
         <div className="mt-12 text-center">
           <p className="text-sm text-zinc-500">
             Not sure yet?{" "}
-            <a href="#sample" className="text-emerald-400 hover:underline">
+            <a href="#sample" className="text-neon hover:opacity-80 transition-opacity">
               See a sample report card above
             </a>
             . Questions?{" "}
-            <a href="mailto:aloui.skander01@gmail.com" className="text-emerald-400 hover:underline">
+            <a href="mailto:aloui.skander01@gmail.com" className="text-neon hover:opacity-80 transition-opacity">
               Email us
             </a>
             .

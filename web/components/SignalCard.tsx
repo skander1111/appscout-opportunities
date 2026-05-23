@@ -15,13 +15,13 @@ export interface Signal {
 }
 
 function sourceStyle(source: string) {
-  if (source === 'hackernews') return { label: 'HN', color: 'text-orange-400 bg-orange-500/10 border-orange-500/30' };
+  if (source === 'hackernews') return { label: 'HN', color: 'text-zinc-300 bg-zinc-500/10 border-zinc-500/30' };
   if (source === 'reddit') return { label: 'Reddit', color: 'text-red-400 bg-red-500/10 border-red-500/30' };
-  return { label: 'PH', color: 'text-amber-400 bg-amber-500/10 border-amber-500/30' };
+  return { label: 'PH', color: 'text-purple-400 bg-purple-500/10 border-purple-500/30' };
 }
 
 function classStyle(c: string) {
-  if (c === 'sell') return 'text-emerald-400';
+  if (c === 'sell') return 'text-neon';
   if (c === 'acquire') return 'text-blue-400';
   if (c === 'trend') return 'text-purple-400';
   return 'text-gray-400';

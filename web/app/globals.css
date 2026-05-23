@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-neon: #00ff88;
+}
+
 :root {
-  --background: #0a0a0f;
+  --background: #050508;
   --foreground: #f0f0f0;
 }
 
@@ -12,14 +16,16 @@ body {
   overflow-x: hidden;
 }
 
+/* ── Animations ────────────────────────────────── */
+
 @keyframes glow-pulse {
   0%, 100% { opacity: 0.5; }
-  50% { opacity: 0.9; }
+  50%       { opacity: 1; }
 }
 
 @keyframes glow-pulse-slow {
-  0%, 100% { opacity: 0.2; }
-  50% { opacity: 0.5; }
+  0%, 100% { opacity: 0.15; }
+  50%       { opacity: 0.45; }
 }
 
 @keyframes blob-drift {
@@ -37,53 +43,13 @@ body {
 }
 
 @keyframes fade-up {
-  from { opacity: 0; transform: translateY(16px); }
+  from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-.glow-blob {
-  animation: glow-pulse 4s ease-in-out infinite;
-}
-
-.glow-blob-slow {
-  animation: glow-pulse-slow 7s ease-in-out infinite;
-}
-
-.blob-drift {
-  animation: blob-drift 12s ease-in-out infinite;
-}
-
-.blob-drift-alt {
-  animation: blob-drift-alt 15s ease-in-out infinite;
-}
-
-.animate-fade-up {
-  animation: fade-up 0.7s ease-out forwards;
-}
-
-.animate-fade-up-delay-1 {
-  animation: fade-up 0.7s ease-out 0.1s forwards;
-  opacity: 0;
-}
-
-.animate-fade-up-delay-2 {
-  animation: fade-up 0.7s ease-out 0.2s forwards;
-  opacity: 0;
-}
-
-.animate-fade-up-delay-3 {
-  animation: fade-up 0.7s ease-out 0.35s forwards;
-  opacity: 0;
-}
-
-.card-hover {
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-
-.card-hover:hover {
-  transform: translateY(-2px);
-  border-color: rgba(52, 211, 153, 0.25);
-  box-shadow: 0 0 30px rgba(16, 185, 129, 0.06);
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 @keyframes ticker {
@@ -91,11 +57,50 @@ body {
   100% { transform: translateX(-50%); }
 }
 
-.animate-ticker {
-  animation: ticker 60s linear infinite;
-  will-change: transform;
+@keyframes counter-glow {
+  0%, 100% { text-shadow: 0 0 40px rgba(0,255,136,0.6), 0 0 80px rgba(0,255,136,0.25); }
+  50%       { text-shadow: 0 0 70px rgba(0,255,136,0.9), 0 0 140px rgba(0,255,136,0.4); }
 }
 
-.animate-ticker:hover {
-  animation-play-state: paused;
+@keyframes live-ping {
+  0%   { transform: scale(1); opacity: 0.8; }
+  70%  { transform: scale(2.2); opacity: 0; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* ── Utility classes ───────────────────────────── */
+
+.glow-blob       { animation: glow-pulse 4s ease-in-out infinite; }
+.glow-blob-slow  { animation: glow-pulse-slow 7s ease-in-out infinite; }
+.blob-drift      { animation: blob-drift 14s ease-in-out infinite; }
+.blob-drift-alt  { animation: blob-drift-alt 18s ease-in-out infinite; }
+
+.animate-fade-up          { animation: fade-up 0.7s ease-out forwards; }
+.animate-fade-up-delay-1  { animation: fade-up 0.7s ease-out 0.1s forwards; opacity: 0; }
+.animate-fade-up-delay-2  { animation: fade-up 0.7s ease-out 0.25s forwards; opacity: 0; }
+.animate-fade-up-delay-3  { animation: fade-up 0.7s ease-out 0.4s forwards; opacity: 0; }
+.animate-fade-up-delay-4  { animation: fade-up 0.7s ease-out 0.55s forwards; opacity: 0; }
+
+.animate-counter-glow { animation: counter-glow 3s ease-in-out infinite; }
+
+.animate-ticker       { animation: ticker 55s linear infinite; will-change: transform; }
+.animate-ticker:hover { animation-play-state: paused; }
+
+.live-ping { animation: live-ping 1.4s cubic-bezier(0,0,0.2,1) infinite; }
+
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-3px);
+  border-color: rgba(0, 255, 136, 0.2);
+  box-shadow: 0 8px 40px rgba(0, 255, 136, 0.07);
+}
+
+/* Subtle grid background */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px);
+  background-size: 64px 64px;
 }

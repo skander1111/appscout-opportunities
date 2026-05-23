@@ -42,6 +42,20 @@ jobs:
       - name: Generate clean report
         run: node scripts/auto-report.js
 
+      # ── Sync engine output → web/data/ ───────────────────────────────────
+
+      - name: Sync web data files
+        run: |
+          cp data/processed/scored-apps.json web/data/opportunities.json
+          node -e "
+            const fs = require('fs');
+            const apps = JSON.parse(fs.readFileSync('data/processed/scored-apps.json'));
+            const valid = apps.filter(a => !a.disqualified);
+            const meta = { lastUpdated: new Date().toISOString(), appsScored: valid.length };
+            fs.writeFileSync('web/data/meta.json', JSON.stringify(meta, null, 2));
+          "
+          echo "✓ Synced $(node -e \"const d=JSON.parse(require('fs').readFileSync('data/processed/scored-apps.json')); console.log(d.length)\") apps to web/data/"
+
       # ── Install web deps ──────────────────────────────────────────────────
 
       - name: Install web dependencies
@@ -56,6 +70,7 @@ jobs:
           git config user.email "bot@appscout.io"
           git add web/private/reports/latest-report.md data/reports/
           git add data/processed/scored-apps.json || true
+          git add web/data/opportunities.json web/data/meta.json || true
           git diff --staged --quiet || git commit -m "chore: weekly report $(date +%Y-%m-%d)"
           git push
 

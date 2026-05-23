@@ -58,7 +58,13 @@ export default function TrustSection() {
               key={item.title}
               className="card-hover rounded-2xl p-5 bg-white/[0.02] border border-white/5"
             >
-              <div className="w-9 h-9 rounded-lg bg-emerald-500/10 border border-emerald-500/15 flex items-center justify-center text-emerald-400 mb-4">
+              <div
+                className="w-9 h-9 rounded-lg flex items-center justify-center text-neon mb-4"
+                style={{
+                  background: "rgba(0,255,136,0.07)",
+                  border: "1px solid rgba(0,255,136,0.14)",
+                }}
+              >
                 {item.icon}
               </div>
               <h3 className="text-sm font-semibold text-white mb-2">{item.title}</h3>

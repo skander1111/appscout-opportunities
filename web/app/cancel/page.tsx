@@ -1,10 +1,8 @@
 export default function CancelPage() {
   return (
-    <main className="min-h-screen bg-[#0a0a0f] text-white flex items-center justify-center px-6">
+    <main className="min-h-screen bg-[#050508] text-white flex items-center justify-center px-6">
       <div className="max-w-md mx-auto text-center">
-        <div
-          className="w-20 h-20 rounded-full bg-zinc-800/50 border border-white/10 flex items-center justify-center mx-auto mb-8"
-        >
+        <div className="w-20 h-20 rounded-full bg-zinc-800/50 border border-white/10 flex items-center justify-center mx-auto mb-8">
           <svg className="w-10 h-10 text-zinc-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
             <circle cx="12" cy="12" r="10" />
             <line x1="15" y1="9" x2="9" y2="15" />
@@ -19,14 +17,18 @@ export default function CancelPage() {
 
         <a
           href="/#pricing"
-          className="inline-block bg-emerald-500 hover:bg-emerald-400 text-black font-semibold px-8 py-3.5 rounded-xl text-sm transition-all mb-4"
+          className="inline-block text-black font-semibold px-8 py-3.5 rounded-xl text-sm transition-all mb-4"
+          style={{
+            background: "linear-gradient(135deg, #00ff88 0%, #00cc6a 100%)",
+            boxShadow: "0 0 25px rgba(0,255,136,0.3)",
+          }}
         >
           Back to pricing
         </a>
 
         <p className="text-sm text-zinc-500 mt-6">
           Questions?{" "}
-          <a href="mailto:aloui.skander01@gmail.com" className="text-emerald-400 hover:underline">
+          <a href="mailto:aloui.skander01@gmail.com" className="text-neon hover:opacity-80 transition-opacity">
             aloui.skander01@gmail.com
           </a>
         </p>

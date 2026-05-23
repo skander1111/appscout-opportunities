@@ -132,15 +132,7 @@ function EmptyState({ icon, title, sub }: { icon: string; title: string; sub: st
   );
 }
 
-function SectionHeader({
-  title,
-  count,
-  sub,
-}: {
-  title: string;
-  count?: number;
-  sub?: string;
-}) {
+function SectionHeader({ title, count, sub }: { title: string; count?: number; sub?: string }) {
   return (
     <div className="flex items-center gap-3 mb-5">
       <h2 className="text-base font-semibold text-white">{title}</h2>
@@ -221,7 +213,6 @@ export default function DashboardPage() {
   const filteredApps = applySort(applyFilter(nicheBase, filter), sort);
   const acquireApps = allApps.filter((a) => a.daysSinceUpdate >= 365);
   const rebuildApps = allApps.filter((a) => a.daysSinceUpdate >= 180 && a.daysSinceUpdate < 365);
-  const watchApps = allApps.filter((a) => a.daysSinceUpdate >= 120 && a.daysSinceUpdate < 180);
 
   const niches = useMemo(() => {
     const counts: Record<string, number> = {};
@@ -240,7 +231,7 @@ export default function DashboardPage() {
             <div className="flex items-start justify-between gap-4 mb-6">
               <div>
                 <h1 className="text-xl sm:text-2xl font-bold tracking-tight">
-                  App<span className="text-emerald-400">Scout</span> Intelligence
+                  App<span className="text-neon">Scout</span> Intelligence
                 </h1>
                 <p className="text-gray-500 text-sm mt-1">
                   Live engine · auto-refreshes every 60s ·{" "}
@@ -248,19 +239,19 @@ export default function DashboardPage() {
                 </p>
               </div>
               <div className="flex items-center gap-2 mt-1">
-                <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
-                <span className="text-xs text-emerald-400 font-medium">Engine online</span>
+                <div className="w-2 h-2 bg-neon rounded-full animate-pulse" />
+                <span className="text-xs text-neon font-medium">Engine online</span>
               </div>
             </div>
 
             {/* Stats bar */}
             <div className="grid grid-cols-3 sm:grid-cols-6 gap-3">
               <StatPill label="Apps scanned" value={meta.appsScored ?? 247} />
-              <StatPill label="Opportunities" value={allApps.length} color="text-emerald-400" />
-              <StatPill label="Acquire (365d+)" value={acquireApps.length} color="text-emerald-400" />
+              <StatPill label="Opportunities" value={allApps.length} color="text-neon" />
+              <StatPill label="Acquire (365d+)" value={acquireApps.length} color="text-neon" />
               <StatPill label="Rebuild (180d+)" value={rebuildApps.length} color="text-blue-400" />
-              <StatPill label="Seller leads" value={leads.length} color="text-amber-400" />
-              <StatPill label="Signals" value={signals.length} color="text-purple-400" />
+              <StatPill label="Seller leads" value={leads.length} color="text-purple-400" />
+              <StatPill label="Signals" value={signals.length} color="text-zinc-400" />
             </div>
           </div>
         </div>
@@ -275,7 +266,7 @@ export default function DashboardPage() {
                   onClick={() => setTab(t.id)}
                   className={`flex items-center gap-1.5 px-3 sm:px-4 py-3.5 text-xs sm:text-sm font-medium border-b-2 whitespace-nowrap transition-colors ${
                     tab === t.id
-                      ? "border-emerald-400 text-emerald-400"
+                      ? "border-neon text-neon"
                       : "border-transparent text-gray-500 hover:text-gray-300"
                   }`}
                 >
@@ -292,7 +283,10 @@ export default function DashboardPage() {
           {loading ? (
             <div className="flex items-center justify-center py-32">
               <div className="space-y-2 text-center">
-                <div className="w-8 h-8 border-2 border-emerald-500/30 border-t-emerald-400 rounded-full animate-spin mx-auto" />
+                <div
+                  className="w-8 h-8 border-2 rounded-full animate-spin mx-auto"
+                  style={{ borderColor: "rgba(0,255,136,0.2)", borderTopColor: "#00ff88" }}
+                />
                 <p className="text-gray-500 text-sm">Loading intelligence data…</p>
               </div>
             </div>
@@ -315,17 +309,13 @@ export default function DashboardPage() {
                           <OpportunityCard key={app.appId} app={app} />
                         ))}
                       {acquireApps.length === 0 && (
-                        <EmptyState
-                          icon="🎯"
-                          title="No acquisition targets yet"
-                          sub="Engine will find them on next scan"
-                        />
+                        <EmptyState icon="🎯" title="No acquisition targets yet" sub="Engine will find them on next scan" />
                       )}
                     </div>
                     {acquireApps.length > 4 && (
                       <button
                         onClick={() => setTab("apps")}
-                        className="mt-4 text-xs text-emerald-400 hover:text-emerald-300 transition-colors"
+                        className="mt-4 text-xs text-neon hover:opacity-70 transition-opacity"
                       >
                         View all {acquireApps.length} acquisition targets →
                       </button>
@@ -346,17 +336,13 @@ export default function DashboardPage() {
                           <OpportunityCard key={app.appId} app={app} />
                         ))}
                       {rebuildApps.length === 0 && (
-                        <EmptyState
-                          icon="🔨"
-                          title="No rebuild opportunities yet"
-                          sub="Engine will classify them on next scan"
-                        />
+                        <EmptyState icon="🔨" title="No rebuild opportunities yet" sub="Engine will classify them on next scan" />
                       )}
                     </div>
                     {rebuildApps.length > 4 && (
                       <button
                         onClick={() => { setFilter("rebuild"); setTab("apps"); }}
-                        className="mt-4 text-xs text-emerald-400 hover:text-emerald-300 transition-colors"
+                        className="mt-4 text-xs text-neon hover:opacity-70 transition-opacity"
                       >
                         View all {rebuildApps.length} rebuild opportunities →
                       </button>
@@ -365,11 +351,7 @@ export default function DashboardPage() {
 
                   {leads.length > 0 && (
                     <div>
-                      <SectionHeader
-                        title="Latest Seller Leads"
-                        count={leads.length}
-                        sub="sourced from Reddit"
-                      />
+                      <SectionHeader title="Latest Seller Leads" count={leads.length} sub="sourced from Reddit" />
                       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                         {leads.slice(0, 3).map((lead) => (
                           <SellerLeadCard key={lead.id} lead={lead} />
@@ -378,7 +360,7 @@ export default function DashboardPage() {
                       {leads.length > 3 && (
                         <button
                           onClick={() => setTab("sellers")}
-                          className="mt-4 text-xs text-emerald-400 hover:text-emerald-300 transition-colors"
+                          className="mt-4 text-xs text-neon hover:opacity-70 transition-opacity"
                         >
                           View all {leads.length} seller leads →
                         </button>
@@ -400,10 +382,7 @@ export default function DashboardPage() {
                   {/* Niche intelligence grid */}
                   {niches.length > 0 && (
                     <div>
-                      <SectionHeader
-                        title="Niche Intelligence"
-                        sub="click to explore"
-                      />
+                      <SectionHeader title="Niche Intelligence" sub="click to explore" />
                       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
                         {niches.map(([niche, count]) => {
                           const maxCount = niches[0][1];
@@ -412,12 +391,10 @@ export default function DashboardPage() {
                             <button
                               key={niche}
                               onClick={() => { setSelectedNiche(niche); setFilter("all"); setTab("apps"); }}
-                              className="bg-[#111118] border border-[#1e1e2e] hover:border-emerald-500/30 rounded-lg p-3 text-left transition-all group"
-                              style={{
-                                background: `rgba(16,185,129,${intensity * 0.08})`,
-                              }}
+                              className="bg-[#111118] border border-[#1e1e2e] hover:border-neon/30 rounded-lg p-3 text-left transition-all group"
+                              style={{ background: `rgba(0,255,136,${intensity * 0.06})` }}
                             >
-                              <div className="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">
+                              <div className="text-sm font-bold text-white group-hover:text-neon transition-colors">
                                 {count}
                               </div>
                               <div className="text-[11px] text-gray-500 truncate">{niche}</div>
@@ -448,7 +425,7 @@ export default function DashboardPage() {
                           { id: "all", label: "All" },
                           { id: "acquisition", label: "Acquire (365d+)" },
                           { id: "rebuild", label: "Rebuild (180d+)" },
-                          { id: "watch", label: "Watch (120d+)" },
+                          { id: "watch", label: "Partner (120d+)" },
                         ] as { id: FilterType; label: string }[]
                       ).map((f) => (
                         <button
@@ -456,7 +433,7 @@ export default function DashboardPage() {
                           onClick={() => setFilter(f.id)}
                           className={`text-xs px-3 py-1.5 rounded-md transition-colors whitespace-nowrap ${
                             filter === f.id
-                              ? "bg-emerald-500/20 text-emerald-400"
+                              ? "bg-neon/15 text-neon"
                               : "text-gray-500 hover:text-gray-300"
                           }`}
                         >
@@ -495,7 +472,7 @@ export default function DashboardPage() {
                         onClick={() => setSelectedNiche(null)}
                         className={`text-xs px-3 py-1 rounded-full border transition-colors ${
                           selectedNiche === null
-                            ? "border-emerald-500/50 text-emerald-400 bg-emerald-500/10"
+                            ? "border-neon/50 text-neon bg-neon/10"
                             : "border-[#2e2e4e] text-gray-500 hover:text-gray-300"
                         }`}
                       >
@@ -507,12 +484,11 @@ export default function DashboardPage() {
                           onClick={() => setSelectedNiche(niche === selectedNiche ? null : niche)}
                           className={`text-xs px-3 py-1 rounded-full border transition-colors ${
                             selectedNiche === niche
-                              ? "border-emerald-500/50 text-emerald-400 bg-emerald-500/10"
+                              ? "border-neon/50 text-neon bg-neon/10"
                               : "border-[#2e2e4e] text-gray-500 hover:text-gray-300"
                           }`}
                         >
-                          {niche}{" "}
-                          <span className="opacity-50">{count}</span>
+                          {niche} <span className="opacity-50">{count}</span>
                         </button>
                       ))}
                     </div>
@@ -523,11 +499,7 @@ export default function DashboardPage() {
                       <OpportunityCard key={app.appId} app={app} />
                     ))}
                     {filteredApps.length === 0 && (
-                      <EmptyState
-                        icon="🔍"
-                        title="No apps match this filter"
-                        sub="Try selecting a different category"
-                      />
+                      <EmptyState icon="🔍" title="No apps match this filter" sub="Try selecting a different category" />
                     )}
                   </div>
                 </div>
@@ -547,11 +519,7 @@ export default function DashboardPage() {
                       <SellerLeadCard key={lead.id} lead={lead} />
                     ))}
                     {leads.length === 0 && (
-                      <EmptyState
-                        icon="💬"
-                        title="No seller leads yet"
-                        sub="Engine scans Reddit every few hours for people selling apps"
-                      />
+                      <EmptyState icon="💬" title="No seller leads yet" sub="Engine scans Reddit every few hours for people selling apps" />
                     )}
                   </div>
                 </div>
@@ -570,11 +538,7 @@ export default function DashboardPage() {
                       <GitHubCard key={p.fullName} project={p} />
                     ))}
                     {github.length === 0 && (
-                      <EmptyState
-                        icon="⚗️"
-                        title="GitHub scanner coming soon"
-                        sub="Will surface abandoned repos with stars, forks, and real user demand"
-                      />
+                      <EmptyState icon="⚗️" title="GitHub scanner coming soon" sub="Will surface abandoned repos with stars, forks, and real user demand" />
                     )}
                   </div>
                 </div>
@@ -593,11 +557,7 @@ export default function DashboardPage() {
                       <SignalCard key={s.id} signal={s} />
                     ))}
                     {signals.length === 0 && (
-                      <EmptyState
-                        icon="📡"
-                        title="Signal scanner coming soon"
-                        sub="Will track HN, Reddit, and PH for acquisition signals, seller posts, and market trends"
-                      />
+                      <EmptyState icon="📡" title="Signal scanner coming soon" sub="Will track HN, Reddit, and PH for acquisition signals, seller posts, and market trends" />
                     )}
                   </div>
                 </div>
@@ -614,15 +574,19 @@ export default function DashboardPage() {
                     {REPORTS.map((r) => (
                       <div
                         key={r.week}
-                        className={`bg-[#111118] border rounded-xl p-5 flex items-center justify-between gap-4 ${
-                          r.isLatest ? "border-emerald-500/30" : "border-[#1e1e2e]"
-                        }`}
+                        className="bg-[#111118] rounded-xl p-5 flex items-center justify-between gap-4"
+                        style={{
+                          border: r.isLatest ? "1px solid rgba(0,255,136,0.25)" : "1px solid #1e1e2e",
+                        }}
                       >
                         <div className="min-w-0">
                           <div className="flex items-center gap-2 mb-1">
                             <span className="font-semibold text-white">{r.title}</span>
                             {r.isLatest && (
-                              <span className="text-xs bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded-full shrink-0">
+                              <span
+                                className="text-xs text-black font-bold px-2 py-0.5 rounded-full shrink-0"
+                                style={{ background: "linear-gradient(135deg, #00ff88, #00cc6a)" }}
+                              >
                                 Latest
                               </span>
                             )}
@@ -633,7 +597,8 @@ export default function DashboardPage() {
                           href={r.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-xs bg-emerald-500 hover:bg-emerald-400 text-black font-semibold px-4 py-2 rounded-lg transition-colors whitespace-nowrap shrink-0"
+                          className="text-xs text-black font-semibold px-4 py-2 rounded-lg transition-all whitespace-nowrap shrink-0"
+                          style={{ background: "linear-gradient(135deg, #00ff88, #00cc6a)" }}
                         >
                           Get report →
                         </a>

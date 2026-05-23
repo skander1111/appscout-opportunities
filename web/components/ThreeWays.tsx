@@ -1,13 +1,16 @@
+"use client";
+
 const ways = [
   {
     tag: "Acquire",
-    tagColor: "text-emerald-400 bg-emerald-500/10 border-emerald-500/30",
+    tagColor: "text-neon bg-neon/10 border-neon/30",
     icon: "🎯",
     headline: "Buy an app that already has users.",
     body: "Find indie-owned apps with 500k–10M installs, last updated 1–3 years ago. Reach the developer before they list on Flippa or Acquire.com. Buy a proven product at pre-market prices — no auction, no broker fee, no bidding war.",
     signals: ["500k–10M installs", "365+ days abandoned", "Solo indie owner", "Developer email found"],
     example: "An app with 5M downloads and a 4.9 rating. Last update: 546 days ago. Developer email: public. Nobody else has reached out yet.",
-    exampleColor: "border-emerald-500/20 bg-emerald-500/5",
+    exampleColor: "border-neon/20 bg-neon/5",
+    glowColor: "rgba(0,255,136,0.05)",
   },
   {
     tag: "Rebuild",
@@ -18,6 +21,7 @@ const ways = [
     signals: ["Active user base", "Repeated complaints", "Outdated UI or ads", "No competitor update"],
     example: "A habit tracker with 1M installs and 300 reviews saying 'crashes constantly'. The dev went quiet. The niche is real — the execution just broke.",
     exampleColor: "border-blue-500/20 bg-blue-500/5",
+    glowColor: "rgba(59,130,246,0.04)",
   },
   {
     tag: "Partner",
@@ -28,6 +32,7 @@ const ways = [
     signals: ["App still live", "Developer overwhelmed", "Seller post on Reddit", "Asking advice, not price"],
     example: "A Reddit post: 'Built an app with 4,000 users, don't have time to grow it anymore.' Nobody replied. That's a partnership waiting to happen.",
     exampleColor: "border-purple-500/20 bg-purple-500/5",
+    glowColor: "rgba(168,85,247,0.04)",
   },
 ];
 
@@ -36,7 +41,7 @@ export default function ThreeWays() {
     <section className="py-24 px-6 border-t border-white/5">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-emerald-400 text-xs font-semibold uppercase tracking-widest mb-3">
+          <p className="text-neon text-xs font-semibold uppercase tracking-widest mb-3">
             Three ways to move
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
@@ -52,6 +57,7 @@ export default function ThreeWays() {
             <div
               key={w.tag}
               className="card-hover relative rounded-2xl p-6 bg-white/[0.02] border border-white/8 flex flex-col gap-5"
+              style={{ boxShadow: `0 0 60px ${w.glowColor}` }}
             >
               {/* Tag + icon */}
               <div className="flex items-center gap-3">
@@ -93,7 +99,13 @@ export default function ThreeWays() {
         <div className="mt-12 text-center">
           <a
             href="/dashboard"
-            className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-black font-bold px-7 py-3.5 rounded-xl text-sm transition-all shadow-[0_0_30px_rgba(16,185,129,0.25)] hover:shadow-[0_0_40px_rgba(16,185,129,0.4)]"
+            className="inline-flex items-center gap-2 text-black font-bold px-7 py-3.5 rounded-xl text-sm transition-all"
+            style={{
+              background: "linear-gradient(135deg, #00ff88 0%, #00cc6a 100%)",
+              boxShadow: "0 0 30px rgba(0,255,136,0.35), 0 4px 15px rgba(0,0,0,0.3)",
+            }}
+            onMouseOver={(e) => (e.currentTarget.style.boxShadow = "0 0 55px rgba(0,255,136,0.6), 0 4px 15px rgba(0,0,0,0.3)")}
+            onMouseOut={(e) => (e.currentTarget.style.boxShadow = "0 0 30px rgba(0,255,136,0.35), 0 4px 15px rgba(0,0,0,0.3)")}
           >
             See all live opportunities →
           </a>

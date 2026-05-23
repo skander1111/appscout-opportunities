@@ -9,8 +9,7 @@ const steps = [
       </svg>
     ),
     title: "Engine scans 5 sources",
-    description:
-      "App Store and Google Play (19+ niches), Reddit seller posts, GitHub abandoned projects, Hacker News, and Product Hunt. Runs continuously — not just once a week.",
+    description: "App Store and Google Play (19+ niches), Reddit seller posts, GitHub abandoned projects, Hacker News, and Product Hunt. Runs continuously — not just once a week.",
   },
   {
     number: "02",
@@ -21,8 +20,7 @@ const steps = [
       </svg>
     ),
     title: "AI classifies and scores",
-    description:
-      "Every find is scored on demand, abandonment, reachability, and monetization. Then classified: Acquire, Rebuild, or Partner — so you know what to do before you even open the listing.",
+    description: "Every find is scored on demand, abandonment, reachability, and monetization. Then classified: Acquire, Rebuild, or Partner — so you know what to do before you even open the listing.",
   },
   {
     number: "03",
@@ -32,8 +30,7 @@ const steps = [
       </svg>
     ),
     title: "Live dashboard updates",
-    description:
-      "Every qualified opportunity appears in your live dashboard — with the developer email, review complaints, and a one-click outreach draft. The dashboard refreshes every 60 seconds.",
+    description: "Every qualified opportunity appears in your live dashboard — with the developer email, review complaints, and a one-click outreach draft. The dashboard refreshes every 60 seconds.",
   },
   {
     number: "04",
@@ -44,8 +41,7 @@ const steps = [
       </svg>
     ),
     title: "Weekly report every Friday",
-    description:
-      "Every Friday at 08:00, the best opportunities are frozen into a human-reviewed report — with full analysis, risk score, and outreach template. Delivered by email within minutes of purchase.",
+    description: "Every Friday at 08:00, the best opportunities are frozen into a human-reviewed report — with full analysis, risk score, and outreach template. Delivered by email within minutes of purchase.",
   },
 ];
 
@@ -54,7 +50,8 @@ export default function HowItWorks() {
     <section id="how-it-works" className="py-24 px-6 border-t border-white/5">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">How it works</h2>
+          <p className="text-neon text-xs font-semibold uppercase tracking-widest mb-3">How it works</p>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Four steps. Zero guesswork.</h2>
           <p className="text-zinc-400 text-lg max-w-xl mx-auto">
             Five sources, one engine, three plays — acquire, rebuild, or partner.
           </p>
@@ -67,23 +64,24 @@ export default function HowItWorks() {
               className="card-hover relative rounded-2xl p-6 bg-white/[0.03] border border-white/8"
               style={{ backdropFilter: "blur(4px)" }}
             >
-              {/* Step number watermark */}
               <div className="absolute top-4 right-5 text-5xl font-bold text-white/[0.04] font-mono select-none">
                 {step.number}
               </div>
-
-              {/* Icon */}
-              <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-5">
+              <div
+                className="w-10 h-10 rounded-xl flex items-center justify-center text-neon mb-5"
+                style={{
+                  background: "rgba(0,255,136,0.07)",
+                  border: "1px solid rgba(0,255,136,0.18)",
+                }}
+              >
                 {step.icon}
               </div>
-
               <h3 className="text-base font-semibold mb-3 text-white">{step.title}</h3>
               <p className="text-zinc-400 text-sm leading-relaxed">{step.description}</p>
             </div>
           ))}
         </div>
 
-        {/* Abandonment signals */}
         <div className="mt-10 bg-white/[0.02] border border-white/5 rounded-2xl p-8">
           <h3 className="text-xs font-semibold text-zinc-500 uppercase tracking-widest mb-6">
             Signals the engine detects across all sources
@@ -100,7 +98,7 @@ export default function HowItWorks() {
               "No reply to user reviews in 6+ months",
             ].map((signal) => (
               <div key={signal} className="flex items-start gap-2.5 text-sm text-zinc-300">
-                <span className="text-emerald-400 mt-0.5 flex-shrink-0">✓</span>
+                <span className="text-neon mt-0.5 flex-shrink-0">✓</span>
                 {signal}
               </div>
             ))}

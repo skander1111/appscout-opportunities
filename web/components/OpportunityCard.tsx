@@ -21,9 +21,9 @@ interface App {
 }
 
 function ringColor(score: number) {
-  if (score >= 85) return "#10b981";
+  if (score >= 85) return "#00ff88";
   if (score >= 70) return "#3b82f6";
-  if (score >= 50) return "#f59e0b";
+  if (score >= 50) return "#a855f7";
   return "#6b7280";
 }
 
@@ -78,7 +78,7 @@ function CopyBtn({
       onClick={copy}
       className={`text-xs px-2 py-1 rounded transition-all ${
         done
-          ? "text-emerald-400 bg-emerald-500/10 border border-emerald-500/20"
+          ? "text-neon bg-neon/10 border border-neon/20"
           : "text-gray-500 hover:text-gray-200 bg-[#0d0d14] border border-transparent hover:border-[#2e2e4e]"
       } ${className}`}
     >
@@ -108,10 +108,10 @@ Best,`;
 
 function actionBadge(app: App) {
   if (app.daysSinceUpdate >= 365)
-    return { label: "Acquire", cls: "text-emerald-400 bg-emerald-500/10 border-emerald-500/30" };
+    return { label: "Acquire", cls: "text-neon bg-neon/10 border-neon/30" };
   if (app.daysSinceUpdate >= 180)
     return { label: "Rebuild", cls: "text-blue-400 bg-blue-500/10 border-blue-500/30" };
-  return { label: "Watch", cls: "text-amber-400 bg-amber-500/10 border-amber-500/30" };
+  return { label: "Partner", cls: "text-purple-400 bg-purple-500/10 border-purple-500/30" };
 }
 
 export default function OpportunityCard({ app }: { app: App }) {
@@ -164,7 +164,7 @@ export default function OpportunityCard({ app }: { app: App }) {
               app.daysSinceUpdate >= 365
                 ? "text-red-400"
                 : app.daysSinceUpdate >= 180
-                ? "text-amber-400"
+                ? "text-blue-400"
                 : "text-gray-400"
             }`}
           >
@@ -176,8 +176,8 @@ export default function OpportunityCard({ app }: { app: App }) {
       {/* Developer email */}
       {app.developerEmail && (
         <div className="flex items-center gap-2 bg-[#0d0d14] rounded-lg px-3 py-2">
-          <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full shrink-0" />
-          <span className="text-xs text-emerald-400/90 font-mono truncate flex-1">
+          <span className="w-1.5 h-1.5 bg-neon rounded-full shrink-0" />
+          <span className="text-xs text-neon/80 font-mono truncate flex-1">
             {app.developerEmail}
           </span>
           <CopyBtn text={app.developerEmail} label="Copy" doneLabel="✓" />

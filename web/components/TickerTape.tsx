@@ -21,9 +21,9 @@ const FALLBACK: TickerApp[] = [
 ];
 
 function actionLabel(days: number) {
-  if (days >= 365) return { text: "Acquire", color: "text-emerald-400" };
-  if (days >= 180) return { text: "Rebuild", color: "text-blue-400" };
-  return { text: "Watch", color: "text-amber-400" };
+  if (days >= 365) return { text: "Acquire", color: "#00ff88" };
+  if (days >= 180) return { text: "Rebuild", color: "#3b82f6" };
+  return { text: "Watch", color: "#71717a" };
 }
 
 export default function TickerTape() {
@@ -39,40 +39,29 @@ export default function TickerTape() {
   const items = [...apps, ...apps];
 
   return (
-    <div className="relative overflow-hidden border-t border-emerald-500/10 bg-[#050508] py-2.5 mt-10">
+    <div
+      className="relative overflow-hidden py-2.5 mt-10"
+      style={{ borderTop: "1px solid rgba(0,255,136,0.07)", background: "#050508" }}
+    >
       <div className="flex items-center gap-0 animate-ticker whitespace-nowrap">
         {items.map((app, i) => {
           const action = actionLabel(app.daysSinceUpdate);
           const installs = app.installs || `${(app.minInstalls || 0).toLocaleString()}+`;
           return (
-            <span
-              key={i}
-              className="inline-flex items-center gap-2.5 px-5 text-xs"
-            >
-              <span className="text-emerald-500/40">◆</span>
+            <span key={i} className="inline-flex items-center gap-2.5 px-5 text-xs">
+              <span style={{ color: "rgba(0,255,136,0.25)" }}>◆</span>
               <span className="text-gray-300 font-medium">{app.title}</span>
               <span
                 className="font-bold tabular-nums"
                 style={{
-                  color:
-                    app.opportunityScore >= 85
-                      ? "#10b981"
-                      : app.opportunityScore >= 70
-                      ? "#3b82f6"
-                      : "#f59e0b",
+                  color: app.opportunityScore >= 85 ? "#00ff88" : app.opportunityScore >= 70 ? "#3b82f6" : "#94a3b8",
                 }}
               >
                 {app.opportunityScore}
               </span>
               <span className="text-gray-600">{installs}</span>
-              <span
-                className={`${
-                  app.daysSinceUpdate >= 365 ? "text-red-400/60" : "text-amber-400/60"
-                }`}
-              >
-                {app.daysSinceUpdate}d stale
-              </span>
-              <span className={`${action.color} text-[10px]`}>{action.text}</span>
+              <span className="text-zinc-600">{app.daysSinceUpdate}d stale</span>
+              <span style={{ color: action.color }} className="text-[10px]">{action.text}</span>
             </span>
           );
         })}

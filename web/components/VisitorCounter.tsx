@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 const SEED = 847;
 const LAUNCH = new Date("2026-05-22T10:00:00Z").getTime();
 
-// Matches server — no flash on hydration
 function liveCount(): number {
   const hoursLive = (Date.now() - LAUNCH) / (1000 * 60 * 60);
   return SEED + Math.floor((hoursLive * 14) / 24);
@@ -36,7 +35,6 @@ function AnimatedNumber({ target }: { target: number }) {
 }
 
 export default function VisitorCounter() {
-  // Start with a real client-side number immediately — no null flash
   const [count, setCount] = useState<number>(liveCount);
 
   useEffect(() => {
@@ -52,14 +50,5 @@ export default function VisitorCounter() {
       .catch(() => {});
   }, []);
 
-  return (
-    <span className="inline-flex items-center gap-1.5">
-      <span className="relative flex h-2 w-2">
-        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
-        <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
-      </span>
-      <AnimatedNumber target={count} />
-      <span>+ founders already exploring</span>
-    </span>
-  );
+  return <AnimatedNumber target={count} />;
 }

@@ -1,12 +1,16 @@
 export default function SuccessPage() {
   return (
-    <main className="min-h-screen bg-[#0a0a0f] text-white flex items-center justify-center px-6">
+    <main className="min-h-screen bg-[#050508] text-white flex items-center justify-center px-6">
       <div className="max-w-lg mx-auto text-center">
         <div
-          className="w-20 h-20 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center mx-auto mb-8"
-          style={{ boxShadow: "0 0 40px rgba(16,185,129,0.15)" }}
+          className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-8"
+          style={{
+            background: "rgba(0,255,136,0.08)",
+            border: "1px solid rgba(0,255,136,0.25)",
+            boxShadow: "0 0 40px rgba(0,255,136,0.15)",
+          }}
         >
-          <svg className="w-10 h-10 text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <svg className="w-10 h-10 text-neon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
             <polyline points="22 4 12 14.01 9 11.01" />
           </svg>
@@ -30,7 +34,7 @@ export default function SuccessPage() {
               "Do-not-contact list with reasons",
             ].map((item) => (
               <li key={item} className="flex items-start gap-2 text-sm text-zinc-400">
-                <span className="text-emerald-400 mt-0.5 flex-shrink-0">✓</span>
+                <span className="text-neon mt-0.5 flex-shrink-0">✓</span>
                 {item}
               </li>
             ))}
@@ -39,7 +43,7 @@ export default function SuccessPage() {
 
         <p className="text-sm text-zinc-500 mb-6">
           Questions?{" "}
-          <a href="mailto:aloui.skander01@gmail.com" className="text-emerald-400 hover:underline">
+          <a href="mailto:aloui.skander01@gmail.com" className="text-neon hover:opacity-80 transition-opacity">
             aloui.skander01@gmail.com
           </a>
         </p>

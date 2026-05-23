@@ -19,9 +19,9 @@ export interface GitHubProject {
 }
 
 function staleColor(days: number) {
-  if (days >= 730) return 'text-red-400';
-  if (days >= 365) return 'text-amber-400';
-  return 'text-gray-400';
+  if (days >= 730) return "text-red-400";
+  if (days >= 365) return "text-neon";
+  return "text-zinc-400";
 }
 
 export default function GitHubCard({ project }: { project: GitHubProject }) {
@@ -30,7 +30,7 @@ export default function GitHubCard({ project }: { project: GitHubProject }) {
       <div className="flex items-start justify-between gap-3 mb-3">
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-0.5">
-            <span className="text-xs text-gray-500">{project.language || 'Unknown'}</span>
+            <span className="text-xs text-gray-500">{project.language || "Unknown"}</span>
             {project.license && <span className="text-xs text-gray-600">{project.license}</span>}
           </div>
           <h3 className="text-sm font-semibold text-white truncate group-hover:text-blue-300 transition-colors">
@@ -49,8 +49,10 @@ export default function GitHubCard({ project }: { project: GitHubProject }) {
 
       {project.topics.length > 0 && (
         <div className="flex flex-wrap gap-1 mb-3">
-          {project.topics.slice(0, 4).map(t => (
-            <span key={t} className="text-xs text-blue-400/70 bg-blue-500/10 px-2 py-0.5 rounded-full">{t}</span>
+          {project.topics.slice(0, 4).map((t) => (
+            <span key={t} className="text-xs text-blue-400/70 bg-blue-500/10 px-2 py-0.5 rounded-full">
+              {t}
+            </span>
           ))}
         </div>
       )}
@@ -59,7 +61,9 @@ export default function GitHubCard({ project }: { project: GitHubProject }) {
         <div className="flex items-center gap-3 text-xs text-gray-500">
           <span>★ {project.stars.toLocaleString()}</span>
           <span>⎇ {project.forks}</span>
-          {project.openIssues > 0 && <span className="text-amber-500/70">! {project.openIssues} issues</span>}
+          {project.openIssues > 0 && (
+            <span className="text-zinc-600">! {project.openIssues}</span>
+          )}
         </div>
         <a
           href={project.url}

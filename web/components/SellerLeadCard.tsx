@@ -20,14 +20,14 @@ interface SellerLead {
 }
 
 function priorityStyle(priority: string) {
-  if (priority === 'HIGH') return 'text-emerald-400 bg-emerald-500/10 border-emerald-500/30';
-  if (priority === 'MEDIUM') return 'text-amber-400 bg-amber-500/10 border-amber-500/30';
+  if (priority === 'HIGH') return 'text-neon bg-neon/10 border-neon/30';
+  if (priority === 'MEDIUM') return 'text-blue-400 bg-blue-500/10 border-blue-500/30';
   return 'text-gray-400 bg-gray-500/10 border-gray-500/30';
 }
 
 function freshnessLabel(daysAgo: number) {
-  if (daysAgo <= 7) return { label: `${daysAgo}d ago`, color: 'text-emerald-400' };
-  if (daysAgo <= 30) return { label: `${daysAgo}d ago`, color: 'text-amber-400' };
+  if (daysAgo <= 7) return { label: `${daysAgo}d ago`, color: 'text-neon' };
+  if (daysAgo <= 30) return { label: `${daysAgo}d ago`, color: 'text-zinc-400' };
   if (daysAgo <= 90) return { label: `${Math.round(daysAgo / 30)}mo ago`, color: 'text-gray-400' };
   return { label: `${Math.round(daysAgo / 30)}mo ago`, color: 'text-gray-600' };
 }

@@ -1,61 +1,71 @@
+"use client";
 import TickerTape from "./TickerTape";
 import VisitorCounter from "./VisitorCounter";
 
 function ReportMockup() {
   const leads = [
-    { name: "Tabata Timer: Interval Timer",   score: 90, installs: "5M+",  days: 420, owner: "Solo indie",  email: "evg███████@gmail.com" },
-    { name: "Barcode Scanner – Price Finder", score: 85, installs: "5M+",  days: 545, owner: "Solo indie",  email: "ess███████@gmail.com" },
-    { name: "Compass",                        score: 80, installs: "1M+",  days: 371, owner: "Solo indie",  email: "gra███████@gmail.com" },
+    { name: "Tabata Timer: Interval Timer",   score: 90, installs: "5M+",  days: 421, play: "Acquire", email: "evg███████@gmail.com" },
+    { name: "Barcode Scanner – Price Finder", score: 90, installs: "5M+",  days: 546, play: "Acquire", email: "ess███████@gmail.com" },
+    { name: "10BA Pro Financial Calculator",  score: 90, installs: "100K+", days: 3149, play: "Acquire", email: "gra███████@gmail.com" },
   ];
+
+  const playColor: Record<string, string> = {
+    Acquire: "text-neon",
+    Rebuild: "text-blue-400",
+    Partner: "text-purple-400",
+  };
 
   return (
     <div
-      className="relative max-w-2xl mx-auto mt-12 rounded-2xl overflow-hidden border border-white/10 bg-[#0c1410]"
-      style={{ boxShadow: "0 0 0 1px rgba(16,185,129,0.1), 0 40px 80px rgba(0,0,0,0.5), 0 0 60px rgba(16,185,129,0.07)" }}
+      className="relative max-w-2xl mx-auto mt-14 rounded-2xl overflow-hidden"
+      style={{
+        border: "1px solid rgba(0,255,136,0.15)",
+        background: "linear-gradient(160deg, #080c0a 0%, #060808 100%)",
+        boxShadow: "0 0 0 1px rgba(0,255,136,0.06), 0 40px 80px rgba(0,0,0,0.6), 0 0 80px rgba(0,255,136,0.05)",
+      }}
     >
       {/* Window bar */}
-      <div className="flex items-center gap-2 px-4 py-3 border-b border-white/5 bg-white/[0.02]">
+      <div className="flex items-center gap-2 px-4 py-3 border-b border-white/5 bg-white/[0.015]">
         <div className="flex gap-1.5">
-          <div className="w-2.5 h-2.5 rounded-full bg-red-500/40" />
-          <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/40" />
-          <div className="w-2.5 h-2.5 rounded-full bg-emerald-500/40" />
+          <div className="w-2.5 h-2.5 rounded-full bg-red-500/50" />
+          <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/50" />
+          <div className="w-2.5 h-2.5 rounded-full bg-neon/40" />
         </div>
-        <span className="text-xs text-zinc-500 font-mono ml-2">AppScout Report — Week of May 21</span>
+        <span className="text-[11px] text-zinc-500 font-mono ml-2">AppScout Intelligence — Week 21</span>
         <div className="ml-auto flex items-center gap-1.5">
-          <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
-          <span className="text-xs text-emerald-400 font-mono">24 opportunities</span>
+          <div className="relative flex h-2 w-2">
+            <span className="live-ping absolute inline-flex h-full w-full rounded-full bg-neon opacity-75" />
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-neon" />
+          </div>
+          <span className="text-[11px] text-neon font-mono">54 live opportunities</span>
         </div>
       </div>
 
       {/* Column headers */}
-      <div className="grid grid-cols-[1fr_auto] gap-4 px-4 py-2 border-b border-white/5">
-        <span className="text-[10px] text-zinc-600 uppercase tracking-widest">Opportunity</span>
-        <span className="text-[10px] text-zinc-600 uppercase tracking-widest">Score</span>
+      <div className="grid grid-cols-[1fr_60px_60px] gap-2 px-4 py-2 border-b border-white/5">
+        <span className="text-[10px] text-zinc-600 uppercase tracking-widest">App</span>
+        <span className="text-[10px] text-zinc-600 uppercase tracking-widest text-center">Play</span>
+        <span className="text-[10px] text-zinc-600 uppercase tracking-widest text-right">Score</span>
       </div>
 
-      {/* Lead rows */}
       {leads.map((lead, i) => (
-        <div key={i} className="px-4 py-3 border-b border-white/[0.04] hover:bg-white/[0.02] transition-colors">
-          <div className="flex items-start gap-4">
-            <div className="flex-1 min-w-0">
-              <div className="text-sm font-medium text-white/90 truncate">{lead.name}</div>
-              <div className="flex flex-wrap items-center gap-x-2.5 gap-y-0.5 mt-1">
+        <div key={i} className="px-4 py-3.5 border-b border-white/[0.04] hover:bg-white/[0.02] transition-colors">
+          <div className="grid grid-cols-[1fr_60px_60px] gap-2 items-center">
+            <div className="min-w-0">
+              <div className="text-sm font-semibold text-white/90 truncate">{lead.name}</div>
+              <div className="flex items-center gap-2 mt-0.5">
                 <span className="text-[11px] text-zinc-500">{lead.installs} installs</span>
                 <span className="text-zinc-700">·</span>
-                <span className="text-[11px] text-zinc-500">{lead.days}d stale</span>
-                <span className="text-zinc-700">·</span>
-                <span className="text-[11px] text-emerald-600">{lead.owner}</span>
+                <span className="text-[11px] text-zinc-500">{lead.days.toLocaleString()}d stale</span>
               </div>
-              <div
-                className="text-[11px] text-zinc-500 mt-1 select-none"
-                style={{ filter: "blur(4px)" }}
-              >
+              <div className="text-[11px] text-zinc-600 mt-0.5 select-none" style={{ filter: "blur(3.5px)" }}>
                 {lead.email}
               </div>
             </div>
+            <span className={`text-[11px] font-bold text-center ${playColor[lead.play]}`}>{lead.play}</span>
             <div
-              className="flex-shrink-0 text-base font-bold text-emerald-400 mt-0.5"
-              style={{ textShadow: "0 0 16px rgba(52,211,153,0.5)" }}
+              className="text-right text-base font-bold text-neon"
+              style={{ textShadow: "0 0 20px rgba(0,255,136,0.7)" }}
             >
               {lead.score}
             </div>
@@ -63,20 +73,16 @@ function ReportMockup() {
         </div>
       ))}
 
-      {/* Locked footer */}
-      <div className="relative px-4 py-3 text-center">
-        <div className="text-xs text-zinc-600">
-          +10 more opportunities locked —{" "}
-          <a href="#pricing" className="text-emerald-500 hover:text-emerald-400 transition-colors">
-            unlock for €19 →
-          </a>
-        </div>
+      <div className="px-4 py-3 flex items-center justify-between">
+        <span className="text-xs text-zinc-600">+51 more locked</span>
+        <a href="#pricing" className="text-xs text-neon hover:opacity-80 transition-opacity font-medium">
+          Unlock full report — €19 →
+        </a>
       </div>
 
-      {/* Bottom glow */}
       <div
-        className="absolute bottom-0 inset-x-0 h-1 pointer-events-none"
-        style={{ background: "linear-gradient(90deg, transparent, rgba(16,185,129,0.3), transparent)" }}
+        className="absolute bottom-0 inset-x-0 h-px"
+        style={{ background: "linear-gradient(90deg, transparent, rgba(0,255,136,0.4), transparent)" }}
       />
     </div>
   );
@@ -85,112 +91,130 @@ function ReportMockup() {
 export default function Hero() {
   return (
     <section className="relative pt-24 pb-10 px-6 overflow-hidden">
-      {/* Grid pattern */}
-      <div
-        className="absolute inset-0 -z-10 pointer-events-none"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px)",
-          backgroundSize: "60px 60px",
-        }}
-      />
+      {/* Grid background */}
+      <div className="absolute inset-0 -z-10 pointer-events-none grid-bg" />
 
-      {/* Animated glow blobs */}
+      {/* Glow blobs — neon green */}
       <div className="absolute inset-0 -z-10 pointer-events-none overflow-hidden">
         <div
-          className="blob-drift absolute top-[-100px] left-1/2 -translate-x-1/2 w-[800px] h-[600px] rounded-full"
-          style={{ background: "radial-gradient(ellipse at center, rgba(16,185,129,0.14) 0%, transparent 65%)" }}
+          className="blob-drift absolute top-[-80px] left-1/2 -translate-x-1/2 w-[900px] h-[600px] rounded-full"
+          style={{ background: "radial-gradient(ellipse at center, rgba(0,255,136,0.09) 0%, transparent 65%)" }}
         />
         <div
-          className="blob-drift-alt absolute top-[60px] left-[10%] w-[500px] h-[400px] rounded-full"
-          style={{ background: "radial-gradient(ellipse at center, rgba(20,184,166,0.07) 0%, transparent 65%)" }}
+          className="blob-drift-alt absolute top-[100px] left-[5%] w-[500px] h-[400px] rounded-full"
+          style={{ background: "radial-gradient(ellipse at center, rgba(0,255,136,0.05) 0%, transparent 65%)" }}
         />
         <div
-          className="blob-drift absolute top-[80px] right-[5%] w-[400px] h-[300px] rounded-full"
-          style={{ background: "radial-gradient(ellipse at center, rgba(16,185,129,0.05) 0%, transparent 65%)" }}
+          className="blob-drift absolute top-[120px] right-[5%] w-[400px] h-[350px] rounded-full"
+          style={{ background: "radial-gradient(ellipse at center, rgba(0,204,106,0.04) 0%, transparent 65%)" }}
         />
       </div>
 
-      {/* Spotlight behind headline */}
+      {/* Spotlight */}
       <div
-        className="absolute top-0 left-0 right-0 -z-10 pointer-events-none h-[70%]"
-        style={{ background: "radial-gradient(ellipse 60% 45% at 50% 0%, rgba(16,185,129,0.1), transparent)" }}
+        className="absolute top-0 left-0 right-0 -z-10 pointer-events-none h-[60%]"
+        style={{ background: "radial-gradient(ellipse 70% 50% at 50% 0%, rgba(0,255,136,0.07), transparent)" }}
       />
 
       <div className="max-w-4xl mx-auto text-center">
-        {/* Badges row */}
-        <div className="animate-fade-up flex flex-col sm:flex-row items-center justify-center gap-3 mb-6">
-          <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium px-3 py-1.5 rounded-full">
-            <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
-            247 apps scanned this week — 54 qualified targets
-          </div>
-          <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 text-zinc-400 text-xs font-medium px-3 py-1.5 rounded-full">
-            <VisitorCounter />
+
+        {/* Live badge */}
+        <div className="animate-fade-up flex justify-center mb-8">
+          <div
+            className="inline-flex items-center gap-2.5 text-xs font-semibold px-4 py-2 rounded-full"
+            style={{
+              background: "rgba(0,255,136,0.07)",
+              border: "1px solid rgba(0,255,136,0.2)",
+              color: "#00ff88",
+            }}
+          >
+            <div className="relative flex h-2 w-2">
+              <span className="live-ping absolute inline-flex h-full w-full rounded-full bg-neon opacity-75" />
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-neon" />
+            </div>
+            247 apps scanned this week · 54 qualified targets live
           </div>
         </div>
 
         {/* Headline */}
-        <h1
-          className="animate-fade-up-delay-1 text-4xl sm:text-6xl lg:text-7xl font-bold leading-[1.08] tracking-tight mb-5"
-        >
-          Find hidden digital opportunities{" "}
+        <h1 className="animate-fade-up-delay-1 text-4xl sm:text-6xl lg:text-7xl font-bold leading-[1.06] tracking-tight mb-6">
+          Find off-market app deals{" "}
           <span
-            className="text-emerald-400"
-            style={{ textShadow: "0 0 50px rgba(52,211,153,0.4)" }}
+            className="text-neon"
+            style={{ textShadow: "0 0 60px rgba(0,255,136,0.5)" }}
           >
             before anyone else
           </span>
         </h1>
 
         {/* Subheadline */}
-        <p className="animate-fade-up-delay-2 text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-5">
-          AppScout scans abandoned mobile apps, public seller posts, unfinished GitHub projects,
-          and startup signals — then tells you exactly whether to{" "}
-          <span className="text-emerald-400 font-medium">acquire</span>,{" "}
-          <span className="text-blue-400 font-medium">rebuild</span>, or{" "}
-          <span className="text-purple-400 font-medium">partner</span>.
-          Every opportunity comes with the developer&apos;s contact and a ready-to-send outreach draft.
+        <p className="animate-fade-up-delay-2 text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-6">
+          AppScout scans abandoned mobile apps, public seller posts, and GitHub signals —
+          then tells you whether to{" "}
+          <span className="text-neon font-semibold">acquire</span>,{" "}
+          <span className="text-blue-400 font-semibold">rebuild</span>, or{" "}
+          <span className="text-purple-400 font-semibold">partner</span>.
+          Every opportunity includes the developer&apos;s contact and a ready-to-send outreach draft.
         </p>
 
-        {/* Acquire · Rebuild · Partner pills */}
-        <div className="animate-fade-up-delay-2 flex flex-wrap items-center justify-center gap-2 mb-8">
-          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/25 px-3 py-1.5 rounded-full">
-            🎯 Acquire — buy a proven app before it lists
+        {/* Pills */}
+        <div className="animate-fade-up-delay-2 flex flex-wrap items-center justify-center gap-2 mb-10">
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-neon bg-neon/10 border border-neon/20 px-3 py-1.5 rounded-full">
+            🎯 Acquire — buy before it lists on Flippa
           </span>
-          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-400 bg-blue-500/10 border border-blue-500/25 px-3 py-1.5 rounded-full">
-            🔨 Rebuild — validated demand, broken execution
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-400 bg-blue-500/10 border border-blue-500/20 px-3 py-1.5 rounded-full">
+            🔨 Rebuild — proven demand, broken execution
           </span>
-          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-purple-400 bg-purple-500/10 border border-purple-500/25 px-3 py-1.5 rounded-full">
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-purple-400 bg-purple-500/10 border border-purple-500/20 px-3 py-1.5 rounded-full">
             🤝 Partner — team up before they burn out
           </span>
         </div>
 
         {/* CTAs */}
-        <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row gap-3 justify-center items-center mb-4">
+        <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row gap-3 justify-center items-center mb-6">
           <a
             href="#pricing"
-            className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-400 text-black font-bold px-8 py-3.5 rounded-xl text-base transition-all shadow-[0_0_30px_rgba(16,185,129,0.3)] hover:shadow-[0_0_45px_rgba(16,185,129,0.45)]"
+            className="w-full sm:w-auto font-bold px-9 py-4 rounded-xl text-base transition-all text-black"
+            style={{
+              background: "linear-gradient(135deg, #00ff88 0%, #00cc6a 100%)",
+              boxShadow: "0 0 40px rgba(0,255,136,0.4), 0 4px 20px rgba(0,0,0,0.3)",
+            }}
+            onMouseOver={(e) => (e.currentTarget.style.boxShadow = "0 0 70px rgba(0,255,136,0.65), 0 4px 20px rgba(0,0,0,0.3)")}
+            onMouseOut={(e) => (e.currentTarget.style.boxShadow = "0 0 40px rgba(0,255,136,0.4), 0 4px 20px rgba(0,0,0,0.3)")}
           >
-            Get this week's report — €19
+            Get this week&apos;s report — €19
           </a>
           <a
             href="/dashboard"
-            className="w-full sm:w-auto border border-emerald-500/30 hover:border-emerald-500/60 text-emerald-400 hover:text-emerald-300 px-8 py-3.5 rounded-xl text-base transition-all"
+            className="w-full sm:w-auto border px-9 py-4 rounded-xl text-base transition-all text-neon"
+            style={{ borderColor: "rgba(0,255,136,0.3)" }}
+            onMouseOver={(e) => (e.currentTarget.style.borderColor = "rgba(0,255,136,0.6)")}
+            onMouseOut={(e) => (e.currentTarget.style.borderColor = "rgba(0,255,136,0.3)")}
           >
-            Live Dashboard →
+            Browse live dashboard →
           </a>
         </div>
 
+        {/* LARGE visitor counter */}
+        <div className="animate-fade-up-delay-4 flex flex-col items-center gap-2 py-8 mb-4">
+          <div
+            className="text-5xl sm:text-6xl font-bold tabular-nums animate-counter-glow"
+            style={{ color: "#00ff88" }}
+          >
+            <VisitorCounter />
+          </div>
+          <p className="text-sm text-zinc-500 tracking-wide">founders already exploring opportunities</p>
+        </div>
+
         {/* Trust line */}
-        <p className="animate-fade-up-delay-3 text-xs text-zinc-500">
-          Human-reviewed before delivery · No public lead dump · Contact details stay locked
+        <p className="text-xs text-zinc-600">
+          Human-reviewed · Developer emails included · No public lead dump
         </p>
 
         {/* Report mockup */}
         <ReportMockup />
       </div>
 
-      {/* Live ticker — full bleed below hero content */}
       <TickerTape />
     </section>
   );
