@@ -1,0 +1,91 @@
+name: Weekly AppScout Run
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  run-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # ── Install root deps (research engine) ───────────────────────────────
+
+      - name: Install engine dependencies
+        run: npm ci
+
+      # ── Run research engine ───────────────────────────────────────────────
+
+      - name: Run research engine
+        run: node research-engine.js
+        env:
+          NODE_OPTIONS: '--max-old-space-size=512'
+
+      # ── Generate clean report ─────────────────────────────────────────────
+
+      - name: Generate clean report
+        run: node scripts/auto-report.js
+
+      # ── Sync engine output → web/data/ ───────────────────────────────────
+
+      - name: Sync web data files
+        run: |
+          cp data/processed/scored-apps.json web/data/opportunities.json
+          node -e "
+            const fs = require('fs');
+            const apps = JSON.parse(fs.readFileSync('data/processed/scored-apps.json'));
+            const valid = apps.filter(a => !a.disqualified);
+            const meta = { lastUpdated: new Date().toISOString(), appsScored: valid.length };
+            fs.writeFileSync('web/data/meta.json', JSON.stringify(meta, null, 2));
+          "
+
+      # ── Install web deps ──────────────────────────────────────────────────
+
+      - name: Install web dependencies
+        run: npm ci
+        working-directory: web
+
+      # ── Commit updated data ───────────────────────────────────────────────
+
+      - name: Commit report and data
+        run: |
+          git config user.name "AppScout Bot"
+          git config user.email "bot@appscout.io"
+          git add web/private/reports/latest-report.md data/reports/ || true
+          git add data/processed/scored-apps.json || true
+          git add web/data/opportunities.json web/data/meta.json || true
+          git diff --staged --quiet || git commit -m "chore: weekly report $(date +%Y-%m-%d)"
+          git push
+
+      # ── Email subscribers ─────────────────────────────────────────────────
+
+      - name: Email subscribers
+        run: node scripts/email-subscribers.js
+        env:
+          GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
+          GUMROAD_PRODUCT_ID: ${{ secrets.GUMROAD_PRODUCT_ID }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+
+      # ── Deploy to Vercel ──────────────────────────────────────────────────
+
+      - name: Deploy to Vercel (production)
+        run: npx vercel --prod --yes --cwd web
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
