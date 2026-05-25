@@ -67,8 +67,25 @@ jobs:
 
       # ── Pull tech magazine RSS feeds ─────────────────────────────────────
 
-      - name: Ingest tech-magazine signals
+      - name: Ingest tech-magazine signals (RSS)
         run: node scripts/ingest-news.js
+        continue-on-error: true
+
+      # ── Pull tech news via NewsAPI ───────────────────────────────────────
+
+      - name: Ingest NewsAPI signals
+        run: node scripts/ingest-newsapi.js
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        continue-on-error: true
+
+      # ── Pull Product Hunt launches ───────────────────────────────────────
+
+      - name: Ingest Product Hunt
+        run: node scripts/ingest-producthunt.js
+        env:
+          PRODUCTHUNT_API_KEY: ${{ secrets.PRODUCTHUNT_API_KEY }}
+          PRODUCTHUNT_API_SECRET: ${{ secrets.PRODUCTHUNT_API_SECRET }}
         continue-on-error: true
 
       # ── Pull Threads posts ────────────────────────────────────────────────
