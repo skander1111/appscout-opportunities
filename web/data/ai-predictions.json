@@ -28,7 +28,7 @@
       "Calculate realistic ARPU with competitor benchmarking (Zedge, Walli, etc)"
     ],
     "generatedAt": "2026-05-24T21:24:45.741Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-best.create.ringtone.maker.audio.mp3.converter.garage": {
     "opportunityScore": 72,
@@ -59,7 +59,7 @@
       "Map competitor landscape (Zedge, Ringtone Maker Pro) for differentiation gaps"
     ],
     "generatedAt": "2026-05-24T21:24:51.573Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.mobileappsshop.barcode": {
     "opportunityScore": 72,
@@ -90,7 +90,7 @@
       "Identify competitor landscape: Google Lens, Amazon Alexa Shopping, specialty barcode apps"
     ],
     "generatedAt": "2026-05-24T21:24:58.740Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.evgeniysharafan.tabatatimer": {
     "opportunityScore": 78,
@@ -121,7 +121,7 @@
       "Confirm monetization status: free-only, ads present, in-app purchases enabled"
     ],
     "generatedAt": "2026-05-24T21:25:05.190Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.simplehabit.simplehabitapp": {
     "opportunityScore": 72,
@@ -152,7 +152,7 @@
       "Assess owner motivation: pivot fatigue, capital constraints, or strategic exit?"
     ],
     "generatedAt": "2026-05-24T21:25:11.250Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.hld.anzenbokusucal": {
     "opportunityScore": 72,
@@ -183,7 +183,7 @@
       "Assess IP clarity: are there patent/trademark risks around 'vault' naming?"
     ],
     "generatedAt": "2026-05-24T21:25:17.398Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-app.melon.icompass": {
     "opportunityScore": 62,
@@ -214,7 +214,7 @@
       "Model rebuild cost vs. acquisition cost; validate whether rebuild from scratch is faster"
     ],
     "generatedAt": "2026-05-24T21:25:24.338Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish": {
     "opportunityScore": 72,
@@ -245,7 +245,7 @@
       "Review MobiSystems' other apps for portfolio value or cross-sell opportunities"
     ],
     "generatedAt": "2026-05-24T21:25:30.124Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.logoquiz.triviagame": {
     "opportunityScore": 72,
@@ -276,7 +276,7 @@
       "Owner's motivation—why dormant? Financial distress, burned out, or strategic pivot?"
     ],
     "generatedAt": "2026-05-24T21:25:36.935Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-net.wllppr.kawaii_aesthetic_wallpaper": {
     "opportunityScore": 72,
@@ -307,7 +307,7 @@
       "Load-test infrastructure: server capacity, CDN performance, image delivery costs"
     ],
     "generatedAt": "2026-05-24T21:25:44.020Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.wunderground.android.weather": {
     "opportunityScore": 72,
@@ -338,7 +338,7 @@
       "Identify key data partnerships and renewal terms (risk of losing exclusive weather feeds)"
     ],
     "generatedAt": "2026-05-24T21:25:51.228Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.weather.nold.forecast": {
     "opportunityScore": 72,
@@ -369,7 +369,7 @@
       "Assess user data handling compliance (GDPR, CCPA, location tracking)"
     ],
     "generatedAt": "2026-05-24T21:25:57.243Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-life.channel.accurate.local.weather.forecast": {
     "opportunityScore": 62,
@@ -400,7 +400,7 @@
       "Validate owner's willingness to sell and timeline (solo devs often emotionally attached)"
     ],
     "generatedAt": "2026-05-24T21:26:04.491Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-io.wallpaperengine.weclient": {
     "opportunityScore": 62,
@@ -431,7 +431,7 @@
       "Validate Android Play Store policy compliance and any suspension/warning history"
     ],
     "generatedAt": "2026-05-24T21:26:14.732Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.backdrops.wallpapers": {
     "opportunityScore": 68,
@@ -462,7 +462,7 @@
       "Platform risk: Google Play algorithm changes, policy shifts on ads in personalization apps"
     ],
     "generatedAt": "2026-05-24T21:26:22.346Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.accuweather.android": {
     "opportunityScore": 42,
@@ -493,7 +493,7 @@
       "User retention curves by cohort; LTV/CAC for paid tiers if any"
     ],
     "generatedAt": "2026-05-24T21:26:29.170Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-app.diy.wallpaper.collage.craft.photocollage.collagemaker.wallpaper3d.parallax": {
     "opportunityScore": 62,
@@ -524,7 +524,7 @@
       "Verify contact availability and acquisition appetite via broker/direct outreach"
     ],
     "generatedAt": "2026-05-24T21:26:36.439Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.zabamobile.sportstimerfree": {
     "opportunityScore": 62,
@@ -555,7 +555,7 @@
       "Legal: check for any outstanding privacy complaints, GDPR/CCPA violations in review history"
     ],
     "generatedAt": "2026-05-24T21:26:44.133Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.merriamwebster": {
     "opportunityScore": 42,
@@ -586,7 +586,7 @@
       "Determine update cadence and development roadmap from last 2 years"
     ],
     "generatedAt": "2026-05-24T21:26:50.385Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   },
   "app-android-com.meditation.elevenminute": {
     "opportunityScore": 72,
@@ -617,6 +617,6 @@
       "Assess technical debt: target Android/iOS versions, SDK dependencies, backend infrastructure"
     ],
     "generatedAt": "2026-05-24T21:26:57.216Z",
-    "modelId": "claude-haiku-4-5-20251001"
+    "modelId": "appscout-v1"
   }
 }

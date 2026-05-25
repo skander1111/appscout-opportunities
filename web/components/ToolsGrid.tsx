@@ -10,7 +10,7 @@ const TOOLS = [
     href: "/search",
     icon: "🔍",
     title: "AI search",
-    blurb: "Describe what you want in plain English. Claude ranks every opportunity.",
+    blurb: "Describe what you want in plain English. Our AI ranks every opportunity.",
     color: "#3b82f6",
   },
   {
@@ -52,7 +52,7 @@ const TOOLS = [
     href: "/match",
     icon: "🤝",
     title: "Profile match",
-    blurb: "Tell us your goal + budget + skills. Claude picks the opportunities that fit you.",
+    blurb: "Tell us your goal + budget + skills. Our AI picks the opportunities that fit you.",
     color: "#22d3ee",
   },
 ];

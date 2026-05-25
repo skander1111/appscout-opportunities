@@ -200,12 +200,12 @@ export async function generatePrediction(o: Opportunity): Promise<AiPrediction> 
       outreachDraft: String(parsed.outreachDraft || ""),
       dueDiligence: Array.isArray(parsed.dueDiligence) ? parsed.dueDiligence.slice(0, 10) : [],
       generatedAt: new Date().toISOString(),
-      modelId: res.model || MODEL,
+      modelId: "appscout-v1",
     };
   } catch (err) {
     console.error("[ai] prediction failed, using fallback:", err);
     const fb = fallbackPrediction(o);
-    return { ...fb, modelId: `${FALLBACK_MODEL}-fallback` };
+    return { ...fb, modelId: "appscout-v1-fallback" };
   }
 }
 

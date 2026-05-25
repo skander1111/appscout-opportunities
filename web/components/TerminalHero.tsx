@@ -113,7 +113,7 @@ export default function TerminalHero() {
               </span>
               <span className="text-neon">Engine online</span>
             </span>
-            <span className="hidden sm:inline">Claude AI · 8 sources · 247 apps / week</span>
+            <span className="hidden sm:inline">AI · 8 sources · 247 apps / week</span>
           </div>
           <div className="text-zinc-600 hidden md:block">AppScout Intelligence Terminal · v2.0</div>
         </div>
@@ -137,7 +137,7 @@ export default function TerminalHero() {
         </h1>
 
         <p className="text-base sm:text-lg text-zinc-400 max-w-2xl leading-relaxed mb-10">
-          247 abandoned apps, GitHub projects, and seller leads scanned weekly. Claude scores each on 8 axes
+          247 abandoned apps, GitHub projects, and seller leads scanned weekly. Our AI scores each on 8 axes
           — opportunity, demand, money potential, build cost, risk — and tells you whether to{" "}
           <span className="text-neon font-semibold">acquire</span>,{" "}
           <span className="text-blue-400 font-semibold">rebuild</span>,{" "}

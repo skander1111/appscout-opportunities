@@ -6,7 +6,9 @@ const SOURCES = [
   { name: "Product Hunt",   desc: "Launches losing maintainer momentum",          color: "#a855f7", live: true },
   { name: "Reddit",         desc: "Public seller posts and partner requests",     color: "#facc15", live: false },
   { name: "Indie Hackers",  desc: "Bootstrapped projects + revenue signals",      color: "#22d3ee", live: true },
-  { name: "User submissions", desc: "Projects you submit through AppScout",       color: "#ec4899", live: true },
+  { name: "Tech Magazines", desc: "TechCrunch, The Verge, Wired — deal & exit signals", color: "#f97316", live: true },
+  { name: "Threads",        desc: "Indie-dev chatter + acquisition posts",        color: "#ec4899", live: true },
+  { name: "User submissions", desc: "Projects you submit through AppScout",       color: "#a3e635", live: true },
 ];
 
 export default function SourcesSection() {
@@ -15,7 +17,7 @@ export default function SourcesSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-neon text-xs font-semibold uppercase tracking-widest mb-3">Sources</p>
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Eight streams. One terminal.</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ten streams. One terminal.</h2>
           <p className="text-zinc-400 max-w-2xl mx-auto">
             Every signal answers one question:{" "}
             <span className="text-neon font-semibold">can someone buy, rebuild, partner, sell, or make money from this?</span>{" "}

@@ -2,7 +2,14 @@
 
 export interface Signal {
   id: string;
-  source: 'hackernews' | 'reddit' | 'producthunt';
+  source:
+    | 'hackernews'
+    | 'reddit'
+    | 'producthunt'
+    | 'indiehackers'
+    | 'news'
+    | 'threads';
+  outlet?: string;
   title: string;
   url: string;
   points: number;
@@ -14,10 +21,14 @@ export interface Signal {
   niche?: string;
 }
 
-function sourceStyle(source: string) {
+function sourceStyle(source: string, outlet?: string) {
   if (source === 'hackernews') return { label: 'HN', color: 'text-zinc-300 bg-zinc-500/10 border-zinc-500/30' };
   if (source === 'reddit') return { label: 'Reddit', color: 'text-red-400 bg-red-500/10 border-red-500/30' };
-  return { label: 'PH', color: 'text-purple-400 bg-purple-500/10 border-purple-500/30' };
+  if (source === 'producthunt') return { label: 'PH', color: 'text-purple-400 bg-purple-500/10 border-purple-500/30' };
+  if (source === 'indiehackers') return { label: 'IH', color: 'text-cyan-400 bg-cyan-500/10 border-cyan-500/30' };
+  if (source === 'threads') return { label: 'Threads', color: 'text-pink-400 bg-pink-500/10 border-pink-500/30' };
+  if (source === 'news') return { label: outlet || 'News', color: 'text-orange-400 bg-orange-500/10 border-orange-500/30' };
+  return { label: source, color: 'text-zinc-400 bg-zinc-500/10 border-zinc-500/30' };
 }
 
 function classStyle(c: string) {
@@ -28,7 +39,7 @@ function classStyle(c: string) {
 }
 
 export default function SignalCard({ signal }: { signal: Signal }) {
-  const src = sourceStyle(signal.source);
+  const src = sourceStyle(signal.source, signal.outlet);
 
   return (
     <div className="bg-[#111118] border border-[#1e1e2e] rounded-xl p-4 hover:border-[#2e2e4e] transition-all">

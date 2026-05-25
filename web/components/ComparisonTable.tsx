@@ -1,7 +1,7 @@
 const ROWS = [
   { label: "Discovery speed",       us: "Live · 247 / week",    flippa: "Manual browsing",   acquire: "Public listings only" },
   { label: "Off-market deals",      us: "Yes — primary focus",  flippa: "No",                acquire: "Rare" },
-  { label: "AI scoring",            us: "8-axis Claude analysis", flippa: "None",            acquire: "None" },
+  { label: "AI scoring",            us: "8-axis AI analysis",   flippa: "None",            acquire: "None" },
   { label: "Outreach drafts",       us: "Included per deal",    flippa: "—",                 acquire: "—" },
   { label: "Direct dev contact",    us: "Yes (unblurred)",       flippa: "Broker-mediated",  acquire: "Listing-only" },
   { label: "Typical deal size",     us: "$500 – $25k",          flippa: "$5k – $250k",       acquire: "$25k – $5M" },

@@ -59,6 +59,29 @@ jobs:
             fs.writeFileSync('web/data/meta.json', JSON.stringify(meta, null, 2));
           "
 
+      # ── Merge iOS App Store results ──────────────────────────────────────
+
+      - name: Ingest iOS App Store
+        run: node scripts/ingest-ios.js
+        continue-on-error: true
+
+      # ── Pull tech magazine RSS feeds ─────────────────────────────────────
+
+      - name: Ingest tech-magazine signals
+        run: node scripts/ingest-news.js
+        continue-on-error: true
+
+      # ── Pull Threads posts ────────────────────────────────────────────────
+
+      - name: Ingest Threads posts
+        run: node scripts/ingest-threads.js
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN_DE: ${{ secrets.THREADS_ACCESS_TOKEN_DE }}
+          THREADS_USER_ID_DE: ${{ secrets.THREADS_USER_ID_DE }}
+        continue-on-error: true
+
       # ── Install web deps ──────────────────────────────────────────────────
 
       - name: Install web dependencies
@@ -74,7 +97,7 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git add web/private/reports/latest-report.md data/reports/ || true
           git add data/processed/scored-apps.json || true
-          git add web/data/opportunities.json web/data/meta.json || true
+          git add web/data/opportunities.json web/data/meta.json web/data/signals.json || true
           git diff --staged --quiet || git commit -m "chore: weekly report $(date +%Y-%m-%d)"
           git push origin HEAD:main
 

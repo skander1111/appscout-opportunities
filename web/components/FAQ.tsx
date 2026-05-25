@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     q: "What's the AI prediction layer?",
-    a: "Each opportunity is scored on 8 axes by Claude — opportunity, demand, money potential, build difficulty, acquisition difficulty, legal risk, competition risk, plus a recommended action and outreach draft. Free users see the headline score; Monthly unlocks basic AI; Yearly unlocks the full layer including outreach drafts, due-diligence checklists, and profile-based matching.",
+    a: "Each opportunity is scored on 8 axes by our AI — opportunity, demand, money potential, build difficulty, acquisition difficulty, legal risk, competition risk, plus a recommended action and outreach draft. Free users see the headline score; Monthly unlocks basic AI; Yearly unlocks the full layer including outreach drafts, due-diligence checklists, and profile-based matching.",
   },
   {
     q: "What's the difference between the three plans?",

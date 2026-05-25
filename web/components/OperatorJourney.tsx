@@ -10,8 +10,8 @@ const STEPS = [
     n: "02",
     color: "#3b82f6",
     title: "Score",
-    sub: "with Claude AI",
-    body: "Each opportunity passes through Claude's 8-axis analyzer: opportunity, demand, money potential, build difficulty, acquisition difficulty, legal risk, competition, and recommended action. Plus a draft outreach script and due-diligence checklist.",
+    sub: "with our AI",
+    body: "Each opportunity passes through our 8-axis analyzer: opportunity, demand, money potential, build difficulty, acquisition difficulty, legal risk, competition, and recommended action. Plus a draft outreach script and due-diligence checklist.",
   },
   {
     n: "03",

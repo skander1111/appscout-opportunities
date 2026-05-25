@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AppScout — Find digital opportunities before they're obvious",
     description:
-      "AI-powered terminal scanning app stores, GitHub, startup communities, and seller posts. Acquire, rebuild, or partner — every signal scored by Claude.",
+      "AI-powered terminal scanning app stores, GitHub, startup communities, and seller posts. Acquire, rebuild, or partner — every signal AI-scored.",
     url: "https://appscout-ai.vercel.app",
     siteName: "AppScout",
     type: "website",

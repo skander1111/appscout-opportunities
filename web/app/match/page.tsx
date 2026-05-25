@@ -87,7 +87,7 @@ export default function MatchPage() {
             <p className="text-neon text-xs font-semibold uppercase tracking-widest mb-3">Profile match</p>
             <h1 className="text-3xl sm:text-4xl font-bold mb-3">AI picks the opportunities that fit you</h1>
             <p className="text-zinc-400 max-w-2xl mx-auto">
-              Tell us your goal, budget, and skills. Claude ranks every live opportunity for fit and explains why.
+              Tell us your goal, budget, and skills. Our AI ranks every live opportunity for fit and explains why.
               Free for everyone — full results visible to Yearly members.
             </p>
           </div>

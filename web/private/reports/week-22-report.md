@@ -296,7 +296,7 @@ _No submissions this week — be the first at https://appscout-ai.vercel.app/sub
 ---
 
 ## G. AI predictions — top money potential
-*Every signal scored on 8 axes by Claude. Highest opportunity scores below.*
+*Every signal scored on 8 axes by our AI. Highest opportunity scores below.*
 
 ### G1. `app-android-com.evgeniysharafan.tabatatimer` — score 78 · action: acquire
 - Demand 85 · Money 72 · Build-diff 28 · Acq-diff 42 · Legal 22 · Competition 68

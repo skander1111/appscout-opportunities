@@ -46,7 +46,14 @@ type SellerLead = {
 
 type Signal = {
   id: string;
-  source: "hackernews" | "reddit" | "producthunt";
+  source:
+    | "hackernews"
+    | "reddit"
+    | "producthunt"
+    | "indiehackers"
+    | "news"
+    | "threads";
+  outlet?: string;
   title: string;
   url: string;
   points: number;

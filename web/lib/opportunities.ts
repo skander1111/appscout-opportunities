@@ -8,6 +8,9 @@ export type OpportunitySource =
   | "reddit"
   | "hackernews"
   | "producthunt"
+  | "indiehackers"
+  | "news"
+  | "threads"
   | "submission";
 
 export type OpportunityAction =
@@ -183,7 +186,13 @@ export function sellerLeadToOpportunity(l: RawSellerLead): Opportunity {
 
 interface RawSignal {
   id: string;
-  source: "hackernews" | "reddit" | "producthunt";
+  source:
+    | "hackernews"
+    | "reddit"
+    | "producthunt"
+    | "indiehackers"
+    | "news"
+    | "threads";
   title: string;
   url: string;
   points?: number;

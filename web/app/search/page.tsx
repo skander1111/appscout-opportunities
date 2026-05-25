@@ -63,7 +63,7 @@ export default function SearchPage() {
             <p className="text-neon text-xs font-semibold uppercase tracking-widest mb-3">AI search</p>
             <h1 className="text-3xl sm:text-4xl font-bold mb-3">Find opportunities in plain English</h1>
             <p className="text-zinc-400">
-              Describe what you want. Claude parses your query, applies filters, and ranks every live opportunity.
+              Describe what you want. Our AI parses your query, applies filters, and ranks every live opportunity.
             </p>
           </div>
 

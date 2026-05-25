@@ -174,7 +174,7 @@ export default function Pricing() {
               <li>· Watchlist (★ pin)</li>
               <li>· Niche heat map</li>
               <li>· Reviews stream</li>
-              <li>· App-of-the-day (1 free Claude dive / day)</li>
+              <li>· App-of-the-day (1 free AI dive / day)</li>
               <li>· Submit project to marketplace</li>
             </ul>
           </div>

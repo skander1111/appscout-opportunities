@@ -19,7 +19,7 @@ export default function PredictionLayerSection() {
           <p className="text-neon text-xs font-semibold uppercase tracking-widest mb-3">AI prediction layer</p>
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Every opportunity is scored on 8 axes</h2>
           <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
-            Powered by Claude. AppScout reads every signal — installs, stars, reviews, niche, risk —
+            Powered by AI. AppScout reads every signal — installs, stars, reviews, niche, risk —
             and tells you whether to acquire, rebuild, or walk away.
           </p>
         </div>
