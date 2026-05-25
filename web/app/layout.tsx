@@ -14,14 +14,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AppScout — Find Abandoned Mobile Apps Before They Hit Flippa",
+  title: "AppScout — The Bloomberg Terminal for Digital Opportunities",
   description:
-    "AppScout scans 247+ mobile apps weekly and surfaces acquisition targets, rebuild opportunities, and partnership leads — with developer emails and ready-to-send outreach included.",
+    "Live intelligence terminal for abandoned apps, rebuild targets, GitHub projects, seller leads, and startup signals. AI-scored. Operator-ready. From $9.",
   metadataBase: new URL("https://appscout-ai.vercel.app"),
   openGraph: {
-    title: "AppScout — Find Off-Market App Deals Before Anyone Else",
+    title: "AppScout — Find digital opportunities before they're obvious",
     description:
-      "AI-powered deal intelligence for mobile app acquisitions. 54 qualified targets live this week — developer emails included, human-reviewed, €19.",
+      "AI-powered terminal scanning app stores, GitHub, startup communities, and seller posts. Acquire, rebuild, or partner — every signal scored by Claude.",
     url: "https://appscout-ai.vercel.app",
     siteName: "AppScout",
     type: "website",
@@ -29,20 +29,22 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AppScout — Find Abandoned Mobile Apps Before They Hit Flippa",
+    title: "AppScout — Bloomberg-style terminal for digital opportunities",
     description:
-      "54 qualified acquisition targets this week. Developer emails included. Buy before they list on Flippa.",
+      "Live intelligence across abandoned apps, GitHub, seller leads, and startup signals. AI-scored on 8 axes. From $9.",
     creator: "@skander_al58179",
   },
   keywords: [
     "app acquisition",
-    "buy mobile apps",
+    "digital opportunities",
+    "startup intelligence",
     "abandoned apps",
+    "github stale projects",
+    "rebuild opportunities",
     "indie app deals",
+    "ai deal intelligence",
     "off-market apps",
-    "app flippa alternative",
-    "mobile app business",
-    "acquire app",
+    "project marketplace",
   ],
   robots: {
     index: true,

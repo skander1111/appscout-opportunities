@@ -1,0 +1,622 @@
+{
+  "app-android-com.b_lam.resplash": {
+    "opportunityScore": 72,
+    "demandScore": 85,
+    "moneyPotential": 68,
+    "competitionRisk": 78,
+    "buildDifficulty": 35,
+    "acquisitionDifficulty": 45,
+    "legalRisk": 22,
+    "recommendedAction": "acquire",
+    "whyNow": "1M+ installs with 373-day abandonment = immediate monetization upside. Wallpapers remain evergreen category; stale app = low maintenance overhead and clear owner contact path.",
+    "monetizationIdeas": [
+      "Premium wallpacks ($0.99-4.99) + seasonal collections",
+      "Subscription model ($1.99/mo curated collections)",
+      "Ad-supported free tier + rewarded video",
+      "White-label licensing to ROM makers / device OEMs",
+      "API/SDK for third-party wallpaper distribution"
+    ],
+    "outreachDraft": "Hi Brandon, Resplash caught our attention—1M+ installs, clean UX, undermonetized potential. We acquire & grow indie apps like yours. With light optimization you could easily 3-5x revenue through tiered premium + ads. Realistic acquisition path, zero disruption to users. Worth 15min call? We move fast.",
+    "dueDiligence": [
+      "Verify current DAU/MAU via Firebase/Adjust or APK teardown",
+      "Audit codebase for tech debt, API dependencies, build pipeline status",
+      "Check API keys (Unsplash/Pexels/etc) active; validate image licensing",
+      "Review Play Store rating decay drivers (crashes, outdated Android compatibility)",
+      "Confirm no active IP claims or trademark conflicts vs 'Unsplash'",
+      "Estimate server/CDN costs if any backend; verify scalability",
+      "Determine if Brandon holds all rights or if third-party integrations exist",
+      "Calculate realistic ARPU with competitor benchmarking (Zedge, Walli, etc)"
+    ],
+    "generatedAt": "2026-05-24T21:24:45.741Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-best.create.ringtone.maker.audio.mp3.converter.garage": {
+    "opportunityScore": 72,
+    "demandScore": 78,
+    "moneyPotential": 68,
+    "competitionRisk": 72,
+    "buildDifficulty": 35,
+    "acquisitionDifficulty": 45,
+    "legalRisk": 42,
+    "recommendedAction": "acquire",
+    "whyNow": "500k installs with 3.84 rating on stale codebase signals neglected asset with monetization upside. Indie owner + known contact lowers friction for quick deal.",
+    "monetizationIdeas": [
+      "Freemium model with premium sound packs ($1.99-4.99/pack)",
+      "Subscription tier for unlimited custom ringtones + cloud sync ($2.99/mo)",
+      "In-app ads (rewarded video for ad-free previews)",
+      "White-label licensing to OEM/carrier partners",
+      "One-time pro unlock ($4.99) for batch conversions"
+    ],
+    "outreachDraft": "Hi, we're acquiring and rebuilding neglected mobile apps with real user bases. Your Any Ringtones app (500k installs) has strong demand signals—the 3.84 rating suggests polish and monetization gaps we can fix. We're experienced in audio tooling and proven with app turnarounds. Interested in a quick conversation about acquisition or partnership? Happy to move fast.",
+    "dueDiligence": [
+      "Verify 500k install count and MAU via Google Play Console access",
+      "Audit codebase for Android SDK deprecation debt and security vulnerabilities",
+      "Check for IP/licensing issues (music APIs, audio codec patents)",
+      "Review existing ad network integration and revenue baseline",
+      "Analyze user churn cohorts and feature-specific engagement dropoff",
+      "Confirm ownership/IP clarity and absence of encumbrances",
+      "Test core functionality (ringtone creation, device compatibility) across Android versions",
+      "Map competitor landscape (Zedge, Ringtone Maker Pro) for differentiation gaps"
+    ],
+    "generatedAt": "2026-05-24T21:24:51.573Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.mobileappsshop.barcode": {
+    "opportunityScore": 72,
+    "demandScore": 78,
+    "moneyPotential": 65,
+    "competitionRisk": 72,
+    "buildDifficulty": 28,
+    "acquisitionDifficulty": 35,
+    "legalRisk": 22,
+    "recommendedAction": "acquire",
+    "whyNow": "5M installs with 4.67★ rating on dormant app signals strong product-market fit and user base loyalty. Barcode/price-finder space attracts consistent monetization demand (ads, affiliate, premium features).",
+    "monetizationIdeas": [
+      "Inject high-intent ad network (Google AdMob, Adjust) - undermonetized legacy app",
+      "Affiliate commissions via price comparison redirects (Amazon, Walmart, Target APIs)",
+      "Premium tier: ad-free + bulk barcode scanning + CSV export for small retailers",
+      "White-label B2B licensing to POS systems or inventory management platforms",
+      "First-party data monetization: anonymized price intelligence for retail analytics"
+    ],
+    "outreachDraft": "Hi—we're acquiring underutilized apps with strong install bases and user ratings. Your Barcode Scanner has 5M installs and a 4.67★ rating; it's a perfect candidate for revival with modern monetization. We specialize in reactivating legacy mobile products, adding premium features, and expanding revenue streams. Interested in discussing an acquisition or partnership? Happy to move fast. Best, [Your name]",
+    "dueDiligence": [
+      "Verify current MAU/DAU via Firebase Analytics or App Annie historical data",
+      "Audit code for deprecated APIs (especially Google Play Services, Camera, Storage permissions post-Android 11+)",
+      "Check for active user reviews/complaints (crashes, permissions, functionality gaps)",
+      "Reverse-engineer monetization: current ad networks, affiliate links, IAP offerings",
+      "Review app store rating trend: declining, stable, or recovery potential signals",
+      "Confirm owner identity and contract authority (solo dev vs. LLC/corporation implications)",
+      "Assess barcode scanning library (ZXing, ML Kit) licensing and maintenance status",
+      "Identify competitor landscape: Google Lens, Amazon Alexa Shopping, specialty barcode apps"
+    ],
+    "generatedAt": "2026-05-24T21:24:58.740Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.evgeniysharafan.tabatatimer": {
+    "opportunityScore": 78,
+    "demandScore": 85,
+    "moneyPotential": 72,
+    "competitionRisk": 68,
+    "buildDifficulty": 28,
+    "acquisitionDifficulty": 42,
+    "legalRisk": 22,
+    "recommendedAction": "acquire",
+    "whyNow": "5M installs with 4.9★ rating and 422 days stale = prime neglect opportunity. Tabata/HIIT timer category sees consistent monetization via premium features, ads, and fitness app partnerships.",
+    "monetizationIdeas": [
+      "Freemium premium tier with custom workout templates, audio cues, and music sync",
+      "In-app fitness equipment/gym memberships partnerships (Peloton, Apple Fitness+)",
+      "White-label licensing to gym chains and corporate wellness platforms",
+      "Ad network integration (rewarded video for interval extensions)",
+      "API access for wearable integration (Fitbit, Garmin, Apple Watch native app)"
+    ],
+    "outreachDraft": "Hi Eugene—we've identified Tabata Timer as a valuable fitness utility with 5M downloads and exceptional ratings. The app hasn't been updated in 14 months, representing a real opportunity to modernize and monetize more aggressively. We're acquiring established health/fitness apps to integrate into our platform and expand their reach. Interested in discussing acquisition or partnership? We move quickly on vetted properties.",
+    "dueDiligence": [
+      "Verify owner identity and sole rights to IP/codebase via app store publishing docs",
+      "Audit Play Store listing for flagged content, policy violations, or pending takedowns",
+      "Check Firebase/analytics backend to confirm last active user date and monthly active users",
+      "Decompile APK to assess code quality, technical debt, and third-party SDK dependencies",
+      "Review ad network contracts, revenue splits, and existing partnerships",
+      "Validate current DAU/MAU metrics against claimed install base (churn risk)",
+      "Search for trademark/patent conflicts in Tabata timer category",
+      "Confirm monetization status: free-only, ads present, in-app purchases enabled"
+    ],
+    "generatedAt": "2026-05-24T21:25:05.190Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.simplehabit.simplehabitapp": {
+    "opportunityScore": 72,
+    "demandScore": 88,
+    "moneyPotential": 76,
+    "competitionRisk": 82,
+    "buildDifficulty": 38,
+    "acquisitionDifficulty": 45,
+    "legalRisk": 28,
+    "recommendedAction": "acquire",
+    "whyNow": "1M+ installs with 4.6★ rating indicate strong product-market fit; 537 days stale means owner likely abandoning. Meditation space heating up with consumer wellness spending, but window to acquire underpriced asset is closing.",
+    "monetizationIdeas": [
+      "Premium subscription tiers (guided courses, offline access, advanced features)",
+      "B2B licensing to corporate wellness/EAP platforms",
+      "White-label meditation content for health insurers",
+      "Affiliate partnerships with wearables (Oura, Apple Health)",
+      "Ad-supported free tier with premium upsell funnel"
+    ],
+    "outreachDraft": "Hi Ingenio team, we noticed Simple Habit hasn't received updates in 18 months despite strong user metrics (1M installs, 4.6★ rating). The meditation category is booming—consumer wellness spending is up 30% YoY. We're actively acquiring dormant wellness apps with engaged audiences to revitalize and expand. Are you open to exploring an acquisition or partnership? Happy to discuss terms. Best regards.",
+    "dueDiligence": [
+      "Verify current DAU/MAU and churn rate from Firebase/analytics",
+      "Audit codebase for technical debt, outdated dependencies, platform fragmentation",
+      "Review subscription/IAP backend architecture and payment processor health",
+      "Check for data privacy/HIPAA compliance gaps (sensitive wellness data)",
+      "Confirm user acquisition cost model and retention cohort curves",
+      "Interview top 20 reviews: identify feature gaps and retention levers",
+      "Verify IP ownership, licensing of audio content, music rights clearance",
+      "Assess owner motivation: pivot fatigue, capital constraints, or strategic exit?"
+    ],
+    "generatedAt": "2026-05-24T21:25:11.250Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.hld.anzenbokusucal": {
+    "opportunityScore": 72,
+    "demandScore": 78,
+    "moneyPotential": 65,
+    "competitionRisk": 72,
+    "buildDifficulty": 35,
+    "acquisitionDifficulty": 45,
+    "legalRisk": 22,
+    "recommendedAction": "acquire",
+    "whyNow": "10M installs with 4.8 rating indicates strong product-market fit. 284 days stale suggests owner may be ready to exit; solo indie + known contact = acquisition-friendly.",
+    "monetizationIdeas": [
+      "Premium vault features (encrypted storage, biometric lock, cloud backup)",
+      "Subscription tier ($2.99-4.99/mo) for advanced privacy tools",
+      "White-label licensing to security-focused brands",
+      "In-app advertising (calculator users accept light ads)",
+      "Cross-sell complementary security apps (VPN, password manager)"
+    ],
+    "outreachDraft": "Hi—your Calculator app has 10M+ installs with exceptional 4.8 rating. We acquire and scale dormant apps with proven traction. The vault angle is undermonetized; we see real SaaS potential here ($50K-150K ARR feasible). We handle all ops, marketing, and monetization strategy. Interested in exploring? Quick call this week?",
+    "dueDiligence": [
+      "Verify current MAU/DAU retention curves—is churn accelerating post-stale period?",
+      "Audit code quality, technical debt, and platform compatibility (Android API level compliance)",
+      "Review Play Store ranking history—has it dropped noticeably in calculator category?",
+      "Check for active security vulnerabilities in vault encryption implementation",
+      "Confirm owner's motivation: burnout vs. portfolio liquidation vs. distraction?",
+      "Analyze competitor landscape—are Calculator+Vault hybrids gaining traction?",
+      "Validate payment processor integration and revenue split reliability",
+      "Assess IP clarity: are there patent/trademark risks around 'vault' naming?"
+    ],
+    "generatedAt": "2026-05-24T21:25:17.398Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-app.melon.icompass": {
+    "opportunityScore": 62,
+    "demandScore": 75,
+    "moneyPotential": 55,
+    "competitionRisk": 72,
+    "buildDifficulty": 35,
+    "acquisitionDifficulty": 45,
+    "legalRisk": 25,
+    "recommendedAction": "acquire",
+    "whyNow": "10M installs + 4.66★ rating signals product-market fit in utility category. 254 days stale = abandonment opportunity; solo indie likely motivated to sell or partner.",
+    "monetizationIdeas": [
+      "Premium ad-free version ($0.99-$2.99 one-time)",
+      "Subscription tier for advanced features (AR compass, offline maps, calibration tools)",
+      "In-app sponsorships from outdoor/navigation brands",
+      "B2B licensing to hiking/camping apps needing compass widget",
+      "Freemium upsell to augmented reality compass features"
+    ],
+    "outreachDraft": "Hi—we noticed Compass has 10M+ installs and strong ratings but hasn't been updated recently. We acquire and grow utility apps like yours, typically introducing premium tiers, fixing technical debt, and expanding distribution. Would you be open to discussing acquisition or a partnership to revive active development? We move fast and can close within 30 days. Let's talk.",
+    "dueDiligence": [
+      "Verify current DAU/MAU from Firebase or App Annie; assess churn post-254 days",
+      "Audit codebase for technical debt, deprecated APIs, iOS/Android compatibility issues",
+      "Check Google Play Store reviews for recurring bugs, permission concerns, or user complaints",
+      "Identify revenue history if any; extract user demographics and geography from Play Console",
+      "Verify melon soft is solo—confirm no co-founders or hidden stakeholders in ownership",
+      "Test core compass functionality across devices; check magnetometer calibration accuracy",
+      "Review app permissions and data collection practices for GDPR/privacy red flags",
+      "Model rebuild cost vs. acquisition cost; validate whether rebuild from scratch is faster"
+    ],
+    "generatedAt": "2026-05-24T21:25:24.338Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish": {
+    "opportunityScore": 72,
+    "demandScore": 85,
+    "moneyPotential": 68,
+    "competitionRisk": 72,
+    "buildDifficulty": 35,
+    "acquisitionDifficulty": 55,
+    "legalRisk": 65,
+    "recommendedAction": "acquire",
+    "whyNow": "50M installs with 4.3★ rating shows proven demand; 212 days stale indicates neglect opportunity. Dictionary niche has stable monetization via premium tiers and AI-powered features.",
+    "monetizationIdeas": [
+      "Freemium premium tier with AI-powered definitions, etymology, usage examples",
+      "B2B licensing to education platforms and ESL apps",
+      "Subscription for offline access + monthly content updates",
+      "Contextual word-lookup integration partnerships with reading apps",
+      "White-label API for publishers and educational institutions"
+    ],
+    "outreachDraft": "Hi MobiSystems team — we've noticed Oxford Dictionary & Thesaurus has 50M installs but hasn't been updated in 7 months. We're exploring acquisition of well-established dictionary apps to modernize with AI-enhanced definitions, offline support, and B2B licensing. Your user base and IP are valuable assets for the right buyer. Would you be open to a brief conversation about your strategic goals? —AppScout",
+    "dueDiligence": [
+      "Verify Oxford University Press licensing terms and transferability",
+      "Audit current monetization: ad revenue, IAP conversion rates, subscriber count",
+      "Check App Store review trends: spike in negative reviews post-last update?",
+      "Confirm MobiSystems ownership stake vs. third-party licensors",
+      "Analyze competitor landscape: Google's built-in dictionary, Merriam-Webster app, Cambridge",
+      "Assess technical debt: codebase age, Android API compliance, iOS equivalency",
+      "Validate user retention cohorts and DAU/MAU ratio",
+      "Review MobiSystems' other apps for portfolio value or cross-sell opportunities"
+    ],
+    "generatedAt": "2026-05-24T21:25:30.124Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.logoquiz.triviagame": {
+    "opportunityScore": 72,
+    "demandScore": 78,
+    "moneyPotential": 68,
+    "competitionRisk": 72,
+    "buildDifficulty": 35,
+    "acquisitionDifficulty": 62,
+    "legalRisk": 45,
+    "recommendedAction": "acquire",
+    "whyNow": "10M installs with 4.8 rating and 216-day staleness indicates neglected asset with proven product-market fit. Small studio owner likely motivated to exit or partner.",
+    "monetizationIdeas": [
+      "Implement aggressive rewarded video + interstitial ad strategy (currently undermonetized)",
+      "Premium tier with ad-free gameplay + exclusive logo packs ($4.99/mo subscription)",
+      "In-app currency system for hints/continues (proven quiz game mechanic)",
+      "Branded logo packs (major brands pay for featured placement)",
+      "Cross-promotion network with other trivia/quiz apps"
+    ],
+    "outreachDraft": "Hi there—we're impressed by Logo Quiz's 10M installs and 4.8 rating. The app appears dormant (216 days), and we see significant upside in reactivation, monetization optimization, and content expansion. We acquire and operate mobile games at scale. Are you open to discussing acquisition or partnership? Our team has grown similar titles to $500K+ ARR. Quick call this week?",
+    "dueDiligence": [
+      "Verify current MAU/DAU and revenue (last 90 days) via App Annie or direct financials",
+      "Audit IAP implementation—identify gaps vs. industry benchmarks (currently likely <$50K MRR)",
+      "Review app store ratings history—check for negative sentiment spikes (trademark/licensing issues?)",
+      "Confirm trademark/licensing status of featured logos (brand permission, legal liability)",
+      "Assess code quality and tech debt—iOS/Android native? Unity? Maintenance cost?",
+      "Analyze user retention cohorts—LTV estimation and churn drivers",
+      "Reverse-engineer ad network setup—CPM rates, fill rates, current provider relationships",
+      "Owner's motivation—why dormant? Financial distress, burned out, or strategic pivot?"
+    ],
+    "generatedAt": "2026-05-24T21:25:36.935Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-net.wllppr.kawaii_aesthetic_wallpaper": {
+    "opportunityScore": 72,
+    "demandScore": 85,
+    "moneyPotential": 68,
+    "competitionRisk": 72,
+    "buildDifficulty": 35,
+    "acquisitionDifficulty": 45,
+    "legalRisk": 28,
+    "recommendedAction": "acquire",
+    "whyNow": "10M installs with 4.8★ rating signals strong product-market fit. 296 days stale suggests owner lost momentum—prime acquisition window before competitor refreshes it.",
+    "monetizationIdeas": [
+      "Premium tier: ad-free + exclusive seasonal collections (anime, vaporwave, minimalist packs)",
+      "In-app subscription for live wallpapers and dynamic themes",
+      "Brand partnerships: cosmetics, fashion, gaming studios for co-branded wallpaper drops",
+      "Affiliate revenue: integrate shopping links to Kawaii merchandise retailers",
+      "White-label licensing to regional app stores and OEM partners"
+    ],
+    "outreachDraft": "Hi Galaxy Studio team—we've been tracking Kawaii Aesthetic Wallpaper's strong 10M user base and 4.8★ rating. The app has incredible retention potential but appears dormant. We're actively acquiring and revitalizing mobile properties in the lifestyle category. We can inject fresh content, monetization layers, and cross-promote to our portfolio. Would you be open to a brief acquisition conversation? Happy to move fast.",
+    "dueDiligence": [
+      "Verify current MAU vs. install count; assess churn and retention cohorts",
+      "Audit all 3P dependencies (asset providers, APIs, SDKs) for licensing/compliance",
+      "Check Google Play store backend: code signing certs, billing history, policy strikes",
+      "Inspect asset library: understand copyright status of wallpaper designs (fan art risk?)",
+      "Review monetization consent: confirm no existing exclusivity or partnership clauses",
+      "Confirm owner identity and legal entity; verify they control all IP",
+      "Benchmark competitor wallpaper apps: pricing, feature velocity, CAC trends",
+      "Load-test infrastructure: server capacity, CDN performance, image delivery costs"
+    ],
+    "generatedAt": "2026-05-24T21:25:44.020Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.wunderground.android.weather": {
+    "opportunityScore": 72,
+    "demandScore": 85,
+    "moneyPotential": 68,
+    "competitionRisk": 78,
+    "buildDifficulty": 62,
+    "acquisitionDifficulty": 75,
+    "legalRisk": 45,
+    "recommendedAction": "partner",
+    "whyNow": "10M installs + 4.75★ rating shows strong product-market fit in evergreen category. 205-day staleness signals potential neglect—opening partnership window for feature innovation or acquisition at favorable terms.",
+    "monetizationIdeas": [
+      "Freemium hyperlocal alerts (emergency weather + agricultural micro-targeting)",
+      "B2B API licensing for construction, logistics, renewable energy firms",
+      "Premium historical weather data & predictive modeling for insurance/commodity traders",
+      "White-label solution for regional weather services & utilities",
+      "In-app advertising network for hyperlocal retail (geo-triggered deals)"
+    ],
+    "outreachDraft": "Hi Weather Underground team—we're evaluating weather-data platforms for partnership/acquisition. Your 10M-user install base and 4.75★ rating are impressive. We're seeing strong demand for hyperlocal alerts, B2B API licensing, and predictive tools in agriculture/energy. The app's 205-day update cycle suggests potential gaps we could fill together. Would love a brief call to explore how we might collaborate or acquire to accelerate feature velocity. Open to various structures.",
+    "dueDiligence": [
+      "Audit active user base (install count inflated; track DAU/MAU from Firebase/Sensor Tower)",
+      "Verify data source licensing agreements (NOAA, national weather services, third-party exclusivity)",
+      "Map revenue model—ad-supported, premium tiers, API licensing breakdown",
+      "Assess technical debt: codebase age, platform coverage (iOS parity?), backend architecture",
+      "Competitive positioning vs. Weather.com, Dark Sky (acquired by Apple 2020), AccuWeather, local telco offerings",
+      "Trademark & domain IP portfolio; check for trademark disputes or regulatory compliance (NOAA attribution)",
+      "Explore reason for staleness: team churn, profitability issue, or intentional maintenance mode",
+      "Identify key data partnerships and renewal terms (risk of losing exclusive weather feeds)"
+    ],
+    "generatedAt": "2026-05-24T21:25:51.228Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.weather.nold.forecast": {
+    "opportunityScore": 72,
+    "demandScore": 85,
+    "moneyPotential": 68,
+    "competitionRisk": 78,
+    "buildDifficulty": 45,
+    "acquisitionDifficulty": 55,
+    "legalRisk": 35,
+    "recommendedAction": "acquire",
+    "whyNow": "10M installs + 4.77★ rating = proven product-market fit. Solo indie + 197 days stale suggests burnout/neglect opportunity. Weather category sees consistent monetization demand.",
+    "monetizationIdeas": [
+      "Premium subscription (ad-free + extended forecast + alerts)",
+      "White-label B2B licensing to travel/fitness apps",
+      "Hyperlocal ads (gas stations, retailers near user location)",
+      "Enterprise weather API reselling to logistics/agriculture",
+      "Push notification campaigns for weather-triggered commerce"
+    ],
+    "outreachDraft": "Hi there—we noticed Live Weather's strong 10M install base and solid ratings. The app appears to be in maintenance mode, and we think there's significant untapped monetization potential with premium tiers, B2B licensing, and location-based partnerships. We're actively acquiring proven weather products to scale them. Would you be open to a conversation about acquisition or partnership? Happy to discuss numbers.",
+    "dueDiligence": [
+      "Verify current DAU/MAU and churn trends via App Annie/Sensor Tower historical data",
+      "Audit backend infrastructure (API costs, server load, tech debt)",
+      "Check Play Store review sentiment for bugs or breaking issues",
+      "Confirm IP ownership (fonts, APIs, data sources, third-party licenses)",
+      "Analyze revenue history (estimate from similar apps if no financials shared)",
+      "Review competitor differentiation (Dark Sky, Weather Underground, native OS weather)",
+      "Validate weather data source agreements (attribution, commercial rights)",
+      "Assess user data handling compliance (GDPR, CCPA, location tracking)"
+    ],
+    "generatedAt": "2026-05-24T21:25:57.243Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-life.channel.accurate.local.weather.forecast": {
+    "opportunityScore": 62,
+    "demandScore": 85,
+    "moneyPotential": 58,
+    "competitionRisk": 88,
+    "buildDifficulty": 35,
+    "acquisitionDifficulty": 42,
+    "legalRisk": 22,
+    "recommendedAction": "watch",
+    "whyNow": "10M installs + 4.8 rating signals product-market fit, but 244-day staleness indicates maintenance abandonment. Solo indie likely fatigued; acquisition window open if monetization hasn't been optimized.",
+    "monetizationIdeas": [
+      "Premium subscription tier (ad-free, extended forecast, hyperlocal alerts)",
+      "B2B weather data licensing to logistics/agriculture platforms",
+      "Location-based ad network (local business promotions during high-traffic weather events)",
+      "White-label weather API for other app ecosystems",
+      "Enterprise weather alerts for construction/utilities (push notifications for weather-triggered work orders)"
+    ],
+    "outreachDraft": "Hi—your Local Weather app has impressive scale (10M+ installs, 4.8⭐). We noticed minimal updates in 9+ months. We acquire & scale indie weather apps, typically unlocking 3-5x revenue through monetization refinement, B2B licensing, and platform expansion. Interested in exploring options? We move fast. Let's chat this week.",
+    "dueDiligence": [
+      "Verify current DAU/MAU and retention cohorts (installs ≠ active base)",
+      "Audit API costs (weather data licensing is usually 30-60% of revenue for weather apps)",
+      "Check App Store ASO health: keyword rankings, review velocity, competitor positioning",
+      "Examine current ad network partners and fill rates (likely Admob-only, leaving $ on table)",
+      "Confirm code quality, tech debt, and server infrastructure (indie weather apps often have scaling bottlenecks)",
+      "Identify geographic concentration of user base (expansion opportunity or geolocation risk)",
+      "Review privacy/data compliance (weather apps collect location; GDPR/CCPA audit critical)",
+      "Validate owner's willingness to sell and timeline (solo devs often emotionally attached)"
+    ],
+    "generatedAt": "2026-05-24T21:26:04.491Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-io.wallpaperengine.weclient": {
+    "opportunityScore": 62,
+    "demandScore": 75,
+    "moneyPotential": 58,
+    "competitionRisk": 72,
+    "buildDifficulty": 45,
+    "acquisitionDifficulty": 55,
+    "legalRisk": 25,
+    "recommendedAction": "partner",
+    "whyNow": "5M installs with 261-day staleness = neglected asset with active user base. Small team likely resource-constrained; partnership or acquisition window is open before users churn to competitors.",
+    "monetizationIdeas": [
+      "Premium wallpaper packs (exclusive 4K/8K animated sets)",
+      "Subscription tier ($2.99/mo) for unlimited custom uploads + cloud sync",
+      "In-app ad network (non-intrusive banner in free tier)",
+      "White-label licensing to phone OEMs and device makers",
+      "Creator marketplace revenue share (artists upload, you take 30%)"
+    ],
+    "outreachDraft": "Hi Wallpaper Engine Team—we're AppScout, focused on acquiring and revitalizing mobile apps with strong legacy metrics. Your app holds 5M installs with solid 4.0+ rating, but hasn't shipped updates in 8+ months. We see massive upside: premium content tiers, creator marketplace, and OEM licensing. Would you be open to exploring a partnership or acquisition? Happy to discuss how we'd invest in stability, features, and monetization. Cheers.",
+    "dueDiligence": [
+      "Verify crash rate and bug severity across Android versions (4.4–15+)",
+      "Audit codebase age, dependencies, and technical debt; estimate stabilization cost",
+      "Analyze churn data: DAU/MAU trends and retention cohorts over last 12 months",
+      "Check competitor landscape (Nova, Zedge, Microsoft Launcher wallpapers) and market share shift",
+      "Review monetization: current ad/IAP revenue, ARPU, conversion funnels if any",
+      "Confirm IP ownership, third-party content licensing agreements, and artist rights",
+      "Assess team capacity: can founders stay 6–12 months post-acquisition for handoff?",
+      "Validate Android Play Store policy compliance and any suspension/warning history"
+    ],
+    "generatedAt": "2026-05-24T21:26:14.732Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.backdrops.wallpapers": {
+    "opportunityScore": 68,
+    "demandScore": 82,
+    "moneyPotential": 72,
+    "competitionRisk": 78,
+    "buildDifficulty": 35,
+    "acquisitionDifficulty": 62,
+    "legalRisk": 28,
+    "recommendedAction": "acquire",
+    "whyNow": "5M installs + 4.6★ rating signals product-market fit; 204 days stale suggests neglected monetization & maintenance opportunity. Wallpaper category remains evergreen with high ad/subscription uptake.",
+    "monetizationIdeas": [
+      "Premium subscription tier (ad-free, exclusive collections, smart scheduling)",
+      "Programmatic display ads + rewarded video for ad-free trial extensions",
+      "In-app shop: curated artist collaborations, limited-edition packs",
+      "White-label licensing to OEMs and launcher apps",
+      "Creator revenue-share model to build user-generated content moat"
+    ],
+    "outreachDraft": "Hi Backdrops Dev team—we're acquirers focused on undermonetized mobile apps with proven engagement. Your 5M installs and 4.6-star rating represent real user love. We've successfully scaled wallpaper/personalization apps through premium subscriptions, curated partnerships, and creator marketplaces. Curious if you'd explore a conversation about acquisition or partnership? Happy to discuss valuation ranges that reflect your audience. Best, [Name]",
+    "dueDiligence": [
+      "Verify current MAU, DAU, retention curves; compare to category benchmarks (typical wallpaper DAU:MAU ~20-25%)",
+      "Audit monetization: current ad network, CPM/RPM trends, subscription attach rate if any",
+      "Content licensing & IP: confirm all wallpaper assets are original or properly licensed; audit DMCA/copyright risk",
+      "Code quality & tech debt: review build velocity, crash rates, Android API compliance, Firebase/analytics setup",
+      "User acquisition cost & payback period: reverse-engineer from install velocity and retention",
+      "Founder intent & team bandwidth: understand why 204 days stale, acquisition appetite, non-compete terms",
+      "Competitor analysis: map Zedge, Pexels, Unsplash wallpaper penetration and unit economics",
+      "Platform risk: Google Play algorithm changes, policy shifts on ads in personalization apps"
+    ],
+    "generatedAt": "2026-05-24T21:26:22.346Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.accuweather.android": {
+    "opportunityScore": 42,
+    "demandScore": 78,
+    "moneyPotential": 65,
+    "competitionRisk": 92,
+    "buildDifficulty": 72,
+    "acquisitionDifficulty": 88,
+    "legalRisk": 35,
+    "recommendedAction": "watch",
+    "whyNow": "100M installs prove massive demand, but 3.5-star rating signals UX/monetization friction. Weather is commoditized; AccuWeather owns this space with brand moat.",
+    "monetizationIdeas": [
+      "Premium hyperlocal alerts (pollen, air quality, UV) targeting allergy/health segments",
+      "B2B weather API licensing to logistics, agriculture, insurance verticals",
+      "Freemium subscription tiers: radar history, extended forecasts, ad-free",
+      "In-app sponsorships from outdoor gear/travel brands",
+      "White-label radar widget for other apps"
+    ],
+    "outreachDraft": "Hi AccuWeather team—we track high-potential mobile properties. Your Weather Radar hits 100M installs but carries a 3.5 rating, suggesting opportunity in retention/UX. We're exploring partnerships with weather properties to unlock untapped verticals (B2B APIs, health integrations, premium tiers). Are you open to discussing how we might add value or collaborate on monetization innovation? Happy to start with a brief call.",
+    "dueDiligence": [
+      "Verify current DAU/MAU against install count; churn rate analysis",
+      "Analyze rating distribution—is 3.5 driven by ads, forecast accuracy, or UX bugs?",
+      "Competitive audit: Dark Sky (Apple), Weather.com, local apps; map feature/data gaps",
+      "AccuWeather's parent company structure and acquisition appetite; prior M&A patterns",
+      "Revenue model breakdown: ad CPM, subscription conversion, B2B licensing traction",
+      "Technical debt assessment: iOS/Android code age, forecast API dependencies",
+      "Legal: weather data licensing agreements, location permission compliance post iOS 14+",
+      "User retention curves by cohort; LTV/CAC for paid tiers if any"
+    ],
+    "generatedAt": "2026-05-24T21:26:29.170Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-app.diy.wallpaper.collage.craft.photocollage.collagemaker.wallpaper3d.parallax": {
+    "opportunityScore": 62,
+    "demandScore": 75,
+    "moneyPotential": 68,
+    "competitionRisk": 72,
+    "buildDifficulty": 45,
+    "acquisitionDifficulty": 55,
+    "legalRisk": 28,
+    "recommendedAction": "acquire",
+    "whyNow": "1M+ installs with 3.0 rating signals broken product in high-demand niche. Small studio likely receptive to acquisition; wallpaper/collage space monetizes well via ads, premium, subscriptions.",
+    "monetizationIdeas": [
+      "Freemium tier with premium filters/templates (30-50% conversion on engaged users)",
+      "Rewarded video ads for high-res exports and cloud storage",
+      "Monthly subscription ($2.99-4.99) for unlimited collages, no watermarks, template library",
+      "One-time IAP packs (seasonal themes, advanced effects, 3D parallax effects)",
+      "White-label licensing to Android wallpaper apps/launchers"
+    ],
+    "outreachDraft": "Hi VividArt Studio team — we're analyzing high-potential apps with strong install bases but underperforming engagement. DIY Wallpaper has 1M+ installs but struggling reviews. We specialize in rebuilding core UX, monetization, and retention for niche creators. Would you be open to a conversation about acquisition or partnership? We can typically unlock 3-5x revenue within 6 months with proper bug fixes and feature prioritization. Let me know.",
+    "dueDiligence": [
+      "Audit bug reports and crash logs — identify top 3-5 critical issues tanking ratings",
+      "Analyze current monetization implementation (ad network, IAP SDK, payouts)",
+      "Competitive landscape: Canva, PicsArt, Snapseed feature parity and pricing models",
+      "User retention cohorts — what % of 1M installs are DAU/MAU?",
+      "IP check: Original assets, third-party library dependencies, licensing on templates/effects",
+      "Studio financial health and runway — leverage if overextended",
+      "App store algorithm history — any penalty flags or policy violations",
+      "Verify contact availability and acquisition appetite via broker/direct outreach"
+    ],
+    "generatedAt": "2026-05-24T21:26:36.439Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.zabamobile.sportstimerfree": {
+    "opportunityScore": 62,
+    "demandScore": 85,
+    "moneyPotential": 58,
+    "competitionRisk": 88,
+    "buildDifficulty": 25,
+    "acquisitionDifficulty": 45,
+    "legalRisk": 15,
+    "recommendedAction": "partner",
+    "whyNow": "10M installs with 4.3 rating show strong product-market fit, but 401-day abandonment signals owner burnout. Timer category remains evergreen but dominated by Google Clock and Alarmy—positioning matters more than rebuild.",
+    "monetizationIdeas": [
+      "Premium focus modes (Pomodoro templates, interval training) with $2.99/mo subscription",
+      "White-label B2B for fitness apps, sports venues, training platforms",
+      "In-app ad network for workout/fitness verticals (CPM 4-8x higher than casual)",
+      "Smart home integration (Wear OS, Google Home voice commands)",
+      "Minimal ads + affiliate commissions for linked workout content/gear"
+    ],
+    "outreachDraft": "Hi DOSA Apps team—we noticed Stopwatch & Timer (10M+ installs, 4.3★) hasn't been updated in 13 months. The app clearly resonates with users, but timer category needs active innovation to compete. We're acquiring and revitalizing abandoned fitness tools. Interested in a partnership or acquisition? We can guarantee ongoing support, modernization, and monetization. Let's talk this week.",
+    "dueDiligence": [
+      "ASO audit: verify current daily/monthly active users via Firebase or attribution platform",
+      "Revenue history: did it ever generate ad/IAP revenue? Check Sensor Tower or App Annie archives",
+      "Code audit: iOS equivalent exists? Framework obsolescence risk (Android API levels, Kotlin migration)",
+      "Trademark/IP clearance: confirm DOSA Apps owns all assets and there are no licensing encumbrances",
+      "User feedback patterns: review Play Store comments for critical feature gaps vs. competitors",
+      "Acquisition price benchmark: survey recent timer/fitness app M&A (Fitbod, Strava acquired $2-15M range)",
+      "Monetization potential: estimate realistic ARPU if repositioned as premium fitness/training tool",
+      "Legal: check for any outstanding privacy complaints, GDPR/CCPA violations in review history"
+    ],
+    "generatedAt": "2026-05-24T21:26:44.133Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.merriamwebster": {
+    "opportunityScore": 42,
+    "demandScore": 75,
+    "moneyPotential": 55,
+    "competitionRisk": 85,
+    "buildDifficulty": 35,
+    "acquisitionDifficulty": 78,
+    "legalRisk": 62,
+    "recommendedAction": "watch",
+    "whyNow": "50M installs and 3.65★ rating signal user base dissatisfaction with outdated product. Merriam-Webster owns brand equity but appears unmotivated to modernize; acquisition window may open if parent company deprioritizes.",
+    "monetizationIdeas": [
+      "Premium tier: offline access + advanced linguistic tools (etymology, usage analytics)",
+      "API licensing to education/publishing platforms",
+      "AI-powered writing assistant (grammar, tone, style suggestions)",
+      "Subscription for learners: personalized vocabulary drills + pronunciation",
+      "White-label B2B solution for publishers and content platforms"
+    ],
+    "outreachDraft": "Hi team—we've noticed Dictionary MW has 50M installs but declining ratings (3.66★). Users want modern UX, offline functionality, and AI-powered writing tools. We're exploring partnerships with legacy reference brands to rebuild for today's consumer. Would you be open to a conversation about modernization initiatives or partnership opportunities? Happy to share our product roadmap.",
+    "dueDiligence": [
+      "Verify current MAU/DAU to assess true engagement vs. install base",
+      "Review app store reviews for specific pain points (crashes, outdated definitions, UI)",
+      "Map competitor feature matrix (Oxford, Cambridge, Wiktionary)",
+      "Clarify IP ownership: Merriam-Webster Inc. parent company alignment",
+      "Assess monetization: current revenue model, willingness to trial premium",
+      "Check Android/iOS parity and technical debt (codebase age, deprecation warnings)",
+      "Evaluate trademark/brand licensing restrictions for derivative products",
+      "Determine update cadence and development roadmap from last 2 years"
+    ],
+    "generatedAt": "2026-05-24T21:26:50.385Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  },
+  "app-android-com.meditation.elevenminute": {
+    "opportunityScore": 72,
+    "demandScore": 85,
+    "moneyPotential": 68,
+    "competitionRisk": 78,
+    "buildDifficulty": 42,
+    "acquisitionDifficulty": 55,
+    "legalRisk": 25,
+    "recommendedAction": "acquire",
+    "whyNow": "1M+ installs with 4.74 rating and 220 days inactive signals abandoned asset ripe for revival. Meditation category has durable ARPU potential via premium tier monetization.",
+    "monetizationIdeas": [
+      "Freemium subscription (guided packs, offline downloads, ad-free) — target $2-4/mo",
+      "Corporate wellness B2B licensing to HR platforms",
+      "Premium content partnerships (neuroscientists, celebrity teachers)",
+      "Affiliate commissions on sleep/wellness products",
+      "In-app coaching marketplace take-rate model"
+    ],
+    "outreachDraft": "Hi Let's Meditate Team — Your app has maintained 4.74★ across 1M users despite light recent updates. We're acquiring dormant wellness apps with proven engagement to scale aggressively. We'd inject capital, staff, and monetization strategy (freemium tiers, B2B licensing, content partnerships). Are you open to acquisition or partnership? Happy to move fast. —AppScout",
+    "dueDiligence": [
+      "Verify actual DAU/MAU through Firebase analytics or App Annie historical data",
+      "Audit retention cohorts — check 30/60/90-day retention curves",
+      "Confirm reason for 220-day inactivity: lack of time, burnout, or pivot?",
+      "Review current monetization: check ad network, existing IAP structure, revenue run-rate",
+      "Analyze churn drivers via App Store reviews (last 6 months)",
+      "Validate IP/code ownership and check for licensing issues on audio/music content",
+      "Benchmark pricing against Headspace, Calm, Insight Timer's sub models",
+      "Assess technical debt: target Android/iOS versions, SDK dependencies, backend infrastructure"
+    ],
+    "generatedAt": "2026-05-24T21:26:57.216Z",
+    "modelId": "claude-haiku-4-5-20251001"
+  }
+}

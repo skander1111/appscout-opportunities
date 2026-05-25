@@ -1,78 +1,82 @@
 import BuyButton from "./BuyButton";
 
+// Until separate Gumroad products exist, all three CTAs point to the same SKU.
+// Replace each link as products are created.
 const GUMROAD_LINKS = {
-  report: "https://skander46.gumroad.com/l/flfjnx",
+  report:  "https://skander46.gumroad.com/l/flfjnx",
   monthly: "https://skander46.gumroad.com/l/flfjnx",
-  agency: "https://skander46.gumroad.com/l/flfjnx",
+  yearly:  "https://skander46.gumroad.com/l/flfjnx",
 };
 
 const plans = [
   {
     id: "report" as const,
-    name: "One Report",
-    price: "€19",
-    period: "one time",
-    description: "Perfect for testing the water.",
+    name: "Day Pass",
+    price: "$9",
+    period: "24 hours",
+    description: "Test the full terminal for one day.",
     features: [
-      "10 potential acquisition targets",
-      "5 rebuild opportunity profiles",
-      "Full analysis per app (score, risk, why)",
-      "Developer contact info (email)",
-      "Ready-to-send outreach email draft",
-      "Due diligence checklist per app",
-      "Delivered within 24 hours",
+      "24-hour access from activation",
+      "Live terminal + all sources",
+      "150 AI calls included",
+      "Full prediction layer (8 scores)",
+      "Outreach drafts + due-diligence",
+      "ROI simulator + reverse lookup",
+      "No subscription · no auto-renew",
     ],
-    cta: "Buy this week's report — €19",
+    cta: "Buy 24h pass — $9",
     highlight: false,
-    note: "No subscription · one payment",
+    note: "One payment · ends after 24h",
   },
   {
     id: "monthly" as const,
     name: "Monthly",
-    price: "€49",
-    period: "per month",
-    description: "New report every week. Cancel anytime.",
+    price: "$19",
+    period: "30 days",
+    description: "Full terminal + AI for one month.",
     features: [
-      "Everything in One Report",
-      "New report every Monday",
-      "~50 opportunities per month",
-      "Niche ranking comparison",
-      "Priority access to new niches",
-      "Email support",
+      "30-day access from activation",
+      "Live terminal + all sources",
+      "600 AI calls (~20/day)",
+      "Full prediction layer (8 scores)",
+      "ROI simulator + deep dives",
+      "Profile match + AI search",
+      "Weekly Friday 08:00 reports",
     ],
-    cta: "Start monthly plan — €49/mo",
+    cta: "Start monthly — $19",
     highlight: true,
-    note: "Most popular · cancel anytime",
+    note: "Most popular · no auto-renew",
   },
   {
-    id: "agency" as const,
-    name: "Agency",
-    price: "€199",
-    period: "per month",
-    description: "For studios and acquisition firms.",
+    id: "yearly" as const,
+    name: "Yearly",
+    price: "$119",
+    period: "365 days",
+    description: "Full intelligence stack for a year.",
     features: [
+      "365-day access from activation",
       "Everything in Monthly",
-      "~300 opportunities per month",
-      "Custom niche requests",
-      "CSV / JSON data export",
-      "Outreach tracking dashboard",
-      "Priority support",
+      "6,000 AI calls (~16/day)",
+      "Project upload priority",
+      "Buyer / partner matching",
+      "Premium alerts + saved opportunities",
+      "Best value — ~48% off monthly",
     ],
-    cta: "Get agency plan — €199/mo",
+    cta: "Get yearly — $119",
     highlight: false,
-    note: "Best for teams",
+    note: "Best for serious operators",
   },
 ];
 
 export default function Pricing() {
   return (
     <section id="pricing" className="py-24 px-6 border-t border-white/5">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-neon text-xs font-semibold uppercase tracking-widest mb-3">Pricing</p>
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Simple pricing</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">One time. No subscriptions.</h2>
           <p className="text-zinc-400 text-lg max-w-xl mx-auto">
-            Pay once for a single report. Upgrade to monthly when you&apos;re ready.
+            Pay once, get a code, activate. Your license expires automatically — no auto-renew, no surprise charges.
           </p>
         </div>
 
@@ -117,7 +121,7 @@ export default function Pricing() {
                   >
                     {plan.price}
                   </span>
-                  <span className="text-zinc-500 text-sm mb-1.5">/{plan.period}</span>
+                  <span className="text-zinc-500 text-sm mb-1.5">/ {plan.period}</span>
                 </div>
                 <p className="text-sm text-zinc-400">{plan.description}</p>
               </div>
@@ -150,18 +154,42 @@ export default function Pricing() {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
-          <p className="text-sm text-zinc-500">
-            Not sure yet?{" "}
-            <a href="#sample" className="text-neon hover:opacity-80 transition-opacity">
-              See a sample report card above
-            </a>
-            . Questions?{" "}
-            <a href="mailto:aloui.skander01@gmail.com" className="text-neon hover:opacity-80 transition-opacity">
-              Email us
-            </a>
-            .
+        <div className="mt-12 text-center space-y-3">
+          <p className="text-sm text-zinc-400">
+            How it works: pay on Gumroad → get a license code by email → paste it at{" "}
+            <a href="/activate" className="text-neon hover:opacity-80">/activate</a> → AI unlocks instantly.
           </p>
+          <p className="text-xs text-zinc-600">
+            Free tier always includes: terminal browsing, pulse digest, watchlist, reviews stream, niche map, app-of-the-day, and submit project.
+          </p>
+        </div>
+
+        {/* what's locked */}
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#0a0a10] border border-[#1a1a26] rounded-2xl p-6">
+          <div>
+            <p className="text-[11px] uppercase tracking-widest text-neon font-semibold mb-3">Free for everyone</p>
+            <ul className="space-y-1.5 text-sm text-zinc-400">
+              <li>· Browse live terminal</li>
+              <li>· Pulse digest</li>
+              <li>· Watchlist (★ pin)</li>
+              <li>· Niche heat map</li>
+              <li>· Reviews stream</li>
+              <li>· App-of-the-day (1 free Claude dive / day)</li>
+              <li>· Submit project to marketplace</li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-[11px] uppercase tracking-widest text-yellow-400 font-semibold mb-3">🔒 Locked behind license</p>
+            <ul className="space-y-1.5 text-sm text-zinc-400">
+              <li>· AI prediction (per-opportunity)</li>
+              <li>· AI search (natural language)</li>
+              <li>· Reverse URL lookup with fresh AI</li>
+              <li>· ROI simulator</li>
+              <li>· Profile match (AI ranking)</li>
+              <li>· Targeted deep dives</li>
+              <li>· Outreach drafts + monetization plans</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
