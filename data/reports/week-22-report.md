@@ -1,6 +1,6 @@
 # AppScout — Week 22 Report
 **Top iOS & Android App Acquisition Opportunities**
-Generated: 23 May 2026 · Engine v2.2 · 20 niches scanned · 259 apps scored · Human-reviewed
+Generated: 25 May 2026 · Engine v2.2 · 20 niches scanned · 258 apps scored · Human-reviewed
 
 ---
 
@@ -24,17 +24,17 @@ Generated: 23 May 2026 · Engine v2.2 · 20 niches scanned · 259 apps scored ·
 |---|---|
 | Niche | Barcode Scanner |
 | Installs | 5,000,000+ |
-| Rating | ★ 4.67 |
-| Last update | **547 days ago** |
+| Rating | ★ 4.66 |
+| Last update | **549 days ago** |
 | Owner type | Solo indie |
 | Developer | Essential Labs |
 | Contact | essentiallabshelp@gmail.com |
 | Play Store | com.mobileappsshop.barcode |
 
 **Why it's interesting**
-- 547 days without an update — strong abandonment signal
+- 549 days without an update — strong abandonment signal
 - 5,000,000+ installs in the Barcode Scanner niche
-- ★ 4.67 rating — users are satisfied, retention is intact
+- ★ 4.66 rating — users are satisfied, retention is intact
 - Main complaints from reviews: none flagged
 
 **Outreach email**
@@ -67,14 +67,14 @@ Skander Aloui
 | Niche | Timer |
 | Installs | 5,000,000+ |
 | Rating | ★ 4.90 |
-| Last update | **422 days ago** |
+| Last update | **424 days ago** |
 | Owner type | Solo indie |
 | Developer | Eugene Sharafan |
 | Contact | evgeniysharafan.apps@gmail.com |
 | Play Store | com.evgeniysharafan.tabatatimer |
 
 **Why it's interesting**
-- 422 days without an update — strong abandonment signal
+- 424 days without an update — strong abandonment signal
 - 5,000,000+ installs in the Timer niche
 - ★ 4.90 rating — users are satisfied, retention is intact
 - Main complaints from reviews: none flagged
@@ -101,7 +101,49 @@ Skander Aloui
 
 ---
 
-### #3 — Simple Habit: Meditation
+### #3 — 10BA Pro Financial Calculator
+**Score: 90 · Risk: Low · Action: Contact developer now**
+
+| | |
+|---|---|
+| Niche | Calculator |
+| Installs | 100,000+ |
+| Rating | ★ 4.67 |
+| Last update | **3152 days ago** |
+| Owner type | Small studio |
+| Developer | Segitiga.Pro |
+| Contact | info@segitiga.pro |
+| Play Store | com.segitiga.fc10bapro |
+
+**Why it's interesting**
+- 3152 days without an update — strong abandonment signal
+- 100,000+ installs in the Calculator niche
+- ★ 4.67 rating — users are satisfied, retention is intact
+- Main complaints from reviews: none flagged
+
+**Outreach email**
+```
+Subject: Question about 10BA Pro Financial Calculator
+
+Hi,
+
+I came across your 10BA Pro Financial Calculator on Google Play and wanted to reach out directly.
+
+I noticed it has 100,000+ installs and looks like updates have slowed
+down — I wasn't sure if you're still actively working on it.
+
+I'm exploring whether you might be open to a conversation about the app's
+future — whether that's acquisition, a partnership, or something else entirely.
+
+No pressure at all.
+
+Best,
+Skander Aloui
+```
+
+---
+
+### #4 — Simple Habit: Meditation
 **Score: 85 · Risk: Low · Action: Contact developer now**
 
 | | |
@@ -109,14 +151,14 @@ Skander Aloui
 | Niche | Meditation |
 | Installs | 1,000,000+ |
 | Rating | ★ 4.59 |
-| Last update | **537 days ago** |
+| Last update | **539 days ago** |
 | Owner type | Small studio |
 | Developer | Ingenio, LLC |
 | Contact | help@simplehabit.com |
 | Play Store | com.simplehabit.simplehabitapp |
 
 **Why it's interesting**
-- 537 days without an update — strong abandonment signal
+- 539 days without an update — strong abandonment signal
 - 1,000,000+ installs in the Meditation niche
 - ★ 4.59 rating — users are satisfied, retention is intact
 - Main complaints from reviews: none flagged
@@ -143,7 +185,7 @@ Skander Aloui
 
 ---
 
-### #4 — EZ Habit: simple habit tracker
+### #5 — EZ Habit: simple habit tracker
 **Score: 75 · Risk: Low · Action: Contact — verify owner type first**
 
 | | |
@@ -151,14 +193,14 @@ Skander Aloui
 | Niche | Habit Tracker |
 | Installs | 50,000+ |
 | Rating | ★ 4.46 |
-| Last update | **1054 days ago** |
+| Last update | **1056 days ago** |
 | Owner type | Solo indie |
 | Developer | AWey Dev |
 | Contact | aweydev@gmail.com |
 | Play Store | com.aweydev.ezhabit |
 
 **Why it's interesting**
-- 1054 days without an update — strong abandonment signal
+- 1056 days without an update — strong abandonment signal
 - 50,000+ installs in the Habit Tracker niche
 - ★ 4.46 rating — users are satisfied, retention is intact
 - Main complaints from reviews: none flagged
@@ -185,55 +227,13 @@ Skander Aloui
 
 ---
 
-### #5 — Stopwatch & Timer
-**Score: 70 · Risk: Medium · Action: Contact — verify owner type first**
-
-| | |
-|---|---|
-| Niche | Timer |
-| Installs | 10,000,000+ |
-| Rating | ★ 4.30 |
-| Last update | **401 days ago** |
-| Owner type | Portfolio/acquirer |
-| Developer | DOSA Apps |
-| Contact | support.stopwatch@dosaapps.com |
-| Play Store | com.zabamobile.sportstimerfree |
-
-**Why it's interesting**
-- 401 days without an update — strong abandonment signal
-- 10,000,000+ installs in the Timer niche
-- ★ 4.30 rating — users are satisfied, retention is intact
-- Main complaints from reviews: none flagged
-
-**Outreach email**
-```
-Subject: Question about Stopwatch & Timer
-
-Hi,
-
-I came across your Stopwatch & Timer on Google Play and wanted to reach out directly.
-
-I noticed it has 10,000,000+ installs and looks like updates have slowed
-down — I wasn't sure if you're still actively working on it.
-
-I'm exploring whether you might be open to a conversation about the app's
-future — whether that's acquisition, a partnership, or something else entirely.
-
-No pressure at all.
-
-Best,
-Skander Aloui
-```
-
----
-
 ## Section 2 — Rebuild Opportunities
 *Apps 180–364 days stale. Active user base. Fixable problems. Consider buying and improving.*
 
 ---
 
 ### #6 — Any Ringtones ⭐ Top pick this week
-**Score: 95 · 200 days stale · Action: Monitor**
+**Score: 95 · 202 days stale · Action: Monitor**
 
 | | |
 |---|---|
@@ -243,14 +243,14 @@ Skander Aloui
 | Owner type | Solo indie |
 | Contact | ai.apps.md@gmail.com |
 
-**Signal:** 165 days from acquisition threshold. Main complaints: ads, bugs. Fixable issues — ads and bugs are recoverable with one good update.
+**Signal:** 163 days from acquisition threshold. Main complaints: ads, bugs. Fixable issues — ads and bugs are recoverable with one good update.
 
 **Flag for follow-up:** Set a reminder for November 2026.
 
 ---
 
 ### #7 — Calculator - photo vault
-**Score: 80 · 284 days stale · Action: Monitor**
+**Score: 80 · 286 days stale · Action: Monitor**
 
 | | |
 |---|---|
@@ -260,14 +260,14 @@ Skander Aloui
 | Owner type | Solo indie |
 | Contact | kaku201313@gmail.com |
 
-**Signal:** 81 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
+**Signal:** 79 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
 
 **Flag for follow-up:** Set a reminder for August 2026.
 
 ---
 
 ### #8 — Compass
-**Score: 80 · 254 days stale · Action: Monitor**
+**Score: 80 · 256 days stale · Action: Monitor**
 
 | | |
 |---|---|
@@ -277,41 +277,41 @@ Skander Aloui
 | Owner type | Solo indie |
 | Contact | grapeapple9@gmail.com |
 
-**Signal:** 111 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
+**Signal:** 109 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
 
 **Flag for follow-up:** Set a reminder for September 2026.
 
 ---
 
 ### #9 — Oxford Dictionary & Thesaurus
-**Score: 80 · 212 days stale · Action: Monitor**
+**Score: 80 · 214 days stale · Action: Monitor**
 
 | | |
 |---|---|
 | Niche | Dictionary |
 | Installs | 50,000,000+ |
-| Rating | ★ 4.31 |
+| Rating | ★ 4.32 |
 | Owner type | Small studio |
 | Contact | support@agent.mobilingo.ai |
 
-**Signal:** 153 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
+**Signal:** 151 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
 
 **Flag for follow-up:** Set a reminder for November 2026.
 
 ---
 
-### #10 — Logo Quiz - World Trivia Game
-**Score: 80 · 216 days stale · Action: Monitor**
+### #10 — Stop 2 - Word Trivia Game
+**Score: 80 · 210 days stale · Action: Monitor**
 
 | | |
 |---|---|
 | Niche | Quiz |
 | Installs | 10,000,000+ |
-| Rating | ★ 4.81 |
+| Rating | ★ 4.37 |
 | Owner type | Small studio |
-| Contact | or@prizepoolstudios.com |
+| Contact | stop2@fanatee.com |
 
-**Signal:** 149 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
+**Signal:** 155 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
 
 **Flag for follow-up:** Set a reminder for November 2026.
 
@@ -322,12 +322,12 @@ Skander Aloui
 
 | App | Installs | Rating | Days stale | Niche | When to contact |
 |-----|----------|--------|------------|-------|-----------------|
-| Dictionary | 10,000,000+ | ★ 4.74 | 166 | Dictionary | December 2026 |
-| Local Weather Alerts - Widget | 10,000,000+ | ★ 4.81 | 169 | Weather | December 2026 |
-| TheFor: Habit Tracker | 500,000+ | ★ 4.21 | 154 | Habit Tracker | January 2027 |
-| HabitNow Daily Routine Planner | 5,000,000+ | ★ 4.70 | 175 | Habit Tracker | December 2026 |
-| Prayer Times and Qibla | 1,000,000+ | ★ 4.75 | 129 | Prayer Times | January 2027 |
-| Garage Ringtones Pro | 100,000+ | ★ 4.37 | 121 | Ringtone | February 2027 |
+| Walley-Wallpaper, Backgrounds | 100,000+ | ★ 3.98 | 136 | Wallpaper | January 2027 |
+| Dictionary | 10,000,000+ | ★ 4.74 | 168 | Dictionary | December 2026 |
+| Local Weather Alerts - Widget | 10,000,000+ | ★ 4.81 | 171 | Weather | December 2026 |
+| Instant Calculator | 1,000,000+ | ★ 3.79 | 132 | Calculator | January 2027 |
+| TheFor: Habit Tracker | 500,000+ | ★ 4.21 | 156 | Habit Tracker | January 2027 |
+| HabitNow Daily Routine Planner | 5,000,000+ | ★ 4.70 | 177 | Habit Tracker | December 2026 |
 
 ---
 
@@ -349,14 +349,14 @@ Top niches by opportunity density:
 
 | Niche | Valid apps | Avg score | Acquisition targets |
 |-------|-----------|-----------|---------------------|
-| Calculator | 7 | 53 | 0 |
 | Weather | 22 | 53 | 0 |
+| Barcode Scanner | 9 | 52 | 1 |
 | Meditation | 10 | 52 | 1 |
-| Wallpaper | 20 | 52 | 1 |
-| Timer | 21 | 49 | 2 |
+| Wallpaper | 20 | 51 | 1 |
+| PDF Tools | 15 | 50 | 0 |
+| Ringtone | 9 | 49 | 0 |
 | Quiz | 9 | 49 | 0 |
-| PDF Tools | 16 | 49 | 0 |
-| Ringtone | 9 | 48 | 0 |
+| Timer | 21 | 47 | 2 |
 
 ---
 
