@@ -17,7 +17,49 @@ Generated: 25 May 2026 · Engine v2.2 · 20 niches scanned · 258 apps scored ·
 
 ---
 
-### #1 — Barcode Scanner - Price Finder
+### #1 — Resplash - Wallpapers
+**Score: 100 · Risk: Low · Action: Contact developer now**
+
+| | |
+|---|---|
+| Niche | Wallpaper |
+| Installs | 1,000,000+ |
+| Rating | ★ 3.09 |
+| Last update | **375 days ago** |
+| Owner type | Solo indie |
+| Developer | Brandon Lam |
+| Contact | whoisbrandonlam@gmail.com |
+| Play Store | com.b_lam.resplash |
+
+**Why it's interesting**
+- 375 days without an update — strong abandonment signal
+- 1,000,000+ installs in the Wallpaper niche
+- ★ 3.09 rating — users are satisfied, retention is intact
+- Main complaints from reviews: none flagged
+
+**Outreach email**
+```
+Subject: Question about Resplash - Wallpapers
+
+Hi Brandon,
+
+I came across your Resplash - Wallpapers on Google Play and wanted to reach out directly.
+
+I noticed it has 1,000,000+ installs and looks like updates have slowed
+down — I wasn't sure if you're still actively working on it.
+
+I'm exploring whether you might be open to a conversation about the app's
+future — whether that's acquisition, a partnership, or something else entirely.
+
+No pressure at all.
+
+Best,
+Skander Aloui
+```
+
+---
+
+### #2 — Barcode Scanner - Price Finder
 **Score: 90 · Risk: Low · Action: Contact developer now**
 
 | | |
@@ -59,7 +101,7 @@ Skander Aloui
 
 ---
 
-### #2 — Tabata Timer: Interval Timer
+### #3 — Tabata Timer: Interval Timer
 **Score: 90 · Risk: Low · Action: Contact developer now**
 
 | | |
@@ -88,48 +130,6 @@ Hi Eugene,
 I came across your Tabata Timer: Interval Timer on Google Play and wanted to reach out directly.
 
 I noticed it has 5,000,000+ installs and looks like updates have slowed
-down — I wasn't sure if you're still actively working on it.
-
-I'm exploring whether you might be open to a conversation about the app's
-future — whether that's acquisition, a partnership, or something else entirely.
-
-No pressure at all.
-
-Best,
-Skander Aloui
-```
-
----
-
-### #3 — 10BA Pro Financial Calculator
-**Score: 90 · Risk: Low · Action: Contact developer now**
-
-| | |
-|---|---|
-| Niche | Calculator |
-| Installs | 100,000+ |
-| Rating | ★ 4.67 |
-| Last update | **3152 days ago** |
-| Owner type | Small studio |
-| Developer | Segitiga.Pro |
-| Contact | info@segitiga.pro |
-| Play Store | com.segitiga.fc10bapro |
-
-**Why it's interesting**
-- 3152 days without an update — strong abandonment signal
-- 100,000+ installs in the Calculator niche
-- ★ 4.67 rating — users are satisfied, retention is intact
-- Main complaints from reviews: none flagged
-
-**Outreach email**
-```
-Subject: Question about 10BA Pro Financial Calculator
-
-Hi,
-
-I came across your 10BA Pro Financial Calculator on Google Play and wanted to reach out directly.
-
-I noticed it has 100,000+ installs and looks like updates have slowed
 down — I wasn't sure if you're still actively working on it.
 
 I'm exploring whether you might be open to a conversation about the app's
@@ -322,12 +322,12 @@ Skander Aloui
 
 | App | Installs | Rating | Days stale | Niche | When to contact |
 |-----|----------|--------|------------|-------|-----------------|
-| Walley-Wallpaper, Backgrounds | 100,000+ | ★ 3.98 | 136 | Wallpaper | January 2027 |
 | Dictionary | 10,000,000+ | ★ 4.74 | 168 | Dictionary | December 2026 |
 | Local Weather Alerts - Widget | 10,000,000+ | ★ 4.81 | 171 | Weather | December 2026 |
-| Instant Calculator | 1,000,000+ | ★ 3.79 | 132 | Calculator | January 2027 |
+| Walley-Wallpaper, Backgrounds | 100,000+ | ★ 3.98 | 136 | Wallpaper | January 2027 |
 | TheFor: Habit Tracker | 500,000+ | ★ 4.21 | 156 | Habit Tracker | January 2027 |
 | HabitNow Daily Routine Planner | 5,000,000+ | ★ 4.70 | 177 | Habit Tracker | December 2026 |
+| Prayer Times and Qibla | 1,000,000+ | ★ 4.75 | 131 | Prayer Times | January 2027 |
 
 ---
 
@@ -349,14 +349,14 @@ Top niches by opportunity density:
 
 | Niche | Valid apps | Avg score | Acquisition targets |
 |-------|-----------|-----------|---------------------|
+| Wallpaper | 20 | 55 | 2 |
+| Calculator | 7 | 53 | 0 |
 | Weather | 22 | 53 | 0 |
-| Barcode Scanner | 9 | 52 | 1 |
 | Meditation | 10 | 52 | 1 |
-| Wallpaper | 20 | 51 | 1 |
-| PDF Tools | 15 | 50 | 0 |
-| Ringtone | 9 | 49 | 0 |
 | Quiz | 9 | 49 | 0 |
-| Timer | 21 | 47 | 2 |
+| PDF Tools | 15 | 49 | 0 |
+| Ringtone | 9 | 48 | 0 |
+| Timer | 21 | 48 | 2 |
 
 ---
 
