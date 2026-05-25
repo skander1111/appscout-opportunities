@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import AnimatedCounter from "./AnimatedCounter";
 import LiveDealsTicker from "./LiveDealsTicker";
+import VisitorCount from "./VisitorCount";
 
 interface FeedItem {
   id: string;
@@ -119,15 +120,18 @@ export default function TerminalHero() {
         </div>
 
         {/* Live ribbon */}
-        <div className="inline-flex items-center gap-2 px-3 py-1 mb-7 rounded-full glass">
-          <span className="relative inline-flex h-2 w-2">
-            <span className="live-ping absolute inline-flex h-full w-full rounded-full bg-neon opacity-75" />
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-neon" />
-          </span>
-          <span className="text-[11px] text-zinc-300 font-mono tracking-wide">
-            <AnimatedCounter to={stats.deals} /> opportunities tracked · ${" "}
-            <AnimatedCounter to={Math.round(stats.totalValue / 1000)} />k in deal value identified
-          </span>
+        <div className="flex flex-wrap items-center gap-2 mb-7">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass">
+            <span className="relative inline-flex h-2 w-2">
+              <span className="live-ping absolute inline-flex h-full w-full rounded-full bg-neon opacity-75" />
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-neon" />
+            </span>
+            <span className="text-[11px] text-zinc-300 font-mono tracking-wide">
+              <AnimatedCounter to={stats.deals} /> opportunities tracked · ${" "}
+              <AnimatedCounter to={Math.round(stats.totalValue / 1000)} />k in deal value identified
+            </span>
+          </div>
+          <VisitorCount />
         </div>
 
         {/* Headline */}
