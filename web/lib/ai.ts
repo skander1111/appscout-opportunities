@@ -10,6 +10,7 @@ import type {
   AiPrediction,
   OpportunityAction,
 } from "./opportunities";
+import { checkBudget, estimateCostCents, recordSpend } from "./budget";
 
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-haiku-4-5-20251001";
 const FALLBACK_MODEL = "claude-haiku-4-5-20251001";
@@ -18,6 +19,30 @@ function client(): Anthropic | null {
   const key = process.env.ANTHROPIC_API_KEY;
   if (!key) return null;
   return new Anthropic({ apiKey: key });
+}
+
+// Returns null if budget is exceeded OR if no API key. Callers should fall back
+// to deterministic output. This is the single chokepoint that guarantees the
+// monthly Anthropic bill never exceeds AI_MONTHLY_BUDGET_CENTS.
+async function guardedClient(): Promise<Anthropic | null> {
+  const c = client();
+  if (!c) return null;
+  const status = await checkBudget();
+  if (!status.ok) {
+    console.warn(
+      `[ai] monthly budget exceeded (${status.spentCents}¢ / ${status.limitCents}¢) — using fallback`,
+    );
+    return null;
+  }
+  return c;
+}
+
+// Records the actual token usage of a completed Anthropic response.
+async function trackUsage(res: { usage?: { input_tokens?: number; output_tokens?: number } }) {
+  const u = res.usage;
+  if (!u) return;
+  const cents = estimateCostCents(u.input_tokens || 0, u.output_tokens || 0);
+  await recordSpend(cents);
 }
 
 // ── Prompt: opportunity prediction ──────────────────────────────────
@@ -160,7 +185,7 @@ Best,`,
 // ── Public: generate prediction ─────────────────────────────────────
 
 export async function generatePrediction(o: Opportunity): Promise<AiPrediction> {
-  const c = client();
+  const c = await guardedClient();
   if (!c) return fallbackPrediction(o);
 
   try {
@@ -176,6 +201,7 @@ export async function generatePrediction(o: Opportunity): Promise<AiPrediction> 
       ],
       messages: [{ role: "user", content: PREDICTION_USER_TEMPLATE(o) }],
     });
+    await trackUsage(res);
 
     const text = res.content
       .filter((b) => b.type === "text")
@@ -240,7 +266,7 @@ export async function matchProfile(
   profile: UserProfile,
   opportunities: Opportunity[],
 ): Promise<MatchResult[]> {
-  const c = client();
+  const c = await guardedClient();
   if (!c) return localMatch(profile, opportunities);
 
   try {
@@ -276,6 +302,7 @@ Return JSON array of matches.`,
         },
       ],
     });
+    await trackUsage(res);
 
     const text = res.content
       .filter((b) => b.type === "text")
@@ -389,7 +416,7 @@ export async function searchOpportunities(
   query: string,
   opportunities: Opportunity[],
 ): Promise<SearchResult> {
-  const c = client();
+  const c = await guardedClient();
   if (!c) return { filter: {}, ranking: opportunities.slice(0, 12).map((o) => ({ opportunityId: o.id, relevance: 50, reason: "fallback" })) };
 
   try {
@@ -417,6 +444,7 @@ export async function searchOpportunities(
         },
       ],
     });
+    await trackUsage(res);
 
     const text = res.content
       .filter((b) => b.type === "text")
@@ -465,7 +493,7 @@ Output ONE JSON object only:
 Be honest. If the opportunity is weak, the numbers should reflect that. Round revenue to nearest $50. No prose.`;
 
 export async function simulateRoi(o: Opportunity, input: RoiInput): Promise<RoiResult> {
-  const c = client();
+  const c = await guardedClient();
   if (!c) return fallbackRoi(o, input);
 
   try {
@@ -495,6 +523,7 @@ Return JSON.`,
         },
       ],
     });
+    await trackUsage(res);
 
     const text = res.content
       .filter((b) => b.type === "text")
@@ -569,7 +598,7 @@ Given one opportunity, write a deep-dive investigation as ONE JSON object (no pr
 Operator voice. No fluff. No emoji.`;
 
 export async function generateDeepDive(o: Opportunity): Promise<DeepDive> {
-  const c = client();
+  const c = await guardedClient();
   const skeleton: DeepDive = {
     opportunityId: o.id,
     title: o.title,
@@ -612,6 +641,7 @@ Return JSON.`,
         },
       ],
     });
+    await trackUsage(res);
 
     const text = res.content
       .filter((b) => b.type === "text")

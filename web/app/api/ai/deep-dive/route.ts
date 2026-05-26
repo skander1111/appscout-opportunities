@@ -46,7 +46,10 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ deepDive: dd, cached: false, quotaRemaining: license.remaining });
   }
 
-  // ── daily auto-pick: FREE for everyone
+  // ── daily auto-pick: served from cache only — no live Anthropic calls.
+  // We pick today's opportunity deterministically, then return its cached
+  // deep-dive if one exists, otherwise fall back to its cached AiPrediction
+  // (also free). New Anthropic calls only happen for license-holders above.
   const top = all
     .filter((o) => (o.ai?.opportunityScore ?? o.legacyScore ?? 0) >= 60)
     .slice(0, 20);
@@ -55,12 +58,30 @@ export async function GET(req: NextRequest) {
   const dayKey = `daily-${today()}`;
   if (cache[dayKey]) return NextResponse.json({ deepDive: cache[dayKey], cached: true, dayKey });
 
-  // generate today's dive — this is the ONE freebie per day; no license check needed.
   const seed = Array.from(today()).reduce((a, c) => a + c.charCodeAt(0), 0);
   const pick = top[seed % top.length];
-  const dd = await generateDeepDive(pick);
-  cache[dayKey] = dd;
-  cache[pick.id] = dd;
+
+  if (cache[pick.id]) {
+    cache[dayKey] = cache[pick.id];
+    saveCache(cache);
+    return NextResponse.json({ deepDive: cache[dayKey], cached: true, dayKey });
+  }
+
+  // No cached dive — return a templated stub built from the existing AI
+  // prediction (already on the opportunity). No new Anthropic call.
+  const stub: DeepDive = {
+    opportunityId: pick.id,
+    title: pick.title,
+    summary: pick.ai?.whyNow || `${pick.title} is today's spotlight opportunity. Unlock a full investigation with a license.`,
+    ownerBackground: pick.owner ? `Owner: ${pick.owner}` : "Owner details available on the opportunity page.",
+    revenueEstimate: pick.ai?.monetizationIdeas?.[0] || "Revenue estimate available with a deep dive license.",
+    whyNow: pick.ai?.whyNow || "Stale window + reachable owner = act window.",
+    rebuildPlan: pick.ai?.monetizationIdeas?.join("\n") || "Full rebuild plan unlocks with a license.",
+    outreachPlan: pick.ai?.outreachDraft || "Outreach playbook is included with a license.",
+    redFlags: pick.ai?.dueDiligence?.slice(0, 5) || [],
+    generatedAt: new Date().toISOString(),
+  };
+  cache[dayKey] = stub;
   saveCache(cache);
-  return NextResponse.json({ deepDive: dd, cached: false, dayKey });
+  return NextResponse.json({ deepDive: stub, cached: false, dayKey, locked: true });
 }
