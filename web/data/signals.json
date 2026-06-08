@@ -349,6 +349,47 @@
     "niche": "AI"
   },
   {
+    "id": "news-theverge-https-www-theverge-com-games-939536-fable-xbox-games-showcase-2026",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Fable launches in late February after recent delay",
+    "url": "https://www.theverge.com/games/939536/fable-xbox-games-showcase-2026",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-07",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "Just a few days after pushing Fable out of 2026, Microsoft showed off more footage of Fable, the first new entry in the storied RPG franchise since 2010's Fable III, at its Xbox Games Showcase on Sunday. The company also announced a specific release date: February 23rd, 2027. Tho"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-games-939564-halo-campaign-evolved-xbox-games-showcase-20",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Halo: Campaign Evolved arrives July 28th",
+    "url": "https://www.theverge.com/games/939564/halo-campaign-evolved-xbox-games-showcase-2026",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-07",
+    "daysAgo": 0,
+    "classification": "discuss",
+    "summary": "As part of its Xbox Games Showcase on Sunday, Microsoft revealed new details about Halo: Campaign Evolved, the upcoming remake of Halo: Combat Evolved's campaign mode. The remake will debut on Xbox Series S / X, PC, and PS5 on July 28th. Today's mission trailer includes a first l",
+    "niche": "AI"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-entertainment-945269-gears-of-war-e-day-ps5-launch",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Gears of War: E-Day isn’t coming to the PS5",
+    "url": "https://www.theverge.com/entertainment/945269/gears-of-war-e-day-ps5-launch",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-07",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "Apparently, the \"return of Xbox\" means a retreat from other platforms. At its Xbox Games Showcase today, Microsoft revealed that Gears of War: E-Day - which was previously rumored for a PS5 launch in addition to Xbox and PC - will not be coming to PlayStation. It'll be an Xbox co",
+    "niche": "Mobile"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -588,6 +629,34 @@
     "classification": "discuss",
     "summary": "The website, which compares human beings to extraterrestrials, touts arrest numbers from the Trump administration’s sweeping immigration crackdown. But some of its details are really out there.",
     "niche": "AI"
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-06-05-google-will-pay-spacex-920m-per-month-for-comput",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Google will pay SpaceX $920M per month for compute",
+    "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-05",
+    "daysAgo": 2,
+    "classification": "trend",
+    "summary": "In a statement, a Google representative described the deal as a result of unexpected demand for its recently launched AI products.",
+    "niche": "AI"
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-06-05-as-vc-backed-e-bike-startups-went-bankrupt-boots",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "As VC-backed e-bike startups went bankrupt, bootstrapped Lectric grew",
+    "url": "https://techcrunch.com/2026/06/05/as-vc-backed-e-bike-startups-went-bankrupt-bootstrapped-lectric-grew/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-05",
+    "daysAgo": 2,
+    "classification": "trend",
+    "summary": "Lectric, which says the U.S. market is ripe for competition and choice, has launched three new brands in the past six months.",
+    "niche": "Mobile"
   },
   {
     "id": "reddit-xk92m4",
