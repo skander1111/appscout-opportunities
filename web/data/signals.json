@@ -390,6 +390,32 @@
     "niche": "Mobile"
   },
   {
+    "id": "news-theverge-https-www-theverge-com-business-949727-fox-roku-acquisition-22-billion",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Fox is buying Roku",
+    "url": "https://www.theverge.com/business/949727/fox-roku-acquisition-22-billion",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-15",
+    "daysAgo": 0,
+    "classification": "acquire",
+    "summary": "Fox has announced that it's acquiring Roku outright, in a deal that values the streaming company at $22 billion. The deal will see Fox's TV networks and Tubi streamer combine with Roku's network of streaming devices, smart TV software, and The Roku Channel. The companies say in a"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-the-us-government-is-letting-a-key-data-center-regulat",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "The US Government Is Letting a Key Data Center Regulation Expire",
+    "url": "https://www.wired.com/story/the-us-government-is-letting-a-key-data-center-regulation-expire/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-15",
+    "daysAgo": 0,
+    "classification": "sell",
+    "summary": "The federal government is planning to let a rule regulating federal data center operations sunset in September with no replacement."
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -428,6 +454,47 @@
     "daysAgo": 1,
     "classification": "trend",
     "summary": "A group of 20 Snap alumni has come together to launch a fund called Ghost Angels to back the next generation of social media."
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-06-13-meta-reportedly-moves-to-unwind-2b-manus-deal-af",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing&#8217;s demand",
+    "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-14",
+    "daysAgo": 1,
+    "classification": "discuss",
+    "summary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed."
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-column-948594-solid-state-batteries-semi-solid-state",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Solid-state batteries still aren’t ready, but gels are",
+    "url": "https://www.theverge.com/column/948594/solid-state-batteries-semi-solid-state",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-14",
+    "daysAgo": 1,
+    "classification": "discuss",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on e-bikes, power stations, and how to work anywhere, follow Thomas Ricker. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it s",
+    "niche": "Newsletters"
+  },
+  {
+    "id": "news-hackernews-https-traceapp-info",
+    "source": "hackernews",
+    "outlet": "HN Frontpage",
+    "title": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
+    "url": "https://traceapp.info",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-13",
+    "daysAgo": 1,
+    "classification": "discuss",
+    "summary": "I'm the developer of Trace, a non-intrusive, shortcut-driven Mac app that records and transcribes your meetings on-device. I know, another meeting transcription app. Please bear with me though, I'm confident that this is at least a little novel.I primarily built Trace for myself.",
+    "niche": "AI"
   },
   {
     "id": "hn-38291047",
@@ -659,6 +726,19 @@
     "niche": "Mobile"
   },
   {
+    "id": "news-wired-https-www-wired-com-story-crypto-guys-bought-the-answer-to-the-cias-mysterious-k",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "Crypto Guys Bought the Answer to the CIA’s Mysterious Kryptos Sculpture",
+    "url": "https://www.wired.com/story/crypto-guys-bought-the-answer-to-the-cias-mysterious-kryptos-sculpture/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-12",
+    "daysAgo": 2,
+    "classification": "acquire",
+    "summary": "They swear they haven’t peeked at the closely guarded secret and that they’ll keep the cryptographic competition going."
+  },
+  {
     "id": "reddit-xk92m4",
     "source": "reddit",
     "title": "Selling my PDF scanner app — 48K MAU, $340/mo revenue, built 3 years ago [r/SideProject]",
@@ -871,6 +951,19 @@
     "daysAgo": 3,
     "classification": "discuss",
     "summary": "The US military has long known that cheap fixes could stop location data from exposing its troops. It adopted almost none—and now says adversaries are using the data to target soldiers during a war."
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-paramount-plus-coupon-code-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "Paramount+ Coupon Codes and Deals for June 2026",
+    "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-12",
+    "daysAgo": 3,
+    "classification": "discuss",
+    "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more."
   },
   {
     "id": "news-wired-https-www-wired-com-story-teampcp-software-supply-chain-attack-spree-github-",
