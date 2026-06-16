@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "code": "AS-11FF-516A-D890-D3BB",
+    "tier": "yearly",
+    "issuedAt": "2026-06-16T20:46:32.542Z",
+    "expiresAt": "2027-06-16T20:46:32.542Z",
+    "quotaTotal": 6000,
+    "quotaUsed": 0,
+    "usageLog": [],
+    "email": "aloui.skander01@gmail.com",
+    "source": "manual-admin"
+  }
+]
