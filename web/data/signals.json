@@ -416,6 +416,20 @@
     "summary": "The federal government is planning to let a rule regulating federal data center operations sunset in September with no replacement."
   },
   {
+    "id": "news-techcrunch-https-techcrunch-com-2026-06-21-beyond-siri-here-are-the-practical-ai-features-c",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+    "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-21",
+    "daysAgo": 0,
+    "classification": "discuss",
+    "summary": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
+    "niche": "AI"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -495,6 +509,20 @@
     "classification": "discuss",
     "summary": "I'm the developer of Trace, a non-intrusive, shortcut-driven Mac app that records and transcribes your meetings on-device. I know, another meeting transcription app. Please bear with me though, I'm confident that this is at least a little novel.I primarily built Trace for myself.",
     "niche": "AI"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-ai-artificial-intelligence-950844-vibe-coding-security-ri",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Read this before you vibe-code another app",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-20",
+    "daysAgo": 1,
+    "classification": "trend",
+    "summary": "Bob Starr was delighted with his vibe-coded website. \"Boomberg\" showed how much US tax money is going to tech companies, and Starr launched it online immediately after making it. It wasn't until months after the site went live that he realized there was a problem: a hidden SQL in",
+    "niche": "Mobile"
   },
   {
     "id": "hn-38291047",
@@ -737,6 +765,20 @@
     "daysAgo": 2,
     "classification": "acquire",
     "summary": "They swear they haven’t peeked at the closely guarded secret and that they’ll keep the cryptographic competition going."
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-06-19-go-eyes-robotaxis-and-acquisitions-after-japans-",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Go eyes robotaxis and acquisitions after Japan&#8217;s biggest IPO of 2026 — here&#8217;s why it matters",
+    "url": "https://techcrunch.com/2026/06/19/go-eyes-robotaxis-and-acquisitions-after-japans-biggest-ipo-of-2026-heres-why-it-matters/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-19",
+    "daysAgo": 2,
+    "classification": "discuss",
+    "summary": "Go's IPO — Japan's biggest so far this year — has done more than provide a much-needed boost to the country's languishing listing season. It has also supplied the taxi-hailing app with the capital required to address an existential issue: Japan's shortage of drivers.",
+    "niche": "AI"
   },
   {
     "id": "reddit-xk92m4",
@@ -1178,6 +1220,20 @@
     "daysAgo": 5,
     "classification": "discuss",
     "summary": "T-Head’s new GPU lands inside US export controls, a Trump-Xi summit on AI chips, and a Chinese domestic accelerator market, the company says, is already in scaled mass production. Alibaba’s T-Head chip unit unveiled detailed specifications of the Zhenwu M890 …",
+    "niche": "AI"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-column-950975-electric-air-taxis-lawsuits",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Electric air taxis are stuck in the courtroom",
+    "url": "https://www.theverge.com/column/950975/electric-air-taxis-lawsuits",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-16",
+    "daysAgo": 5,
+    "classification": "discuss",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on aviation, air taxis, and Wi-Fi speeds at 30,000 feet, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepba",
     "niche": "AI"
   },
   {
