@@ -430,6 +430,47 @@
     "niche": "AI"
   },
   {
+    "id": "news-theverge-https-www-theverge-com-ai-artificial-intelligence-958801-suno-launches-spark-inc",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Suno launches Spark incubator program to feed independent artists to its AI machine",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-28",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists. Spark is their new incubator program for independent artists that provides grants, mentorship, and marketing support. To apply, artists need t",
+    "niche": "AI"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-tech-958768-china-claims-the-worlds-fastest-supercomputer",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "China claims the world&#8217;s fastest supercomputer",
+    "url": "https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-29",
+    "daysAgo": 0,
+    "classification": "acquire",
+    "summary": "Despite trade restrictions, China has reclaimed the title of the world's fastest supercomputer for the first time since 2018. LineShine has pushed El Capitan out of number one on the TOP500 ranking. That's despite strict limits on what high-powered computing components can be sol",
+    "niche": "AI"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-podcast-958735-nest-thermostat-version-history",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Nest&#8217;s quest to fix your thermostat",
+    "url": "https://www.theverge.com/podcast/958735/nest-thermostat-version-history",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-29",
+    "daysAgo": 0,
+    "classification": "sell",
+    "summary": "The founding story of Nest is pretty much a perfect tech myth. A legendary product maker (in this case, Tony Fadell) helps create one of the most successful products ever (the iPhone) and then rides off into the sunset to enjoy the rest of his life, only to have an experience tha"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -523,6 +564,34 @@
     "classification": "trend",
     "summary": "Bob Starr was delighted with his vibe-coded website. \"Boomberg\" showed how much US tax money is going to tech companies, and Starr launched it online immediately after making it. It wasn't until months after the site went live that he realized there was a problem: a hidden SQL in",
     "niche": "Mobile"
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-06-27-asian-ai-startups-launch-mythos-like-models-as-a",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Asian AI startups launch Mythos-like  models as Anthropic&#8217;s export ban drags on",
+    "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-27",
+    "daysAgo": 1,
+    "classification": "trend",
+    "summary": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
+    "niche": "AI"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-column-958379-streaming-industry-ads",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Ad-free streaming is a luxury now",
+    "url": "https://www.theverge.com/column/958379/streaming-industry-ads",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-27",
+    "daysAgo": 1,
+    "classification": "discuss",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about the streaming industry, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Streaming was on",
+    "niche": "Newsletters"
   },
   {
     "id": "hn-38291047",
@@ -779,6 +848,19 @@
     "classification": "discuss",
     "summary": "Go's IPO — Japan's biggest so far this year — has done more than provide a much-needed boost to the country's languishing listing season. It has also supplied the taxi-hailing app with the capital required to address an existential issue: Japan's shortage of drivers.",
     "niche": "AI"
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-06-26-ftc-gives-musk-the-ok-to-acquire-spacex-alumni-s",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh",
+    "url": "https://techcrunch.com/2026/06/26/ftc-gives-musk-the-ok-to-acquire-spacex-alumni-startup-mesh/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-06-27",
+    "daysAgo": 2,
+    "classification": "acquire",
+    "summary": "Mesh came out of stealth in February with a $50 million Series A."
   },
   {
     "id": "reddit-xk92m4",
