@@ -471,6 +471,32 @@
     "summary": "The founding story of Nest is pretty much a perfect tech myth. A legendary product maker (in this case, Tony Fadell) helps create one of the most successful products ever (the iPhone) and then rides off into the sunset to enjoy the rest of his life, only to have an experience tha"
   },
   {
+    "id": "news-techcrunch-https-techcrunch-com-2026-07-05-ubers-european-expansion-plans-may-have-hit-a-sp",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Uber’s European expansion plans may have hit a speed bump",
+    "url": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-05",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "Back in February, Uber announced ambitious plans to launch in seven new European markets in 2026 — but now five of those launches are reportedly on hold."
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-science-961459-nasa-emergency-save-swift-observatory-kata",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
+    "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-06",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "The Swift Observatory was launched in 2004, but recent solar storms have pushed its orbit lower, and it's in danger of burning up in Earth's atmosphere as soon as this year. To try and stave off its demise, NASA has enlisted Katalyst Space Technologies. The company's Link spacecr"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -1090,6 +1116,75 @@
     "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more."
   },
   {
+    "id": "news-theverge-https-www-theverge-com-gadgets-960838-grand-theft-auto-gta-6-vi-preorder-edition",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Where to preorder Grand Theft Auto VI",
+    "url": "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-02",
+    "daysAgo": 3,
+    "classification": "trend",
+    "summary": "Rockstar's long-awaited Grand Theft Auto VI is launching November 19th, 2026 for PlayStation 5 and Xbox Series S/X consoles. The game will be available digitally at launch, with physical cases containing codes, not discs, so your options for preordering are straightforward. The p",
+    "niche": "AI"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-tech-960916-vizio-mini-led-quantum-tv-review",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Vizio accidentally made the best dumb TV on the market",
+    "url": "https://www.theverge.com/tech/960916/vizio-mini-led-quantum-tv-review",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-02",
+    "daysAgo": 3,
+    "classification": "acquire",
+    "summary": "When I first started testing Vizio's 65-inch Mini LED Quantum TV, I thought the big story was that Vizio was back and that it had a quantum-dot TV for under $398 - the cheapest on the market. Vizio's been pretty quiet since it was acquired by Walmart in 2024, so putting out a TV "
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-column-960600-xbox-is-a-disaster",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Xbox is a disaster",
+    "url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-02",
+    "daysAgo": 3,
+    "classification": "discuss",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the bleak state of the video game industry, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How ",
+    "niche": "Newsletters"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-gallery-best-phones-you-cant-buy-in-the-united-states-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "7 Best Phones You Can’t Buy in the US (2026)",
+    "url": "https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-03",
+    "daysAgo": 3,
+    "classification": "acquire",
+    "summary": "Avoid phone FOMO with our favorite smartphones that aren’t officially sold stateside but are available in markets like the UK and Europe.",
+    "niche": "AI"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-can-cursor-remain-an-open-platform-inside-of-spacex-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
+    "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-02",
+    "daysAgo": 3,
+    "classification": "acquire",
+    "summary": "Cursor hopes to continue offering third-party AI models after it's acquired by SpaceX, testing the relationships between frontier AI labs.",
+    "niche": "AI"
+  },
+  {
     "id": "news-wired-https-www-wired-com-story-teampcp-software-supply-chain-attack-spree-github-",
     "source": "news",
     "outlet": "Wired",
@@ -1250,6 +1345,19 @@
     "classification": "discuss",
     "summary": "Figma adds an AI assistant to its collaborative canvas | TechCrunchtechcrunch.com",
     "niche": "AI"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-why-meta-is-charging-a-subscription-for-on-device-smar",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "Meta Is Charging a Subscription for Smart Glasses Features. Welcome to the New Era of Consumer Tech",
+    "url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-02",
+    "daysAgo": 4,
+    "classification": "acquire",
+    "summary": "You bought the hardware. Now you’ll need to subscribe for “expanded access” to the most advanced features."
   },
   {
     "id": "hn-38204911",
