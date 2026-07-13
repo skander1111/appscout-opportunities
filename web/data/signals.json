@@ -497,6 +497,19 @@
     "summary": "The Swift Observatory was launched in 2004, but recent solar storms have pushed its orbit lower, and it's in danger of burning up in Earth's atmosphere as soon as this year. To try and stave off its demise, NASA has enlisted Katalyst Space Technologies. The company's Link spacecr"
   },
   {
+    "id": "news-hackernews-https-www-larp-website-",
+    "source": "hackernews",
+    "outlet": "HN Frontpage",
+    "title": "LARP – Revenue infrastructure for serious founders",
+    "url": "https://www.larp.website/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-12",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "Article URL: https://www.larp.website/\nComments URL: https://news.ycombinator.com/item?id=48882569\nPoints: 240\n# Comments: 50"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -889,6 +902,59 @@
     "summary": "Mesh came out of stealth in February with a $50 million Series A."
   },
   {
+    "id": "news-techcrunch-https-techcrunch-com-2026-07-10-china-is-catching-up-to-elon-musks-reusable-rock",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "China is catching up to Elon Musk&#8217;s reusable rockets",
+    "url": "https://techcrunch.com/2026/07/10/china-is-catching-up-to-elon-musks-reusable-rockets/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-10",
+    "daysAgo": 2,
+    "classification": "trend",
+    "summary": "China's state-owned space company recovered its first orbital rocket booster after launch."
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-07-10-disney-is-considering-a-free-streaming-tier-repo",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Disney+ is considering a free streaming tier, report says",
+    "url": "https://techcrunch.com/2026/07/10/disney-is-considering-a-free-streaming-tier-report-says/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-10",
+    "daysAgo": 2,
+    "classification": "trend",
+    "summary": "The launch of free content would allow Disney+ to better compete with free services like YouTube and Tubi, which are capturing a growing share of consumers’ viewing time."
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-07-10-netflix-could-be-planning-always-on-live-tv-chan",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Netflix could be planning ‘always-on’ live TV channels",
+    "url": "https://techcrunch.com/2026/07/10/netflix-could-be-planning-always-on-live-tv-channels/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-10",
+    "daysAgo": 2,
+    "classification": "trend",
+    "summary": "Amid signs of slowing engagement,  Netflix is reportedly considering launching \"always-on\" live channels, giving subscribers something to tune into 24/7."
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-column-963346-ai-data-centers-fight",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "The fight against AI data centers is just beginning",
+    "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-10",
+    "daysAgo": 2,
+    "classification": "discuss",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before",
+    "niche": "AI"
+  },
+  {
     "id": "reddit-xk92m4",
     "source": "reddit",
     "title": "Selling my PDF scanner app — 48K MAU, $340/mo revenue, built 3 years ago [r/SideProject]",
@@ -1182,6 +1248,48 @@
     "daysAgo": 3,
     "classification": "acquire",
     "summary": "Cursor hopes to continue offering third-party AI models after it's acquired by SpaceX, testing the relationships between frontier AI labs.",
+    "niche": "AI"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-thousands-of-pokemon-go-players-descend-on-times-squar",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "More Than a Thousand ‘Pokémon Go’ Players Descend on Times Square to Defeat Mewtwo",
+    "url": "https://www.wired.com/story/thousands-of-pokemon-go-players-descend-on-times-square-to-defeat-mewtwo/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-10",
+    "daysAgo": 3,
+    "classification": "trend",
+    "summary": "A surprise 10th-anniversary event saw Niantic fulfilling a promise teased in the original 2016 launch trailer for its popular mobile game.",
+    "niche": "AI"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-uncanny-valley-podcast-maine-senate-race-implodes-meta",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "Maine’s Senate Race Implodes, Meta’s Threads Rivals Musk’s X, and the Trump Phone Arrives",
+    "url": "https://www.wired.com/story/uncanny-valley-podcast-maine-senate-race-implodes-meta-threads-trump-phone-arrives/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-09",
+    "daysAgo": 3,
+    "classification": "discuss",
+    "summary": "Today on Uncanny Valley, we unpack the political debacle unfolding in Maine surrounding the campaign of Democratic candidate Graham Platner.",
+    "niche": "AI"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-model-behavior-anthropic-will-charge-consumers-extra-t",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "Anthropic Wants You to Pay Up for Claude Fable 5",
+    "url": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-09",
+    "daysAgo": 3,
+    "classification": "discuss",
+    "summary": "Claude subscribers must soon pay usage-based fees to access Anthropic’s best consumer AI model—a sign that the golden era of AI subscriptions is ending.",
     "niche": "AI"
   },
   {
