@@ -606,6 +606,33 @@
     "niche": "Mobile"
   },
   {
+    "id": "news-techcrunch-https-techcrunch-com-2026-08-02-malaysia-is-reportedly-shutting-down-balaji-srin",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Malaysia is reportedly shutting down Balaji Srinivasan’s Network School",
+    "url": "https://techcrunch.com/2026/08/02/malaysia-is-reportedly-shutting-down-balaji-srinivasans-network-school/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-02",
+    "daysAgo": 0,
+    "classification": "sell",
+    "summary": "Let's see how this \"frontier community for techno-optimists\" is doing ..."
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-08-02-these-app-store-hidden-gems-prove-theres-still-r",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
+    "url": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-02",
+    "daysAgo": 0,
+    "classification": "discuss",
+    "summary": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding t",
+    "niche": "AI"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -1188,6 +1215,20 @@
     "niche": "Newsletters"
   },
   {
+    "id": "news-techcrunch-https-techcrunch-com-2026-07-31-google-nixes-its-earth-ai-feature-one-day-after-",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+    "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-31",
+    "daysAgo": 2,
+    "classification": "trend",
+    "summary": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
+    "niche": "AI"
+  },
+  {
     "id": "reddit-xk92m4",
     "source": "reddit",
     "title": "Selling my PDF scanner app — 48K MAU, $340/mo revenue, built 3 years ago [r/SideProject]",
@@ -1699,6 +1740,20 @@
     "daysAgo": 4,
     "classification": "acquire",
     "summary": "You bought the hardware. Now you’ll need to subscribe for “expanded access” to the most advanced features."
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-column-972937-foldable-phones-boring-apple",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Foldables are sort of boring now — and that’s great news for Apple",
+    "url": "https://www.theverge.com/column/972937/foldable-phones-boring-apple",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-07-29",
+    "daysAgo": 4,
+    "classification": "discuss",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on smartphones and Android, follow Dominic Preston. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Believe",
+    "niche": "Mobile"
   },
   {
     "id": "hn-38204911",
