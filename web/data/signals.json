@@ -674,6 +674,20 @@
     "niche": "AI"
   },
   {
+    "id": "news-techcrunch-https-techcrunch-com-2026-08-16-stripe-will-reportedly-acquire-ai-gateway-startu",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+    "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-16",
+    "daysAgo": 0,
+    "classification": "acquire",
+    "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+    "niche": "AI"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -875,6 +889,34 @@
     "classification": "acquire",
     "summary": "Two security researchers bought cheap domains—including noreply.net and deleteduser.com—and set up email listening services. Hundreds of companies are sending them corporate secrets.",
     "niche": "AI"
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-08-15-spacex-officially-closes-its-cursor-acquisition-",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "SpaceX officially closes its Cursor acquisition",
+    "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-15",
+    "daysAgo": 1,
+    "classification": "discuss",
+    "summary": "AI coding startup Cursor is now officially a part of SpaceX.",
+    "niche": "AI"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-best-apple-watch-bands-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "5 Best Apple Watch Bands: Nike, Nomad, and Hermés (2026)",
+    "url": "https://www.wired.com/story/best-apple-watch-bands/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-15",
+    "daysAgo": 1,
+    "classification": "trend",
+    "summary": "We’ve been testing bands since the first Apple Watch launched in 2015. From silicone sports straps to leather bands, I’ve rounded up the best for every occasion.",
+    "niche": "Mobile"
   },
   {
     "id": "hn-38291047",
@@ -1366,6 +1408,61 @@
     "niche": "Mobile"
   },
   {
+    "id": "news-techcrunch-https-techcrunch-com-2026-08-14-unforgetful-is-a-new-reminders-app-for-people-wh",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Unforgetful is a new reminders app for people who can&#8217;t stop hitting snooze",
+    "url": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-14",
+    "daysAgo": 2,
+    "classification": "trend",
+    "summary": "Unforgetful, the latest app from longtime indie developer Marco Arment, is designed to make reminders harder to ignore — or accidentally dismiss.",
+    "niche": "Mobile"
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-08-14-apple-proposes-to-take-a-15-cut-of-purchases-mad",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Apple proposes to take a 15% cut of purchases made outside the App Store",
+    "url": "https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-14",
+    "daysAgo": 2,
+    "classification": "discuss",
+    "summary": "Apple is asking a federal judge to allow it to charge commissions of up to 15% on purchases made through external links in iOS apps.",
+    "niche": "Mobile"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-column-980337-rogue-ai-science-fiction-openai",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Rogue AI aren’t science fiction anymore",
+    "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-14",
+    "daysAgo": 2,
+    "classification": "discuss",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of",
+    "niche": "AI"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-the-8-best-movies-to-stream-right-now-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "The Best Movies to Stream This Month (August 2026)",
+    "url": "https://www.wired.com/story/the-8-best-movies-to-stream-right-now/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-14",
+    "daysAgo": 2,
+    "classification": "acquire",
+    "summary": "Avatar Aang, Heartstopper Forever, and Exit 8 are among the films deserving of your eyeballs this month."
+  },
+  {
     "id": "reddit-xk92m4",
     "source": "reddit",
     "title": "Selling my PDF scanner app — 48K MAU, $340/mo revenue, built 3 years ago [r/SideProject]",
@@ -1702,6 +1799,19 @@
     "classification": "discuss",
     "summary": "Claude subscribers must soon pay usage-based fees to access Anthropic’s best consumer AI model—a sign that the golden era of AI subscriptions is ending.",
     "niche": "AI"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-babbel-promo-code-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "Babbel Promo Code: Up to 65% Off in August 2026",
+    "url": "https://www.wired.com/story/babbel-promo-code/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-14",
+    "daysAgo": 3,
+    "classification": "discuss",
+    "summary": "Master a new language with expert-led courses. Use our verified Babbel coupon codes to save up to 65% on student plans and 60% on 6-month subscriptions."
   },
   {
     "id": "news-wired-https-www-wired-com-story-teampcp-software-supply-chain-attack-spree-github-",
