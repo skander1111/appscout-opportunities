@@ -688,6 +688,34 @@
     "niche": "AI"
   },
   {
+    "id": "news-techcrunch-https-techcrunch-com-2026-08-23-linkdazes-smart-calendar-is-built-to-run-a-house",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+    "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-23",
+    "daysAgo": 0,
+    "classification": "discuss",
+    "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+    "niche": "AI"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-column-983410-grand-theft-auto-vi-exists-in-its-own-unive",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Grand Theft Auto VI exists in its own universe",
+    "url": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-23",
+    "daysAgo": 0,
+    "classification": "discuss",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on GTA VI and the state of the video game industry, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it st",
+    "niche": "Newsletters"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -917,6 +945,19 @@
     "classification": "trend",
     "summary": "We’ve been testing bands since the first Apple Watch launched in 2015. From silicone sports straps to leather bands, I’ve rounded up the best for every occasion.",
     "niche": "Mobile"
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-08-22-two-years-after-launch-walmarts-flipkart-is-clos",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Two years after launch, Walmart&#8217;s Flipkart is closing in on India&#8217;s quick-commerce leaders",
+    "url": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-23",
+    "daysAgo": 1,
+    "classification": "trend",
+    "summary": "Flipkart's quick-commerce venture is delivering 1.1 million to 1.2 million orders a day, nearly triple its November volume."
   },
   {
     "id": "hn-38291047",
@@ -1463,6 +1504,20 @@
     "summary": "Avatar Aang, Heartstopper Forever, and Exit 8 are among the films deserving of your eyeballs this month."
   },
   {
+    "id": "news-theverge-https-www-theverge-com-tech-983500-hoverair-versa-halted-us-fcc-drone-ban-indieg",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "HoverAir’s transforming modular drone has already been halted in the US",
+    "url": "https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-21",
+    "daysAgo": 2,
+    "classification": "sell",
+    "summary": "I am so sorry, fellow US gadget fans: the FCC's drone ban appears to have struck again. The HoverAir Versa - a baby steadycam with snap-on propeller wings that transform it into a drone - has already stopped taking US orders just three days after its Indiegogo debut, and may be f",
+    "niche": "AI"
+  },
+  {
     "id": "reddit-xk92m4",
     "source": "reddit",
     "title": "Selling my PDF scanner app — 48K MAU, $340/mo revenue, built 3 years ago [r/SideProject]",
@@ -1812,6 +1867,19 @@
     "daysAgo": 3,
     "classification": "discuss",
     "summary": "Master a new language with expert-led courses. Use our verified Babbel coupon codes to save up to 65% on student plans and 60% on 6-month subscriptions."
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-myplots-jack-schwartz-zane-harwin-teen-parties-after-p",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "How Teen ‘After-Prom’ Kings in LA Monetized the High School Rager",
+    "url": "https://www.wired.com/story/myplots-jack-schwartz-zane-harwin-teen-parties-after-prom/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-08-20",
+    "daysAgo": 3,
+    "classification": "discuss",
+    "summary": "The West Coast house-party scene has long been iconic. For these young, tech-savvy entrepreneurs, it was also inspiration for MyPlots, a party-promotion empire."
   },
   {
     "id": "news-wired-https-www-wired-com-story-teampcp-software-supply-chain-attack-spree-github-",
