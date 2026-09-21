@@ -879,6 +879,19 @@
     "summary": "https://archive.ph/8NmSg\n\nComments URL: https://news.ycombinator.com/item?id=49691343\nPoints: 187\n# Comments: 249"
   },
   {
+    "id": "news-hackernews-https-consumerrights-wiki-w-disney-2b-ad-policy-change",
+    "source": "hackernews",
+    "outlet": "HN Frontpage",
+    "title": "Disney+: New user agreement allows ads before movies in all subscriptions",
+    "url": "https://consumerrights.wiki/w/Disney%2B_ad_policy_change",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-21",
+    "daysAgo": 0,
+    "classification": "discuss",
+    "summary": "Article URL: https://consumerrights.wiki/w/Disney%2B_ad_policy_change\nComments URL: https://news.ycombinator.com/item?id=49784336\nPoints: 107\n# Comments: 65"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -1148,6 +1161,20 @@
     "daysAgo": 1,
     "classification": "trend",
     "summary": "To get started with competitive Pok&#233;mon battles, all you need is your phone. But to compete at the highest level, like at the Pok&#233;mon World Championships, you're going to need a Switch. And there doesn't seem to be a good reason why. Battle simulator Pok&#233;mon Champi"
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-09-19-petlibros-new-ai-powered-feeder-is-a-game-change",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+    "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-19",
+    "daysAgo": 1,
+    "classification": "discuss",
+    "summary": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
+    "niche": "AI"
   },
   {
     "id": "hn-38291047",
