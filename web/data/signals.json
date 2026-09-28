@@ -892,6 +892,86 @@
     "summary": "Article URL: https://consumerrights.wiki/w/Disney%2B_ad_policy_change\nComments URL: https://news.ycombinator.com/item?id=49784336\nPoints: 107\n# Comments: 65"
   },
   {
+    "id": "news-theverge-https-www-theverge-com-tech-1001219-honor-magic-9-pro-max-arri-cameras-snapdrago",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Honor’s Magic 9 Pro Max has a big camera and a bigger battery",
+    "url": "https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-28",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "Honor launches its new Magic 9 flagship phones in China today, and the 9 Pro Max features a design revamp, a capable camera, and a colossal battery. This is Honor's first flagship launch - Robot Phone aside - since it announced its collaboration with camera company Arri. The init"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-ai-artificial-intelligence-1001193-engram-sampler-ai-hall",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Engram is a sampler that turns broken AI hallucinations into music",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-28",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button,",
+    "niche": "AI"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-bose-to-release-wired-headphones-after-10-years-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "Bose Launches New Wired Earbuds After More Than a Decade",
+    "url": "https://www.wired.com/story/bose-to-release-wired-headphones-after-10-years/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-28",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "The Bose Noise Cancelling Wired Earbuds are the first new wired headphones from the brand since 2015, inspired directly by teen preferences. We got an early listen."
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-space-lasers-are-about-to-get-their-first-real-test-ge",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "Space Lasers Are About to Get Their First Real Test Generating Energy",
+    "url": "https://www.wired.com/story/space-lasers-are-about-to-get-their-first-real-test-generating-energy/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-28",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "Startup Star Catcher is launching a system that, if successful, would be the first time energy has been beamed between two separate spacecraft."
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-best-security-cameras-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "I've Tested Over 100 Home Security Cameras. Here's Which to Buy",
+    "url": "https://www.wired.com/story/best-security-cameras/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-28",
+    "daysAgo": 0,
+    "classification": "discuss",
+    "summary": "Keep an eye on home wherever you are with the best security cameras, including indoor and outdoor, subscription services, AI smarts, and local recording options.",
+    "niche": "AI"
+  },
+  {
+    "id": "news-hackernews-https-www-space-com-space-exploration-launches-spacecraft-spacexs-starship-megar",
+    "source": "hackernews",
+    "outlet": "HN Frontpage",
+    "title": "SpaceX's Starship launching to orbit for first time ever today",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-28",
+    "daysAgo": 0,
+    "classification": "trend",
+    "summary": "Article URL: https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live\nComments URL: https://news.ycombinator.com/item?id=49875411\nPoints: 174\n# Comments: 71"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -1175,6 +1255,34 @@
     "classification": "discuss",
     "summary": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
     "niche": "AI"
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-09-26-pnoes-new-face-mask-wants-to-make-lab-grade-brea",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "PNOE&#8217;s new face mask wants to make lab-grade breath testing a self-serve affair",
+    "url": "https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-27",
+    "daysAgo": 1,
+    "classification": "trend",
+    "summary": "PNOĒ, the Malden, Mass.-based startup whose breath-analyzing mask used to bear an unfortunate resemblance to Bane's, is launching a sleeker self-serve version on October 1 that lets gym-goers measure their VO₂ max and other metabolic markers in eight minutes without a trained ope",
+    "niche": "AI"
+  },
+  {
+    "id": "news-theverge-https-www-theverge-com-column-1000778-smart-home-june-oven-graveyard",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "The smart home graveyard is getting crowded",
+    "url": "https://www.theverge.com/column/1000778/smart-home-june-oven-graveyard",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-27",
+    "daysAgo": 1,
+    "classification": "discuss",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the fragile state of your connected devices, follow Jennifer Pattison Tuohy. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback ",
+    "niche": "Newsletters"
   },
   {
     "id": "hn-38291047",
@@ -1873,6 +1981,20 @@
     "niche": "AI"
   },
   {
+    "id": "news-theverge-https-www-theverge-com-tech-1000924-philips-sonicare-next-generation-diamondclea",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Philips’ motion-tracking smart toothbrush uses AI to make you a better brusher",
+    "url": "https://www.theverge.com/tech/1000924/philips-sonicare-next-generation-diamondclean-9900-prestige-smart-toothbrush",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-25",
+    "daysAgo": 2,
+    "classification": "trend",
+    "summary": "First announced in July with an expected limited launch later this year, the Philips Sonicare Next-Generation DiamondClean 9900 Prestige smart toothbrush is now available in Europe and the US, with a broader global rollout expected in 2027. While the previous iteration is still a",
+    "niche": "AI"
+  },
+  {
     "id": "reddit-xk92m4",
     "source": "reddit",
     "title": "Selling my PDF scanner app — 48K MAU, $340/mo revenue, built 3 years ago [r/SideProject]",
@@ -2304,6 +2426,19 @@
     "niche": "AI"
   },
   {
+    "id": "news-wired-https-www-wired-com-story-best-coffee-subscription-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "10 Best Coffee Subscriptions (2026), Tested by Caffeine Hounds",
+    "url": "https://www.wired.com/story/best-coffee-subscription/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-09-25",
+    "daysAgo": 3,
+    "classification": "discuss",
+    "summary": "We tried dozens of the best coffee subscriptions to find freshly roasted, delicious coffee for every taste."
+  },
+  {
     "id": "news-wired-https-www-wired-com-story-teampcp-software-supply-chain-attack-spree-github-",
     "source": "news",
     "outlet": "Wired",
@@ -2583,19 +2718,6 @@
     "daysAgo": 9,
     "classification": "trend",
     "summary": "New marketplace specifically for mobile app acquisitions launching. 127 upvotes, strong community interest. Confirms growing demand for off-market app deals. Competitive signal — move on pipeline now before more buyers enter the market.",
-    "niche": "General"
-  },
-  {
-    "id": "hn-38119233",
-    "source": "hackernews",
-    "title": "The graveyard economy: how solo devs are selling apps they can no longer maintain",
-    "url": "https://news.ycombinator.com/item?id=38119233",
-    "points": 423,
-    "comments": 118,
-    "date": "2026-05-12",
-    "daysAgo": 11,
-    "classification": "discuss",
-    "summary": "Long-form analysis of the growing market for abandoned apps. Author interviewed 14 solo developers who sold their apps. Average sale price: $3,200. Most said they would have accepted less if someone had reached out earlier. Key insight: 90% of sellers preferred direct outreach over brokers.",
     "niche": "General"
   }
 ]
