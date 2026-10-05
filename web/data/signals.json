@@ -972,6 +972,20 @@
     "summary": "Article URL: https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live\nComments URL: https://news.ycombinator.com/item?id=49875411\nPoints: 174\n# Comments: 71"
   },
   {
+    "id": "news-theverge-https-www-theverge-com-tech-1004643-google-android-apps-intel-googlebooks-perfor",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "Google admits not every Android app runs great on Intel Googlebooks",
+    "url": "https://www.theverge.com/tech/1004643/google-android-apps-intel-googlebooks-performance",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-10-05",
+    "daysAgo": 0,
+    "classification": "discuss",
+    "summary": "Google has waited until the day its new Googlebook laptops hit the market to admit that Intel-based models may have issues running some Android apps. Before now, Google has emphasized that the Android-based Googlebooks give owners access to the \"entire Play Store library\" of apps",
+    "niche": "AI"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -1283,6 +1297,34 @@
     "classification": "discuss",
     "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the fragile state of your connected devices, follow Jennifer Pattison Tuohy. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback ",
     "niche": "Newsletters"
+  },
+  {
+    "id": "news-techcrunch-https-techcrunch-com-2026-10-03-jack-dorseys-bitchat-disappears-from-app-stores-",
+    "source": "news",
+    "outlet": "TechCrunch",
+    "title": "Jack Dorsey&#8217;s Bitchat disappears from app stores in India after government order",
+    "url": "https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-10-03",
+    "daysAgo": 1,
+    "classification": "discuss",
+    "summary": "Bitchat has become largely unavailable in India as a result of the restrictions.",
+    "niche": "AI"
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-gift-cards-and-digital-gift-ideas-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "The Best Online Gift Cards and Digital Gift Ideas (2026)",
+    "url": "https://www.wired.com/story/gift-cards-and-digital-gift-ideas/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-10-04",
+    "daysAgo": 1,
+    "classification": "discuss",
+    "summary": "Forget the wrapping paper and shipping. Go digital this year with subscriptions, ebooks, apps, and more.",
+    "niche": "Mobile"
   },
   {
     "id": "hn-38291047",
@@ -2679,45 +2721,5 @@
     "classification": "discuss",
     "summary": "T-Head’s new GPU lands inside US export controls, a Trump-Xi summit on AI chips, and a Chinese domestic accelerator market, the company says, is already in scaled mass production. Alibaba’s T-Head chip unit unveiled detailed specifications of the Zhenwu M890 …",
     "niche": "AI"
-  },
-  {
-    "id": "news-theverge-https-www-theverge-com-column-950975-electric-air-taxis-lawsuits",
-    "source": "news",
-    "outlet": "The Verge",
-    "title": "Electric air taxis are stuck in the courtroom",
-    "url": "https://www.theverge.com/column/950975/electric-air-taxis-lawsuits",
-    "points": 0,
-    "comments": 0,
-    "date": "2026-06-16",
-    "daysAgo": 5,
-    "classification": "discuss",
-    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on aviation, air taxis, and Wi-Fi speeds at 30,000 feet, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepba",
-    "niche": "AI"
-  },
-  {
-    "id": "reddit-mk7p3q",
-    "source": "reddit",
-    "title": "My meditation app hit 900K downloads then I stopped updating it 18 months ago. AMA [r/androiddev]",
-    "url": "https://reddit.com/r/androiddev/comments/mk7p3q",
-    "points": 204,
-    "comments": 67,
-    "date": "2026-05-16",
-    "daysAgo": 7,
-    "classification": "sell",
-    "summary": "Developer of a 900K-download meditation app doing an AMA about abandoning it. Mentioned he's open to selling. App still gets ~12K downloads/month organically. No asking price stated — classic Partner or Acquire opportunity.",
-    "niche": "Meditation"
-  },
-  {
-    "id": "ph-appflip-launch",
-    "source": "producthunt",
-    "title": "AppFlip — Marketplace for buying and selling bootstrapped mobile apps",
-    "url": "https://producthunt.com/posts/appflip",
-    "points": 189,
-    "comments": 42,
-    "date": "2026-05-14",
-    "daysAgo": 9,
-    "classification": "trend",
-    "summary": "New marketplace specifically for mobile app acquisitions launching. 127 upvotes, strong community interest. Confirms growing demand for off-market app deals. Competitive signal — move on pipeline now before more buyers enter the market.",
-    "niche": "General"
   }
 ]
