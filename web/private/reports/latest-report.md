@@ -1,6 +1,6 @@
-# AppScout — Week 41 Report
+# AppScout — Week 42 Report
 **Top iOS & Android App Acquisition Opportunities**
-Generated: 5 October 2026 · Engine v2.2 · 20 niches scanned · 264 apps scored · Human-reviewed
+Generated: 12 October 2026 · Engine v2.2 · 20 niches scanned · 264 apps scored · Human-reviewed
 
 ---
 
@@ -25,14 +25,14 @@ Generated: 5 October 2026 · Engine v2.2 · 20 niches scanned · 264 apps scored
 | Niche | Weather |
 | Installs | 10,000,000+ |
 | Rating | ★ 4.80 |
-| Last update | **379 days ago** |
+| Last update | **386 days ago** |
 | Owner type | Solo indie |
 | Developer | Enjoy Life Studio |
 | Contact | linlifemx2020@gmail.com |
 | Play Store | life.channel.accurate.local.weather.forecast |
 
 **Why it's interesting**
-- 379 days without an update — strong abandonment signal
+- 386 days without an update — strong abandonment signal
 - 10,000,000+ installs in the Weather niche
 - ★ 4.80 rating — users are satisfied, retention is intact
 - Main complaints from reviews: none flagged
@@ -59,7 +59,49 @@ Skander Aloui
 
 ---
 
-### #2 — Simple Habit: Meditation
+### #2 — Tabata Timer: Interval Timer
+**Score: 90 · Risk: Low · Action: Contact developer now**
+
+| | |
+|---|---|
+| Niche | Timer |
+| Installs | 5,000,000+ |
+| Rating | ★ 4.90 |
+| Last update | **564 days ago** |
+| Owner type | Solo indie |
+| Developer | Eugene Sharafan |
+| Contact | evgeniysharafan.apps@gmail.com |
+| Play Store | com.evgeniysharafan.tabatatimer |
+
+**Why it's interesting**
+- 564 days without an update — strong abandonment signal
+- 5,000,000+ installs in the Timer niche
+- ★ 4.90 rating — users are satisfied, retention is intact
+- Main complaints from reviews: none flagged
+
+**Outreach email**
+```
+Subject: Question about Tabata Timer: Interval Timer
+
+Hi Eugene,
+
+I came across your Tabata Timer: Interval Timer on Google Play and wanted to reach out directly.
+
+I noticed it has 5,000,000+ installs and looks like updates have slowed
+down — I wasn't sure if you're still actively working on it.
+
+I'm exploring whether you might be open to a conversation about the app's
+future — whether that's acquisition, a partnership, or something else entirely.
+
+No pressure at all.
+
+Best,
+Skander Aloui
+```
+
+---
+
+### #3 — Simple Habit: Meditation
 **Score: 85 · Risk: Low · Action: Contact developer now**
 
 | | |
@@ -67,14 +109,14 @@ Skander Aloui
 | Niche | Meditation |
 | Installs | 1,000,000+ |
 | Rating | ★ 4.59 |
-| Last update | **672 days ago** |
+| Last update | **679 days ago** |
 | Owner type | Small studio |
 | Developer | Ingenio, LLC |
 | Contact | help@simplehabit.com |
 | Play Store | com.simplehabit.simplehabitapp |
 
 **Why it's interesting**
-- 672 days without an update — strong abandonment signal
+- 679 days without an update — strong abandonment signal
 - 1,000,000+ installs in the Meditation niche
 - ★ 4.59 rating — users are satisfied, retention is intact
 - Main complaints from reviews: none flagged
@@ -101,7 +143,7 @@ Skander Aloui
 
 ---
 
-### #3 — Barcode Scanner
+### #4 — Barcode Scanner
 **Score: 75 · Risk: Medium · Action: Contact — verify owner type first**
 
 | | |
@@ -109,14 +151,14 @@ Skander Aloui
 | Niche | Barcode Scanner |
 | Installs | 1,000,000+ |
 | Rating | ★ 4.56 |
-| Last update | **371 days ago** |
+| Last update | **378 days ago** |
 | Owner type | Small studio |
 | Developer | Cognex Corporation |
 | Contact | sdksales@cognex.com |
 | Play Store | com.manateeworks.barcodescanners |
 
 **Why it's interesting**
-- 371 days without an update — strong abandonment signal
+- 378 days without an update — strong abandonment signal
 - 1,000,000+ installs in the Barcode Scanner niche
 - ★ 4.56 rating — users are satisfied, retention is intact
 - Main complaints from reviews: none flagged
@@ -143,7 +185,7 @@ Skander Aloui
 
 ---
 
-### #4 — QR Code Scanner - without ads
+### #5 — QR Code Scanner - without ads
 **Score: 75 · Risk: Low · Action: Contact — verify owner type first**
 
 | | |
@@ -151,14 +193,14 @@ Skander Aloui
 | Niche | Barcode Scanner |
 | Installs | 1,000,000+ |
 | Rating | ★ 4.90 |
-| Last update | **374 days ago** |
+| Last update | **381 days ago** |
 | Owner type | Solo indie |
 | Developer | Triple Tap Limited |
 | Contact | tripletapltd@gmail.com |
 | Play Store | qr.code.scanner.qr.code.reader |
 
 **Why it's interesting**
-- 374 days without an update — strong abandonment signal
+- 381 days without an update — strong abandonment signal
 - 1,000,000+ installs in the Barcode Scanner niche
 - ★ 4.90 rating — users are satisfied, retention is intact
 - Main complaints from reviews: none flagged
@@ -185,55 +227,13 @@ Skander Aloui
 
 ---
 
-### #5 — Loop Habit Tracker
-**Score: 75 · Risk: Medium · Action: Contact — verify owner type first**
-
-| | |
-|---|---|
-| Niche | Habit Tracker |
-| Installs | 5,000,000+ |
-| Rating | ★ 4.72 |
-| Last update | **386 days ago** |
-| Owner type | Small studio |
-| Developer | Álinson S Xavier |
-| Contact | dev@loophabits.org |
-| Play Store | org.isoron.uhabits |
-
-**Why it's interesting**
-- 386 days without an update — strong abandonment signal
-- 5,000,000+ installs in the Habit Tracker niche
-- ★ 4.72 rating — users are satisfied, retention is intact
-- Main complaints from reviews: none flagged
-
-**Outreach email**
-```
-Subject: Question about Loop Habit Tracker
-
-Hi,
-
-I came across your Loop Habit Tracker on Google Play and wanted to reach out directly.
-
-I noticed it has 5,000,000+ installs and looks like updates have slowed
-down — I wasn't sure if you're still actively working on it.
-
-I'm exploring whether you might be open to a conversation about the app's
-future — whether that's acquisition, a partnership, or something else entirely.
-
-No pressure at all.
-
-Best,
-Skander Aloui
-```
-
----
-
 ## Section 2 — Rebuild Opportunities
 *Apps 180–364 days stale. Active user base. Fixable problems. Consider buying and improving.*
 
 ---
 
 ### #6 — PDF Pro: Edit, Sign & Fill PDF ⭐ Top pick this week
-**Score: 90 · 262 days stale · Action: Monitor**
+**Score: 90 · 269 days stale · Action: Monitor**
 
 | | |
 |---|---|
@@ -243,14 +243,14 @@ Skander Aloui
 | Owner type | Small studio |
 | Contact | pdffeedback@wps.com |
 
-**Signal:** 103 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
+**Signal:** 96 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
 
 **Flag for follow-up:** Set a reminder for January 2027.
 
 ---
 
 ### #7 — QR & Barcode Scanner
-**Score: 80 · 193 days stale · Action: Monitor**
+**Score: 80 · 200 days stale · Action: Monitor**
 
 | | |
 |---|---|
@@ -260,31 +260,48 @@ Skander Aloui
 | Owner type | Small studio |
 | Contact | android@qrbot.net |
 
-**Signal:** 172 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
+**Signal:** 165 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
 
 **Flag for follow-up:** Set a reminder for April 2027.
 
 ---
 
-### #8 — Dictionary
-**Score: 80 · 301 days stale · Action: Monitor**
+### #8 — Alarm Clock Xtreme & Timer
+**Score: 80 · 186 days stale · Action: Monitor**
+
+| | |
+|---|---|
+| Niche | Timer |
+| Installs | 50,000,000+ |
+| Rating | ★ 4.50 |
+| Owner type | Small studio |
+| Contact | mobile-support@avg.com |
+
+**Signal:** 179 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
+
+**Flag for follow-up:** Set a reminder for April 2027.
+
+---
+
+### #9 — Dictionary
+**Score: 80 · 308 days stale · Action: Monitor**
 
 | | |
 |---|---|
 | Niche | Dictionary |
 | Installs | 10,000,000+ |
-| Rating | ★ 4.72 |
+| Rating | ★ 4.73 |
 | Owner type | Small studio |
 | Contact | support@tfd.com |
 
-**Signal:** 64 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
+**Signal:** 57 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
 
 **Flag for follow-up:** Set a reminder for December 2026.
 
 ---
 
-### #9 — QR Code & Barcode Scanner
-**Score: 80 · 249 days stale · Action: Monitor**
+### #10 — QR Code & Barcode Scanner
+**Score: 80 · 256 days stale · Action: Monitor**
 
 | | |
 |---|---|
@@ -294,26 +311,9 @@ Skander Aloui
 | Owner type | Solo indie |
 | Contact | camvision.app@gmail.com |
 
-**Signal:** 116 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
+**Signal:** 109 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
 
 **Flag for follow-up:** Set a reminder for February 2027.
-
----
-
-### #10 — Live Weather: Weather Forecast
-**Score: 80 · 332 days stale · Action: Monitor**
-
-| | |
-|---|---|
-| Niche | Weather |
-| Installs | 10,000,000+ |
-| Rating | ★ 4.71 |
-| Owner type | Solo indie |
-| Contact | wowodancerapp@outlook.com |
-
-**Signal:** 33 days from acquisition threshold. Main complaints: none flagged. Monitor for continued staleness.
-
-**Flag for follow-up:** Set a reminder for November 2026.
 
 ---
 
@@ -322,12 +322,12 @@ Skander Aloui
 
 | App | Installs | Rating | Days stale | Niche | When to contact |
 |-----|----------|--------|------------|-------|-----------------|
-| Wallpaper Engine | 5,000,000+ | ★ 3.91 | 130 | Wallpaper | June 2027 |
-| Alarm Clock Xtreme & Timer | 50,000,000+ | ★ 4.50 | 179 | Timer | April 2027 |
-| Document Scanner - PDF Creator | 50,000,000+ | ★ 4.73 | 140 | PDF Tools | June 2027 |
-| Quiz Blitz: Test Brain Game | 1,000,000+ | ★ 4.81 | 150 | Quiz | May 2027 |
-| Prayer Times - Qibla & Salah | 1,000,000+ | ★ 4.91 | 148 | Prayer Times | May 2027 |
-| QR & Barcode Scanner | 10,000,000+ | ★ 4.77 | 145 | Barcode Scanner | May 2027 |
+| Document Scanner - PDF Creator | 50,000,000+ | ★ 4.74 | 147 | PDF Tools | June 2027 |
+| QR & Barcode Scanner | 10,000,000+ | ★ 4.80 | 152 | Barcode Scanner | May 2027 |
+| Habit Tracker | 1,000,000+ | ★ 4.32 | 156 | Habit Tracker | May 2027 |
+| English Dictionary - Offline | 10,000,000+ | ★ 4.64 | 133 | Dictionary | June 2027 |
+| ReadEra – book reader pdf epub | 50,000,000+ | ★ 4.86 | 143 | PDF Tools | June 2027 |
+| Compass (without Ads) - GPS | 100,000+ | ★ 4.41 | 159 | Compass | May 2027 |
 
 ---
 
@@ -339,7 +339,7 @@ Skander Aloui
 | Wallpapers | ⛔ High | Large company or active studio |
 | Samsung Calculator | ⛔ High | Large company or active studio |
 | Samsung Notes | ⛔ High | Large company or active studio |
-| Evernote - Note Organizer | ⛔ High | Large company or active studio |
+| Clock | ⛔ High | Large company or active studio |
 
 ---
 
@@ -349,14 +349,14 @@ Top niches by opportunity density:
 
 | Niche | Valid apps | Avg score | Acquisition targets |
 |-------|-----------|-----------|---------------------|
-| Weather | 22 | 52 | 1 |
-| PDF Tools | 20 | 52 | 0 |
-| Wallpaper | 7 | 49 | 0 |
-| Notepad | 18 | 47 | 0 |
-| Quiz | 24 | 45 | 1 |
-| Meditation | 9 | 44 | 1 |
-| Timer | 8 | 44 | 1 |
-| Prayer Times | 10 | 44 | 0 |
+| Weather | 22 | 53 | 1 |
+| PDF Tools | 19 | 51 | 0 |
+| Timer | 21 | 48 | 2 |
+| Notepad | 18 | 48 | 0 |
+| Quiz | 9 | 46 | 0 |
+| Wallpaper | 7 | 46 | 0 |
+| Calculator | 7 | 45 | 0 |
+| Dictionary | 10 | 44 | 0 |
 
 ---
 
