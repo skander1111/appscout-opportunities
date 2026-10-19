@@ -1013,6 +1013,19 @@
     "summary": "Today the OnePlus 16 launched in China, the company's first flagship phone since quitting both the US and European markets this summer. As luck would have it, it also looks like the company's best phone in some time. Like most OnePlus phones, the 16 is positioned around performan"
   },
   {
+    "id": "news-theverge-https-www-theverge-com-ai-artificial-intelligence-1013541-a-woman-was-arrested-i",
+    "source": "news",
+    "outlet": "The Verge",
+    "title": "A woman was arrested in Philly for blocking a delivery robot",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-10-18",
+    "daysAgo": 0,
+    "classification": "discuss",
+    "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whe"
+  },
+  {
     "id": "news-techcrunch-https-techcrunch-com-2026-05-23-nuclear-startup-deep-fission-says-its-going-publ",
     "source": "news",
     "outlet": "TechCrunch",
@@ -1378,6 +1391,20 @@
     "daysAgo": 1,
     "classification": "acquire",
     "summary": "Cloudflare will use this acquisition to improve its Workers programming model and platform."
+  },
+  {
+    "id": "news-wired-https-www-wired-com-story-magnesium-may-not-reach-your-brain-despite-supplement-",
+    "source": "news",
+    "outlet": "Wired",
+    "title": "Magnesium May Not Reach Your Brain, Despite Supplement Label Promises",
+    "url": "https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises/",
+    "points": 0,
+    "comments": 0,
+    "date": "2026-10-18",
+    "daysAgo": 1,
+    "classification": "acquire",
+    "summary": "Some of the many variants sold today promise to penetrate our gray matter, but biology isn’t in the habit of respecting marketing declarations.",
+    "niche": "AI"
   },
   {
     "id": "hn-38291047",
@@ -2693,32 +2720,5 @@
     "classification": "discuss",
     "summary": "Stability AI releases a new audio model that can create six-minute songs | TechCrunchtechcrunch.com",
     "niche": "AI"
-  },
-  {
-    "id": "news-the-next-web-https-thenextweb-com-news-figma-builds-its-own-ai-assistant-that-can-design-alon",
-    "source": "news",
-    "outlet": "The Next Web",
-    "title": "Figma builds its own AI assistant that can design alongside you on the canvas",
-    "url": "https://thenextweb.com/news/figma-builds-its-own-ai-assistant-that-can-design-alongside-you-on-the-canvas/",
-    "points": 0,
-    "comments": 0,
-    "date": "2026-05-20",
-    "daysAgo": 4,
-    "classification": "trend",
-    "summary": "Summary: Figma is launching its own AI agent that operates directly on the collaborative design canvas, letting users generate, edit, and iterate on designs through natural language prompts. The move follows partnerships with Anthropic and OpenAI and the $200…",
-    "niche": "AI"
-  },
-  {
-    "id": "news-techcrunch-https-techcrunch-com-2026-05-20-nanoclaw-creator-turns-down-20m-buyout-offer-rai",
-    "source": "news",
-    "outlet": "TechCrunch",
-    "title": "NanoClaw creator turns down $20M buyout offer, raises $12M seed instead | TechCrunch",
-    "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
-    "points": 0,
-    "comments": 0,
-    "date": "2026-05-20",
-    "daysAgo": 4,
-    "classification": "trend",
-    "summary": "NanoCo, the company behind OpenClaw alternative NanoClaw, has raised a $12 million seed after a viral launch, the founders tell TechCrunch."
   }
 ]
